@@ -4,356 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="面试题第2季">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/src/main/java/icu/xiamu/cglib_proxy/ProxyFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/src/main/java/icu/xiamu/cglib_proxy/TestProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/src/main/java/icu/xiamu/cglib_proxy/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/src/main/java/icu/xiamu/dynamic_proxy/IUserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/src/main/java/icu/xiamu/dynamic_proxy/ProxyFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/src/main/java/icu/xiamu/dynamic_proxy/TestProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/src/main/java/icu/xiamu/dynamic_proxy/UseDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/src/main/java/icu/xiamu/static_proxy/IUserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/src/main/java/icu/xiamu/static_proxy/StaticUserProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/src/main/java/icu/xiamu/static_proxy/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/src/main/java/icu/xiamu/static_proxy/UserDaoProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/代理模式/笔记.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/javase/StringPool58Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/javase/TwoSumDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/juc/ReEnterLockDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/尚硅谷_高频面试题/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/Demo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/Demo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/Demo3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/HelloB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/Some.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/hashmap/AccessSpecifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/hashmap/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/hashmap/PrimeEquations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/hashmap/ReducingRoads.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/hashmap/StarCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM13.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM15.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM17.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM21.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM23.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM42.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM50.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM51.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM62.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM63.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM64.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM65.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM66.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM83.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM87.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM88.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM91.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/BM98.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/ListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/icu/xiamu/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/wyy/Demo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/wyy/Demo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java/wyy/Demo3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/resources/BM16.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客_面试笔刷TOP101/刷题笔记.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/source/assets/2023-06-16-10-23-59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/source/assets/2023-06-16-10-24-54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/source/assets/2023-06-16-10-45-56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/source/assets/2023-06-16-11-49-17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo01/demo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo02/Singleton1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo02/Singleton2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo02/Singleton3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo02/Singleton4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo02/Singleton5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo02/Singleton6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo02/TestSingleton1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo02/TestSingleton2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo02/TestSingleton3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo02/TestSingleton4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo02/TestSingleton5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo02/TestSingleton6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo02/demo02.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo03/Father.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo03/Son.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo04/demo04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo04/方法的参数传递机制.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo05/Step01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo05/Step02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo06/Demo06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo07/spring/beans/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/java/demo07/spring/test/SpringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/src/main/resources/single.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季/第一季面试题.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记/javase_note/不同变量的内存图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记/javase_note/方法的参数传递机制.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记/javase_note/面试题1.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记/javase_note/面试题2.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记/javase_note/面试题3.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记/javase_note/面试题4.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记/javase_note/面试题5.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记/javase_note/面试题6.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记/java项目_note/Redis在项目中的应用.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记/java项目_note/es与solr的区别.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记/java项目_note/单点登录的实现.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记/java项目_note/消息队列在项目中的应用.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/01_笔记/java项目_note/购物车的实现.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.mylyn/.taskListIndex/segments.gen" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.mylyn/.taskListIndex/segments_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.mylyn/repositories.xml.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/14/00883c2f03ce00181f51bb35aba2b4b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/29/002957fa03ce00181f51bb35aba2b4b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/4/1028f54803ce00181f51bb35aba2b4b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/48/b0be92f103ce00181f51bb35aba2b4b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/4f/807e99bbdfcd0018185cb3c655488e79" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/62/407286e7dbcd0018185cb3c655488e79" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/91/80d5acbddccd0018185cb3c655488e79" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/93/60f8c13803ce00181f51bb35aba2b4b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/b8/606e1575dfcd0018185cb3c655488e79" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/bb/903d5a7cdfcd0018185cb3c655488e79" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/d5/b0fc8df205ce00181f51bb35aba2b4b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/da/80414dcadccd0018185cb3c655488e79" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/df/d023dbb1dfcd0018185cb3c655488e79" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/eb/2057f2d8dccd0018185cb3c655488e79" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/f/707a7defdbcd0018185cb3c655488e79" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.history/f4/1092ffe505ce00181f51bb35aba2b4b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.projects/variable_code/.indexes/e4/81/ea/92/history.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.projects/variable_code/.markers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.projects/variable_code/org.eclipse.jdt.core/state.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.root/5.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/Exam4.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/Exam5 (1).launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/Exam5.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/Son.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/Test.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/TestSingleton1.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/TestSingleton2.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/TestSingleton3.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/TestSingleton4.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/TestSingleton5.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/TestSingleton7.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/TestStep.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/TestStep.loop.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/TestStep.test.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/TestStep.testF.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/TestStep.testLoop.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.core/.launches/TestStep2.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.fdt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.fdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.fnm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.frq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.nrm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.tii" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.tis" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/segments.gen" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/segments_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_0.fdt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_0.fdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_0.tis" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.fdt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.fdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.fnm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.frq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.nrm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.prx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.tii" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.tis" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments.gen" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/1149874277.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/1470363632.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/1743028938.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/1916446104.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/2126750402.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/231042763.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/2314662060.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/2610772552.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/2659891423.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/2951548517.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/3049321037.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/3757332742.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/3782789432.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/3784050061.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/3831471895.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/4145497147.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/521102372.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/685847106.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/769709124.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2018/9/38/refactorings.history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2018/9/38/refactorings.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/singleton_code/2018/9/38/refactorings.history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/singleton_code/2018/9/38/refactorings.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/variable_code/2018/9/38/refactorings.history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/variable_code/2018/9/38/refactorings.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.6.0.20150526-2032.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.metadata/version.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.recommenders/caches/identified-project-coordinates.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/.recommenders/caches/manual-mappings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/init_code/src/com/atguigu/test/Father.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/init_code/src/com/atguigu/test/Son.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/offer_code/src/com/atguigu/test/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/passvalue_code/src/passvalue_code/Exam4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/singleton_code/bin/single.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/singleton_code/src/com/atguigu/single/Singleton1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/singleton_code/src/com/atguigu/single/Singleton2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/singleton_code/src/com/atguigu/single/Singleton3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/singleton_code/src/com/atguigu/single/Singleton4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/singleton_code/src/com/atguigu/single/Singleton5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/singleton_code/src/com/atguigu/single/Singleton6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/singleton_code/src/com/atguigu/test/TestSingleton1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/singleton_code/src/com/atguigu/test/TestSingleton2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/singleton_code/src/com/atguigu/test/TestSingleton3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/singleton_code/src/com/atguigu/test/TestSingleton4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/singleton_code/src/com/atguigu/test/TestSingleton5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/singleton_code/src/single.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/step_code/src/com/atguigu/step/TestStep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/step_code/src/com/atguigu/step/TestStep2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/01_javase_code/variable_code/src/com/atguigu/test/Exam5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/01.Spring Bean的作用域代码/01.Spring Bean的作用域代码/bin/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/01.Spring Bean的作用域代码/01.Spring Bean的作用域代码/config/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/01.Spring Bean的作用域代码/01.Spring Bean的作用域代码/lib/commons-logging-1.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/01.Spring Bean的作用域代码/01.Spring Bean的作用域代码/lib/spring-aop-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/01.Spring Bean的作用域代码/01.Spring Bean的作用域代码/lib/spring-beans-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/01.Spring Bean的作用域代码/01.Spring Bean的作用域代码/lib/spring-context-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/01.Spring Bean的作用域代码/01.Spring Bean的作用域代码/lib/spring-core-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/01.Spring Bean的作用域代码/01.Spring Bean的作用域代码/lib/spring-expression-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/01.Spring Bean的作用域代码/01.Spring Bean的作用域代码/src/com/atguigu/spring/beans/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/01.Spring Bean的作用域代码/01.Spring Bean的作用域代码/src/com/atguigu/spring/test/SpringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/bin/beans-tx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/bin/druid_tx.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/config/beans-tx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/config/druid_tx.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/com.springsource.net.sf.cglib-2.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/com.springsource.org.aopalliance-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/commons-logging-1.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/druid-1.1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/mysql-connector-java-5.1.36-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/spring-aop-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/spring-aspects-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/spring-beans-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/spring-context-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/spring-core-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/spring-expression-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/spring-jdbc-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/spring-orm-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/lib/spring-tx-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/spring_transaction.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/src/com/atguigu/spring/test/TxTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/src/com/atguigu/spring/tx/dao/BookShopDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/src/com/atguigu/spring/tx/dao/impl/BookShopDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/src/com/atguigu/spring/tx/service/BookShopService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/src/com/atguigu/spring/tx/service/Cashier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/src/com/atguigu/spring/tx/service/impl/BookShopServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/02.Spring支持的常用数据库事务传播属性和事务隔离级别/02.Spring支持的常用数据库事务传播属性和事务隔离级别/src/com/atguigu/spring/tx/service/impl/CashierImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/WEB-INF/lib/jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/WEB-INF/lib/standard.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/WEB-INF/views/success.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/WebContent/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/config/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/src/com/atguigu/springmvc/entities/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/src/com/atguigu/springmvc/entities/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/03.SpringMVC中如何解决POST请求中文乱码问题GET的又如何处理呢/src/com/atguigu/springmvc/handler/SpringMVCHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/SpringMVC的运行流程图.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/WEB-INF/lib/jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/WEB-INF/lib/standard.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/WEB-INF/views/success.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/WebContent/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/config/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/src/com/atguigu/springmvc/entities/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/src/com/atguigu/springmvc/entities/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/04.简单的谈一下SpringMVC的工作流程/04.简单的谈一下SpringMVC的工作流程/src/com/atguigu/springmvc/handler/SpringMVCHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/bin/EmployeeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/bin/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/bin/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/config/EmployeeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/config/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/config/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/lib/mybatis-3.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/lib/mysql-connector-java-5.1.37-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/mybatis.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/src/com/atguigu/mybatis/entities/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/src/com/atguigu/mybatis/mapper/EmployeeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一季面试题/03_代码/02_javassm_code/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/05.MyBatis中当实体类中的属性名和表中的字段名不一样怎么办 ？/src/com/atguigu/mybatis/test/MyBatisTest.java" beforeDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/juc/LockSupportDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -378,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "E:/Code/面试题",
@@ -390,6 +57,7 @@
     "project.structure.proportion": "0.18652344",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "0a0c0a57fc9c68c7efc07e5d3cee829f",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -398,7 +66,7 @@
       <recent name="E:\Code\面试题\第一季" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LockSupportDemo">
     <configuration name="DirectBufferMemoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.jvm.DirectBufferMemoryDemo" />
       <module name="sgg2" />
@@ -412,8 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LockSupportDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.juc.LockSupportDemo" />
+      <module name="sgg3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LockSupportDemo" />
         <item itemvalue="Application.DirectBufferMemoryDemo" />
       </list>
     </recent_temporary>
@@ -426,7 +108,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705503312511</updated>
-      <workItem from="1705503313813" duration="970000" />
+      <workItem from="1705503313813" duration="1111000" />
+      <workItem from="1705504440836" duration="1765000" />
     </task>
     <task id="LOCAL-00001" summary="面试题第2季">
       <option name="closed" value="true" />
@@ -436,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705503782918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="面试题第2季">
+      <option name="closed" value="true" />
+      <created>1705504353655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705504353655</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
