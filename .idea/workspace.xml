@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/juc/LockSupportDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/juc/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/juc/LockSupportDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/juc/LockSupportDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,9 @@
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2b5SBhdeqm9nu6S2XdDshq4qvb0" />
   <component name="ProjectViewState">
@@ -66,7 +69,20 @@
       <recent name="E:\Code\面试题\第一季" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LockSupportDemo">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.juc.Demo" />
+      <module name="sgg3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DirectBufferMemoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.jvm.DirectBufferMemoryDemo" />
       <module name="sgg2" />
@@ -95,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.LockSupportDemo" />
         <item itemvalue="Application.DirectBufferMemoryDemo" />
       </list>
@@ -109,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705503312511</updated>
       <workItem from="1705503313813" duration="1111000" />
-      <workItem from="1705504440836" duration="1765000" />
+      <workItem from="1705504440836" duration="3431000" />
     </task>
     <task id="LOCAL-00001" summary="面试题第2季">
       <option name="closed" value="true" />
@@ -127,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705504353655</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="6.Object wait notify">
+      <option name="closed" value="true" />
+      <created>1705509552204</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705509552204</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="面试题第2季" />
-    <option name="LAST_COMMIT_MESSAGE" value="面试题第2季" />
+    <MESSAGE value="6.Object: synchronized wait notify" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.Object: synchronized wait notify" />
   </component>
 </project>
