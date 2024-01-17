@@ -7,8 +7,10 @@ package com.atguigu.juc;
  * 调用本类的其他synchronized修饰的方法或代码块, 是永远可以得到锁的
  */
 public class ReEnterLockDemo {
-    static Object objectLockA = new Object();
 
+/*
+    // 可重入锁-synchronized-同步代码块
+    static Object objectLockA = new Object();
     public static void m1() {
         new Thread(() -> {
             synchronized (objectLockA) {
@@ -21,6 +23,22 @@ public class ReEnterLockDemo {
                 }
             }
         }, "t1").start();
+    }
+*/
+
+    // 可重入锁-synchronized-同步方法
+    private synchronized static void m1() {
+        System.out.println("外层");
+        m2();
+    }
+
+    private synchronized static void m2() {
+        System.out.println("中层");
+        m3();
+    }
+
+    private synchronized static void m3() {
+        System.out.println("内层");
     }
 
     public static void main(String[] args) {
