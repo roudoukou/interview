@@ -1,4 +1,4 @@
-package com.atguigu.spring;
+package com.atguigu.spring.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;

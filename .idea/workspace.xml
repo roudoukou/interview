@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/constructorinjection/ClientConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/constructorinjection/ServiceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/constructorinjection/ServiceB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/大厂面试题第3季/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/src/test/java/com/atguigu/spring/TestAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/大厂面试题第3季/src/test/java/com/atguigu/spring/TestAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/aop/MyAspect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +116,7 @@
       <module name="sgg3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spring.*" />
+          <option name="PATTERN" value="com.atguigu.spring.aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,7 +132,7 @@
       <module name="sgg3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spring.*" />
+          <option name="PATTERN" value="com.atguigu.spring.aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705503312511</updated>
       <workItem from="1705503313813" duration="1111000" />
-      <workItem from="1705504440836" duration="15782000" />
+      <workItem from="1705504440836" duration="16284000" />
     </task>
     <task id="LOCAL-00001" summary="面试题第2季">
       <option name="closed" value="true" />
@@ -226,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705839834251</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="11.Spring5 AOP测试">
+      <option name="closed" value="true" />
+      <created>1705842716050</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705842716050</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +263,7 @@
     <MESSAGE value="6.AQSDemo" />
     <MESSAGE value="9.AQSDemo" />
     <MESSAGE value="10.Spring4 AOP测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.Spring4 AOP测试" />
+    <MESSAGE value="11.Spring5 AOP测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.Spring5 AOP测试" />
   </component>
 </project>
