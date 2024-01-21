@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/constructorinjection/ClientConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/constructorinjection/ServiceA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/constructorinjection/ServiceB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/setinjection/ClientSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/setinjection/ServiceAA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/setinjection/ServiceBB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/aop/MyAspect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <recent name="E:\Code\面试题\第一季" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAop.testAop5">
+  <component name="RunManager" selected="Application.ClientSet">
     <configuration name="AQSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.juc.AQSDemo" />
       <module name="sgg3" />
@@ -86,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.juc.Demo" />
+    <configuration name="ClientSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring.circulardepend.setinjection.ClientSet" />
       <module name="sgg3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.juc.*" />
+          <option name="PATTERN" value="com.atguigu.spring.circulardepend.setinjection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientSet" />
         <item itemvalue="JUnit.TestAop.testAop5" />
         <item itemvalue="JUnit.TestAop.testAop4" />
         <item itemvalue="Application.AQSDemo" />
         <item itemvalue="Application.LockSupportDemo" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705503312511</updated>
       <workItem from="1705503313813" duration="1111000" />
-      <workItem from="1705504440836" duration="16284000" />
+      <workItem from="1705504440836" duration="16638000" />
     </task>
     <task id="LOCAL-00001" summary="面试题第2季">
       <option name="closed" value="true" />
@@ -236,7 +235,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705842716050</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="12.Construct Injection 构造器注入">
+      <option name="closed" value="true" />
+      <created>1705843281819</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705843281820</updated>
+    </task>
+    <task id="LOCAL-00010" summary="12.Construct Injection 构造器注入">
+      <option name="closed" value="true" />
+      <created>1705843373763</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705843373763</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +279,7 @@
     <MESSAGE value="9.AQSDemo" />
     <MESSAGE value="10.Spring4 AOP测试" />
     <MESSAGE value="11.Spring5 AOP测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.Spring5 AOP测试" />
+    <MESSAGE value="12.Construct Injection 构造器注入" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.Construct Injection 构造器注入" />
   </component>
 </project>
