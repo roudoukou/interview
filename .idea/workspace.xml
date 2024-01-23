@@ -5,11 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/ClientCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/ClientSpringContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/boot_redis01/BootRedis01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/boot_redis01/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/boot_redis01/controller/GoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/test/java/com/atguigu/boot_redis01/BootRedis01ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/main/java/com/atguigu/boot_redis02/BootRedis02Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/main/java/com/atguigu/boot_redis02/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/main/java/com/atguigu/boot_redis02/controller/GoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/test/java/com/atguigu/boot_redis02/BootRedis02ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,16 +78,18 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/Code/面试题",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/Code/面试题/大厂面试题第3季/boot_redis02/src/main/java/com/atguigu/boot_redis02",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/Code/面试题/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.18652344",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
     "spring.configuration.checksum": "0a0c0a57fc9c68c7efc07e5d3cee829f",
     "vue.rearranger.settings.migration": "true"
   }
@@ -77,11 +98,21 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\面试题\大厂面试题第3季\boot_redis02\src\main\java\com\atguigu\boot_redis02" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Code\面试题\第一季" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientSpringContainer">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BootRedis02Application">
     <configuration name="ClientCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.spring.circulardepend.ClientCode" />
       <module name="sgg3" />
@@ -153,6 +184,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BootRedis01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="boot_redis01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.boot_redis01.BootRedis01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootRedis02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="boot_redis02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.boot_redis02.BootRedis02Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="sgg3" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.spring.MainApplication" />
@@ -179,7 +224,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705503312511</updated>
       <workItem from="1705503313813" duration="1111000" />
-      <workItem from="1705504440836" duration="24984000" />
+      <workItem from="1705504440836" duration="28348000" />
     </task>
     <task id="LOCAL-00001" summary="面试题第2季">
       <option name="closed" value="true" />
@@ -269,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705843630825</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="14.循环依赖案例演示">
+      <option name="closed" value="true" />
+      <created>1706014131973</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706014131973</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,8 +351,9 @@
     <MESSAGE value="10.Spring4 AOP测试" />
     <MESSAGE value="11.Spring5 AOP测试" />
     <MESSAGE value="12.Construct Injection 构造器注入" />
-    <MESSAGE value="12.Set Injection set注入" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.Set Injection set注入" />
+    <MESSAGE value="13.Set Injection set注入" />
+    <MESSAGE value="14.循环依赖案例演示" />
+    <option name="LAST_COMMIT_MESSAGE" value="14.循环依赖案例演示" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -353,6 +407,11 @@
           <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
           <line>186</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
