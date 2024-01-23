@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/setinjection/ClientSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/setinjection/ServiceAA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/setinjection/ServiceBB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/ClientCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/ClientSpringContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -48,6 +51,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -66,18 +73,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Code\面试题\第一季" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientSet">
-    <configuration name="AQSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.juc.AQSDemo" />
+  <component name="RunManager" selected="Application.ClientSpringContainer">
+    <configuration name="ClientCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring.circulardepend.ClientCode" />
       <module name="sgg3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.juc.*" />
+          <option name="PATTERN" value="com.atguigu.spring.circulardepend.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupportDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.juc.LockSupportDemo" />
+    <configuration name="ClientSpringContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring.circulardepend.ClientSpringContainer" />
       <module name="sgg3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.juc.*" />
+          <option name="PATTERN" value="com.atguigu.spring.circulardepend.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientSpringContainer" />
+        <item itemvalue="Application.ClientCode" />
         <item itemvalue="Application.ClientSet" />
         <item itemvalue="JUnit.TestAop.testAop5" />
         <item itemvalue="JUnit.TestAop.testAop4" />
-        <item itemvalue="Application.AQSDemo" />
-        <item itemvalue="Application.LockSupportDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705503312511</updated>
       <workItem from="1705503313813" duration="1111000" />
-      <workItem from="1705504440836" duration="16638000" />
+      <workItem from="1705504440836" duration="24984000" />
     </task>
     <task id="LOCAL-00001" summary="面试题第2季">
       <option name="closed" value="true" />
@@ -251,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705843373763</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="12.Set Injection set注入">
+      <option name="closed" value="true" />
+      <created>1705843630825</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705843630825</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +298,63 @@
     <MESSAGE value="10.Spring4 AOP测试" />
     <MESSAGE value="11.Spring5 AOP测试" />
     <MESSAGE value="12.Construct Injection 构造器注入" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.Construct Injection 构造器注入" />
+    <MESSAGE value="12.Set Injection set注入" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.Set Injection set注入" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/大厂面试题第3季/src/main/java/com/atguigu/spring/circulardepend/ClientSpringContainer.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class</url>
+          <line>45</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <line>274</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <line>491</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class</url>
+          <line>691</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <line>118</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <line>184</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>335</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.3.27/spring-beans-5.3.27.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <line>199</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <line>186</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
