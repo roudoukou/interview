@@ -16,18 +16,20 @@ public class GoodController {
 
     @GetMapping("/buy_goods")
     public String buy_goods() {
-        String result = stringRedisTemplate.opsForValue().get("goods:001");
-        int goodsNumber = result == null ? 0 : Integer.parseInt(result);
+        synchronized (this) {
+            String result = stringRedisTemplate.opsForValue().get("goods:001");
+            int goodsNumber = result == null ? 0 : Integer.parseInt(result);
 
-        if (goodsNumber > 0) {
-            int realNumber = goodsNumber - 1;
-            stringRedisTemplate.opsForValue().set("goods:001", String.valueOf(realNumber));
-            System.out.println("成功买到商品, 库存还剩下: " + realNumber + " 件\t 服务提供端口: " + serverPort);
+            if (goodsNumber > 0) {
+                int realNumber = goodsNumber - 1;
+                stringRedisTemplate.opsForValue().set("goods:001", String.valueOf(realNumber));
+                System.out.println("成功买到商品, 库存还剩下: " + realNumber + " 件\t 服务提供端口: " + serverPort);
 
-            return "成功买到商品, 库存还剩下: " + realNumber + " 件\t 服务提供端口: " + serverPort;
-        } else {
-            System.out.println("商品已经售完/活动结束/调用超时,欢迎下次光临" + "\t服务提供端口" + serverPort);
+                return "成功买到商品, 库存还剩下: " + realNumber + " 件\t 服务提供端口: " + serverPort;
+            } else {
+                System.out.println("商品已经售完/活动结束/调用超时,欢迎下次光临" + "\t服务提供端口" + serverPort);
+            }
+            return "商品已经售完/活动结束/调用超时,欢迎下次光临" + "\t服务提供端口" + serverPort;
         }
-        return "商品已经售完/活动结束/调用超时,欢迎下次光临" + "\t服务提供端口" + serverPort;
     }
 }

@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/boot_redis01/BootRedis01Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/boot_redis01/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/boot_redis01/controller/GoodController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/test/java/com/atguigu/boot_redis01/BootRedis01ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/main/java/com/atguigu/boot_redis02/BootRedis02Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/main/java/com/atguigu/boot_redis02/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/main/java/com/atguigu/boot_redis02/controller/GoodController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/test/java/com/atguigu/boot_redis02/BootRedis02ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/boot_redis01/controller/GoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/boot_redis01/controller/GoodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/main/java/com/atguigu/boot_redis02/controller/GoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/main/java/com/atguigu/boot_redis02/controller/GoodController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +201,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705503312511</updated>
       <workItem from="1705503313813" duration="1111000" />
-      <workItem from="1705504440836" duration="28348000" />
+      <workItem from="1705504440836" duration="28792000" />
     </task>
     <task id="LOCAL-00001" summary="面试题第2季">
       <option name="closed" value="true" />
@@ -322,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706014131973</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="15.boot整合redis搭建超卖程序">
+      <option name="closed" value="true" />
+      <created>1706020145114</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706020145114</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +338,8 @@
     <MESSAGE value="12.Construct Injection 构造器注入" />
     <MESSAGE value="13.Set Injection set注入" />
     <MESSAGE value="14.循环依赖案例演示" />
-    <option name="LAST_COMMIT_MESSAGE" value="14.循环依赖案例演示" />
+    <MESSAGE value="15.boot整合redis搭建超卖程序" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.boot整合redis搭建超卖程序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
