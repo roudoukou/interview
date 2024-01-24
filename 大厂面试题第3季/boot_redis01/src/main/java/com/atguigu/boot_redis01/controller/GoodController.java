@@ -24,8 +24,7 @@ public class GoodController {
     public String buy_goods() {
         try {
             String value = UUID.randomUUID().toString() + Thread.currentThread().getName();
-            Boolean flag = stringRedisTemplate.opsForValue().setIfAbsent(REDIS_LOCK, value);// setnx
-            stringRedisTemplate.expire(REDIS_LOCK, 10L, TimeUnit.SECONDS);
+            Boolean flag = stringRedisTemplate.opsForValue().setIfAbsent(REDIS_LOCK, value, 10L, TimeUnit.SECONDS);// setnx
 
             if (!flag) {
                 return "抢锁失败";
