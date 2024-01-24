@@ -22,8 +22,8 @@ public class GoodController {
 
     @GetMapping("/buy_goods")
     public String buy_goods() {
+        String value = UUID.randomUUID().toString() + Thread.currentThread().getName();
         try {
-            String value = UUID.randomUUID().toString() + Thread.currentThread().getName();
             Boolean flag = stringRedisTemplate.opsForValue().setIfAbsent(REDIS_LOCK, value, 10L, TimeUnit.SECONDS);// setnx
 
             if (!flag) {
@@ -44,7 +44,9 @@ public class GoodController {
             }
             return "商品已经售完/活动结束/调用超时,欢迎下次光临" + "\t服务提供端口" + serverPort;
         } finally {
-            stringRedisTemplate.delete(REDIS_LOCK);
+            if (stringRedisTemplate.opsForValue().get(REDIS_LOCK).equalsIgnoreCase(value)) {
+                stringRedisTemplate.delete(REDIS_LOCK);
+            }
         }
     }
 }
