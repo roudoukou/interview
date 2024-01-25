@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/boot_redis01/utils/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/main/java/com/atguigu/boot_redis02/utils/RedisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/boot_redis01/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/boot_redis01/config/RedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/boot_redis01/controller/GoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java/com/atguigu/boot_redis01/controller/GoodController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/main/java/com/atguigu/boot_redis02/controller/GoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/大厂面试题第3季/boot_redis02/src/main/java/com/atguigu/boot_redis02/controller/GoodController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706080819759</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="23.超卖程序 V8.2 Lua脚本控制删除锁">
+      <option name="closed" value="true" />
+      <created>1706081697865</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1706081697865</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +410,8 @@
     <MESSAGE value="20.超卖程序 V6 原子性保障超时时间" />
     <MESSAGE value="21.超卖程序 V7 自己只能删除自己的锁, 不许动别人的锁" />
     <MESSAGE value="22.超卖程序 V8.1 Redis事务控制删除锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="22.超卖程序 V8.1 Redis事务控制删除锁" />
+    <MESSAGE value="23.超卖程序 V8.2 Lua脚本控制删除锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="23.超卖程序 V8.2 Lua脚本控制删除锁" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
