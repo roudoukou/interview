@@ -1,0 +1,619 @@
+Index: leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class709/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class709/Solution.java b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class709/Solution.java
+new file mode 100644
+--- /dev/null	(date 1706356902515)
++++ b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class709/Solution.java	(date 1706356902515)
+@@ -0,0 +1,11 @@
++package icu.xiamu.class709;
++
++/**
++ * https://leetcode.cn/problems/to-lower-case/description/?envType=study-plan-v2&envId=programming-skills
++ */
++class Solution {
++    public String toLowerCase(String s) {
++        return s.toLowerCase();
++    }
++
++}
+\ No newline at end of file
+Index: leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class389/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class389/Solution.java b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class389/Solution.java
+new file mode 100644
+--- /dev/null	(date 1706356021312)
++++ b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class389/Solution.java	(date 1706356021312)
+@@ -0,0 +1,48 @@
++package icu.xiamu.class389;
++
++import java.util.HashMap;
++
++/**
++ * https://leetcode.cn/problems/find-the-difference/description/?envType=study-plan-v2&envId=programming-skills
++ */
++class Solution {
++    public char findTheDifference(String s, String t) {
++        return solve1(s, t);
++    }
++
++    private char solve1(String s, String t) {
++        HashMap<Character, Integer> map1 = new HashMap<>();
++        HashMap<Character, Integer> map2 = new HashMap<>();
++
++        for (int i = 0; i < s.length(); i++) {
++            if (!map1.containsKey(s.charAt(i))) {
++                map1.put(s.charAt(i), 1);
++            } else {
++                Integer value = map1.get(s.charAt(i));
++                map1.put(s.charAt(i), value+1);
++            }
++        }
++
++        for (int i = 0; i < t.length(); i++) {
++            if (!map2.containsKey(t.charAt(i))) {
++                map2.put(t.charAt(i), 1);
++            } else {
++                Integer value = map2.get(t.charAt(i));
++                map2.put(t.charAt(i), value+1);
++            }
++        }
++
++
++        for (char i = 'a'; i <= 'z'; i++) {
++            if (map1.get(i) != map2.get(i)) {
++                return i;
++            }
++        }
++        return '0';
++    }
++
++    public static void main(String[] args) {
++        System.out.println(new Solution().findTheDifference("abcd", "abcde") == 'e');
++        System.out.println(new Solution().findTheDifference("", "y") == 'y');
++    }
++}
+\ No newline at end of file
+Index: leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class976/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class976/Solution.java b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class976/Solution.java
+new file mode 100644
+--- /dev/null	(date 1706357380477)
++++ b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class976/Solution.java	(date 1706357380477)
+@@ -0,0 +1,29 @@
++package icu.xiamu.class976;
++
++import java.util.Arrays;
++
++/**
++ * https://leetcode.cn/problems/largest-perimeter-triangle/?envType=study-plan-v2&envId=programming-skills
++ */
++class Solution {
++    public int largestPerimeter(int[] nums) {
++        return solve1(nums);
++    }
++
++    private int solve1(int[] nums) {
++        Arrays.sort(nums);
++        int length = nums.length - 1;
++        for (int i = length; i >= 2; i--) {
++            if (nums[i - 1] + nums[i - 2] > nums[i]) {
++                return nums[i - 1] + nums[i - 2] + nums[i];
++            }
++        }
++        return 0;
++    }
++
++    public static void main(String[] args) {
++        System.out.println(new Solution().largestPerimeter(new int[]{2, 1, 2}));
++        System.out.println(new Solution().largestPerimeter(new int[]{1, 2, 1, 10}));
++        System.out.println(new Solution().largestPerimeter(new int[]{3, 6, 2, 3}));
++    }
++}
+\ No newline at end of file
+Index: leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class28/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class28/Solution.java b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class28/Solution.java
+new file mode 100644
+--- /dev/null	(date 1706355974813)
++++ b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class28/Solution.java	(date 1706355974813)
+@@ -0,0 +1,15 @@
++package icu.xiamu.class28;
++
++/**
++ * https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/description/?envType=study-plan-v2&envId=programming-skills
++ */
++class Solution {
++    public int strStr(String haystack, String needle) {
++        return haystack.indexOf(needle);
++    }
++
++    public static void main(String[] args) {
++        System.out.println(new Solution().strStr("sadbutsad", "sad"));
++        System.out.println(new Solution().strStr("leetcode", "leeto"));
++    }
++}
+\ No newline at end of file
+Index: leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class283/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class283/Solution.java b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class283/Solution.java
+new file mode 100644
+--- /dev/null	(date 1706346904251)
++++ b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class283/Solution.java	(date 1706346904251)
+@@ -0,0 +1,25 @@
++package icu.xiamu.class283;
++
++import java.util.ArrayList;
++import java.util.List;
++
++class Solution {
++    public void moveZeroes(int[] nums) {
++
++        List<Integer> list = new ArrayList<>();
++        for (int i = 0; i < nums.length; i++) {
++            if (nums[i] == 0) {
++                list.add(i);
++            }
++        }
++
++        for (int i = 0; i < nums.length; i++) {
++            
++        }
++    }
++
++    public static void main(String[] args) {
++        new Solution().moveZeroes(new int[]{0, 1, 0, 3, 12});
++        new Solution().moveZeroes(new int[]{0});
++    }
++}
+\ No newline at end of file
+Index: leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1768/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1768/Solution.java b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1768/Solution.java
+new file mode 100644
+--- /dev/null	(date 1706334451988)
++++ b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1768/Solution.java	(date 1706334451988)
+@@ -0,0 +1,114 @@
++package icu.xiamu.class1768;
++
++import java.lang.reflect.InvocationTargetException;
++import java.lang.reflect.Method;
++import java.util.Arrays;
++
++/**
++ * https://leetcode.cn/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=programming-skills
++ */
++class Solution {
++
++    public String mergeAlternately(String word1, String word2) {
++        return solve1(word1, word2);
++    }
++
++    private String solve1(String word1, String word2) {
++        if (word1 == null || word2 == null) {
++            return null;
++        }
++        if (word1.length() == 0) {
++            return word2;
++        }
++        if (word2.length() == 0) {
++            return word1;
++        }
++
++        String result = "";
++        if (word1.length() == word2.length()) {
++            for (int i = 0; i < word1.length(); i++) {
++                result += String.valueOf(word1.charAt(i));
++                result += String.valueOf(word2.charAt(i));
++            }
++
++            return result;
++        }
++
++
++        if (word1.length() > word2.length()) {
++            for (int i = 0; i < word2.length(); i++) {
++                result += String.valueOf(word1.charAt(i));
++                result += String.valueOf(word2.charAt(i));
++            }
++            result += word1.substring(word2.length());
++        } else {
++            for (int i = 0; i < word1.length(); i++) {
++                result += String.valueOf(word1.charAt(i));
++                result += String.valueOf(word2.charAt(i));
++            }
++            result += word2.substring(word1.length());
++        }
++
++        return result;
++    }
++
++    public static void main(String[] args) {
++        assertResult("apbqcr", "abc", "pqr");
++        assertResult("apbqrs", "ab", "pqrs");
++        assertResult("apbqcd", "abcd", "pq");
++    }
++
++    // 傻乎乎的写了一堆就是想动态的去判断结果, 感觉写不出来妈的
++    private static boolean allTestsPassed = true;
++
++    static {
++        // 注册关闭挂钩
++        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
++            if (allTestsPassed) {
++                System.out.println("所有测试用例通过");
++            } else {
++                System.out.println("存在未通过的测试用例");
++            }
++        }));
++    }
++
++    public static void assertResult(Object expected, Object... input) {
++        // 获取堆栈信息
++        StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
++        // 第一个元素是当前方法，第二个元素是调用当前方法的方法，因此要取第三个元素
++        String className = stackTrace[2].getClassName();
++
++        try {
++            Class<?> clazz = Class.forName(className);
++            Method currentMethod = null;
++            for (Method method : clazz.getDeclaredMethods()) {
++                if (method.toString().contains("main")) {
++                    continue;
++                }
++                if (method.toString().contains("public")) {
++                    currentMethod = method;
++                    break;
++                }
++            }
++
++            if (currentMethod != null) {
++                // System.out.println(currentMethod);
++                Object o = clazz.newInstance();
++                Object invoke = currentMethod.invoke(o, input);
++                if (!invoke.equals(expected)) {
++                    allTestsPassed = false;
++                    System.out.println(String.format("测试未通过，输入: %s 期望: %s, 实际: %s",
++                            Arrays.toString(input), expected, invoke));
++                }
++            }
++        } catch (ClassNotFoundException e) {
++            throw new RuntimeException(e);
++        } catch (InvocationTargetException e) {
++            throw new RuntimeException(e);
++        } catch (IllegalAccessException e) {
++            throw new RuntimeException(e);
++        } catch (InstantiationException e) {
++            throw new RuntimeException(e);
++        }
++    }
++}
+\ No newline at end of file
+Index: leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class58/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class58/Solution.java b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class58/Solution.java
+new file mode 100644
+--- /dev/null	(date 1706356821281)
++++ b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class58/Solution.java	(date 1706356821281)
+@@ -0,0 +1,23 @@
++package icu.xiamu.class58;
++
++/**
++ * https://leetcode.cn/problems/length-of-last-word/?envType=study-plan-v2&envId=programming-skills
++ */
++class Solution {
++    public int lengthOfLastWord(String s) {
++        return solve1(s);
++    }
++
++    private int solve1(String s) {
++        String[] split = s.trim().split(" ");
++        return split[split.length - 1].length();
++    }
++
++
++    public static void main(String[] args) {
++        System.out.println(new Solution().lengthOfLastWord("Hello World"));
++        System.out.println(new Solution().lengthOfLastWord("   fly me   to   the moon  "));
++        System.out.println(new Solution().lengthOfLastWord("luffy is still joyboy"));
++    }
++
++}
+\ No newline at end of file
+Index: leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class657/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class657/Solution.java b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class657/Solution.java
+new file mode 100644
+--- /dev/null	(date 1706358022368)
++++ b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class657/Solution.java	(date 1706358022368)
+@@ -0,0 +1,10 @@
++package icu.xiamu.class657;
++
++/**
++ * https://leetcode.cn/problems/robot-return-to-origin/?envType=study-plan-v2&envId=programming-skills
++ */
++class Solution {
++    public boolean judgeCircle(String moves) {
++        return false;
++    }
++}
+\ No newline at end of file
+Index: leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class896/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class896/Solution.java b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class896/Solution.java
+new file mode 100644
+--- /dev/null	(date 1706355933835)
++++ b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class896/Solution.java	(date 1706355933835)
+@@ -0,0 +1,41 @@
++package icu.xiamu.class896;
++
++/**
++ * https://leetcode.cn/problems/monotonic-array/description/?envType=study-plan-v2&envId=programming-skills
++ */
++class Solution {
++    public boolean isMonotonic(int[] nums) {
++        return solve(nums);
++    }
++
++    private boolean solve(int[] nums) {
++        int flag = 0;
++        for (int i = 0; i < nums.length - 1; i++) {
++            if (nums[i] <= nums[i + 1]) {
++
++            } else {
++                flag++;
++                break;
++            }
++        }
++
++        for (int i = 0; i < nums.length - 1; i++) {
++            if (nums[i] >= nums[i + 1]) {
++
++            } else {
++                flag++;
++                break;
++            }
++        }
++        return flag == 1 || flag == 0;
++    }
++
++    public static void main(String[] args) {
++        System.out.println(new Solution().isMonotonic(new int[]{1, 2, 2, 3}));
++        System.out.println(new Solution().isMonotonic(new int[]{1, 3, 2, 3}));
++        System.out.println(new Solution().isMonotonic(new int[]{6, 5, 4, 4}));
++        System.out.println(new Solution().isMonotonic(new int[]{1, 1, 1, 1}));
++    }
++
++
++}
+\ No newline at end of file
+Index: leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1491/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1491/Solution.java b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1491/Solution.java
+new file mode 100644
+--- /dev/null	(date 1706357727672)
++++ b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1491/Solution.java	(date 1706357727672)
+@@ -0,0 +1,27 @@
++package icu.xiamu.class1491;
++
++import java.util.Arrays;
++
++/**
++ * https://leetcode.cn/problems/average-salary-excluding-the-minimum-and-maximum-salary/?envType=study-plan-v2&envId=programming-skills
++ */
++class Solution {
++    public double average(int[] salary) {
++        return solve1(salary);
++    }
++
++    private double solve1(int[] salary) {
++        Arrays.sort(salary);
++
++        double result = 0;
++        for (int i = 1; i <= salary.length - 2; i++) {
++            result += salary[i];
++        }
++
++        return result / (salary.length - 2);
++    }
++
++    public static void main(String[] args) {
++        System.out.println(new Solution().average(new int[]{4000, 3000, 1000, 2000}));
++    }
++}
+\ No newline at end of file
+Index: leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class459/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class459/Solution.java b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class459/Solution.java
+new file mode 100644
+--- /dev/null	(date 1706356673251)
++++ b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class459/Solution.java	(date 1706356673251)
+@@ -0,0 +1,21 @@
++package icu.xiamu.class459;
++
++/**
++ * https://leetcode.cn/problems/repeated-substring-pattern/description/?envType=study-plan-v2&envId=programming-skills
++ */
++class Solution {
++    public boolean repeatedSubstringPattern(String s) {
++        return solve1(s);
++    }
++
++    private boolean solve1(String s) {
++        String str = s + s;
++        return str.substring(1, str.length() - 1).contains(s);
++    }
++
++    public static void main(String[] args) {
++        System.out.println(new Solution().repeatedSubstringPattern("abab"));
++        System.out.println(new Solution().repeatedSubstringPattern("aba"));
++        System.out.println(new Solution().repeatedSubstringPattern("abcabcabcabc"));
++    }
++}
+\ No newline at end of file
+Index: leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1502/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1502/Solution.java b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1502/Solution.java
+new file mode 100644
+--- /dev/null	(date 1706356231215)
++++ b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1502/Solution.java	(date 1706356231215)
+@@ -0,0 +1,31 @@
++package icu.xiamu.class1502;
++
++import java.util.Arrays;
++
++/**
++ * https://leetcode.cn/problems/can-make-arithmetic-progression-from-sequence/?envType=study-plan-v2&envId=programming-skills
++ */
++class Solution {
++    public boolean canMakeArithmeticProgression(int[] arr) {
++        return solve(arr);
++    }
++
++    private boolean solve(int[] arr) {
++        Arrays.sort(arr);
++
++        int gap = arr[1] - arr[0];
++
++        for (int i = 0; i < arr.length-1; i++) {
++            if (arr[i+1] - arr[i] != gap) {
++                return false;
++            }
++        }
++
++        return true;
++    }
++
++    public static void main(String[] args) {
++        System.out.println(new Solution().canMakeArithmeticProgression(new int[]{3, 5, 1}));
++        System.out.println(new Solution().canMakeArithmeticProgression(new int[]{1, 2, 4}));
++    }
++}
+\ No newline at end of file
+Index: leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class13/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class13/Solution.java b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class13/Solution.java
+new file mode 100644
+--- /dev/null	(date 1706355919171)
++++ b/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class13/Solution.java	(date 1706355919171)
+@@ -0,0 +1,81 @@
++package icu.xiamu.class13;
++
++/**
++ * https://leetcode.cn/problems/roman-to-integer/description/?envType=study-plan-v2&envId=programming-skills
++ */
++enum Roman {
++
++    I(1, "I"),
++    V(5, "V"),
++    X(10, "X"),
++    L(50, "L"),
++    C(100, "C"),
++    D(500, "D"),
++    M(1000, "M");
++
++    private Integer num;
++    private String message;
++
++    Roman(Integer num, String message) {
++        this.num = num;
++        this.message = message;
++    }
++
++    public Integer getNum() {
++        return num;
++    }
++
++    public void setNum(Integer num) {
++        this.num = num;
++    }
++
++    public String getMessage() {
++        return message;
++    }
++
++    public void setMessage(String message) {
++        this.message = message;
++    }
++}
++
++class Solution {
++    public int romanToInt(String s) {
++        return solve1(s);
++    }
++
++    private int solve1(String s) {
++        int result = 0;
++        for (int i = 0; i < s.length(); i++) {
++            Roman roman = Roman.valueOf(String.valueOf(s.charAt(i)));
++            Integer num = roman.getNum();
++            result += num;
++            if (i < s.length() - 1 && s.charAt(i) == 'I' && s.charAt(i + 1) == 'V') { // IV 4
++                result -= 2;
++            }
++            if (i < s.length() - 1 && s.charAt(i) == 'I' && s.charAt(i + 1) == 'X') { // 9
++                result -= 2;
++            }
++            if (i < s.length() - 1 && s.charAt(i) == 'X' && s.charAt(i + 1) == 'L') { // 40
++                result -= 20;
++            }
++            if (i < s.length() - 1 && s.charAt(i) == 'X' && s.charAt(i + 1) == 'C') { // 90
++                result -= 20;
++            }
++            if (i < s.length() - 1 && s.charAt(i) == 'C' && s.charAt(i + 1) == 'D') { // 400
++                result -= 200;
++            }
++            if (i < s.length() - 1 && s.charAt(i) == 'C' && s.charAt(i + 1) == 'M') { // 900
++                result -= 200;
++            }
++        }
++        return result;
++    }
++
++    public static void main(String[] args) {
++        System.out.println(new Solution().romanToInt("III"));
++        System.out.println(new Solution().romanToInt("MCMXCIV"));
++        System.out.println(new Solution().romanToInt("LVIII"));
++        // 1000 100 1000 10 100 1 5
++        // 2000 200 16
++    }
++}
+\ No newline at end of file
