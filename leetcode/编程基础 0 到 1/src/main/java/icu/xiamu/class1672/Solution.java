@@ -1,5 +1,8 @@
 package icu.xiamu.class1672;
 
+/**
+ * https://leetcode.cn/problems/richest-customer-wealth/submissions/498798613/?envType=study-plan-v2&envId=programming-skills
+ */
 class Solution {
     public int maximumWealth(int[][] accounts) {
         return solve1(accounts);
