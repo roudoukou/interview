@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1275/Solution.java" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="leetcode">
       <change afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class206/ListNode.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class206/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class21/ListNode.java" afterDir="false" />
@@ -101,7 +100,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.icu.xiamu.class1275.Solution">
+  <component name="RunManager" selected="Application.icu.xiamu.class21.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.class73.Solution" />
       <module name="programming-skills" />
@@ -200,10 +199,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.icu.xiamu.class21.Solution" />
         <item itemvalue="Application.icu.xiamu.class1275.Solution" />
         <item itemvalue="Application.icu.xiamu.class682.Solution" />
         <item itemvalue="Application.icu.xiamu.class206.Solution" />
-        <item itemvalue="Application.icu.xiamu.class21.Solution" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
@@ -218,15 +217,7 @@
       <updated>1705503312511</updated>
       <workItem from="1705503313813" duration="1111000" />
       <workItem from="1705504440836" duration="31993000" />
-      <workItem from="1706326450677" duration="49004000" />
-    </task>
-    <task id="LOCAL-00004" summary="7.Condition接口: lock await signal">
-      <option name="closed" value="true" />
-      <created>1705510974776</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1705510974776</updated>
+      <workItem from="1706326450677" duration="52085000" />
     </task>
     <task id="LOCAL-00005" summary="8.LockSupport类: park unpark">
       <option name="closed" value="true" />
@@ -612,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706423958604</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1706426110242</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1706426110242</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -728,8 +727,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1275/Solution.java</url>
-          <line>41</line>
+          <line>58</line>
           <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class21/Solution.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
