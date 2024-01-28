@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1275/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class206/ListNode.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class206/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class21/ListNode.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class21/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class682/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.icu.xiamu.class682.Solution">
+  <component name="RunManager" selected="Application.icu.xiamu.class1275.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.class73.Solution" />
       <module name="programming-skills" />
@@ -116,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.class1572.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class1572.Solution" />
+    <configuration name="icu.xiamu.class1275.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class1275.Solution" />
       <module name="programming-skills" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.class1572.*" />
+          <option name="PATTERN" value="icu.xiamu.class1275.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,7 +189,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.icu.xiamu.class1572.Solution" />
+      <item itemvalue="Application.icu.xiamu.class1275.Solution" />
       <item itemvalue="Application.icu.xiamu.class206.Solution" />
       <item itemvalue="Application.icu.xiamu.class21.Solution" />
       <item itemvalue="Application.icu.xiamu.class682.Solution" />
@@ -201,11 +200,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.icu.xiamu.class1275.Solution" />
         <item itemvalue="Application.icu.xiamu.class682.Solution" />
         <item itemvalue="Application.icu.xiamu.class206.Solution" />
         <item itemvalue="Application.icu.xiamu.class21.Solution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.icu.xiamu.class1572.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -219,15 +218,7 @@
       <updated>1705503312511</updated>
       <workItem from="1705503313813" duration="1111000" />
       <workItem from="1705504440836" duration="31993000" />
-      <workItem from="1706326450677" duration="47039000" />
-    </task>
-    <task id="LOCAL-00003" summary="6.Object wait notify">
-      <option name="closed" value="true" />
-      <created>1705509552204</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1705509552204</updated>
+      <workItem from="1706326450677" duration="49004000" />
     </task>
     <task id="LOCAL-00004" summary="7.Condition接口: lock await signal">
       <option name="closed" value="true" />
@@ -613,7 +604,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706408283697</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1706423958604</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1706423958604</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -726,6 +725,11 @@
           <url>file://$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/com/atguigu/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1275/Solution.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
