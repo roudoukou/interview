@@ -7,7 +7,7 @@
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="leetcode">
       <change afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class445/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class283/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class283/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/common/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/common/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,26 +99,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.icu.xiamu.class445.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.class283.Solution" />
       <module name="programming-skills" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="icu.xiamu.class283.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="icu.xiamu.class1275.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class1275.Solution" />
-      <module name="programming-skills" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="icu.xiamu.class1275.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,6 +152,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="icu.xiamu.class445.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class445.Solution" />
+      <module name="programming-skills" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="icu.xiamu.class445.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BootRedis01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="boot_redis01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.boot_redis01.BootRedis01Application" />
@@ -188,7 +188,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.icu.xiamu.class1275.Solution" />
+      <item itemvalue="Application.icu.xiamu.class445.Solution" />
       <item itemvalue="Application.icu.xiamu.class2.Solution" />
       <item itemvalue="Application.icu.xiamu.class206.Solution" />
       <item itemvalue="Application.icu.xiamu.class21.Solution" />
@@ -198,11 +198,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.icu.xiamu.class445.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.icu.xiamu.class2.Solution" />
         <item itemvalue="Application.icu.xiamu.class206.Solution" />
         <item itemvalue="Application.icu.xiamu.class21.Solution" />
-        <item itemvalue="Application.icu.xiamu.class1275.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -219,15 +219,7 @@
       <workItem from="1706326450677" duration="61609000" />
       <workItem from="1706450181333" duration="2058000" />
       <workItem from="1706457455338" duration="5000" />
-      <workItem from="1706459764998" duration="4211000" />
-    </task>
-    <task id="LOCAL-00012" summary="14.循环依赖案例演示">
-      <option name="closed" value="true" />
-      <created>1706014131973</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1706014131973</updated>
+      <workItem from="1706459764998" duration="25745000" />
     </task>
     <task id="LOCAL-00013" summary="15.boot整合redis搭建超卖程序">
       <option name="closed" value="true" />
@@ -613,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706540451003</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1706580398188</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1706580398188</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -731,11 +731,6 @@
           <url>file://$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class1275/Solution.java</url>
           <line>58</line>
           <option name="timeStamp" value="94" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class283/Solution.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
