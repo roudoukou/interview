@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/编程基础 0 到 1/src/main/java/icu/xiamu/class54/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class1768/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/common/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/leetcode-75/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/leetcode-75/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/leetcode-75/src/main/java/icu/xiamu/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,38 +60,39 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Code/面试题/大厂面试题第3季/boot_redis02/src/main/java/com/atguigu/boot_redis02&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Code/面试题/leetcode/programming-skills/src/main/java/com/atguigu/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.18652344&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.ignored.files&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b4aa270ed9b990a847d06a672bb22ce2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/Code/面试题/leetcode/leetcode-75/src/main/java/icu/xiamu",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/Code/面试题/leetcode/leetcode-75/src/main/java/icu/xiamu/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.18652344",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "spring.configuration.checksum": "b4aa270ed9b990a847d06a672bb22ce2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\面试题\leetcode\leetcode-75\src\main\java\icu\xiamu" />
       <recent name="E:\Code\面试题\大厂面试题第3季\boot_redis02\src\main\java\com\atguigu\boot_redis02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -99,7 +106,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.icu.xiamu.class54.Solution">
+  <component name="RunManager" selected="Application.icu.xiamu.class1768.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.class283.Solution" />
       <module name="programming-skills" />
@@ -113,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.class206.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class206.Solution" />
-      <module name="programming-skills" />
+    <configuration name="icu.xiamu.class1768.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class1768.Solution" />
+      <module name="leetcode-75" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.class206.*" />
+          <option name="PATTERN" value="icu.xiamu.class1768.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,21 +195,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.icu.xiamu.class1768.Solution" />
       <item itemvalue="Application.icu.xiamu.class445.Solution" />
       <item itemvalue="Application.icu.xiamu.class54.Solution" />
       <item itemvalue="Application.icu.xiamu.class2.Solution" />
-      <item itemvalue="Application.icu.xiamu.class206.Solution" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
       <item itemvalue="Spring Boot.BootRedis02Application" />
       <item itemvalue="Spring Boot.MainApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.icu.xiamu.class1768.Solution" />
         <item itemvalue="Application.icu.xiamu.class54.Solution" />
         <item itemvalue="Application.icu.xiamu.class445.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.icu.xiamu.class2.Solution" />
-        <item itemvalue="Application.icu.xiamu.class206.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -219,15 +226,7 @@
       <workItem from="1706326450677" duration="61609000" />
       <workItem from="1706450181333" duration="2058000" />
       <workItem from="1706457455338" duration="5000" />
-      <workItem from="1706459764998" duration="30987000" />
-    </task>
-    <task id="LOCAL-00014" summary="16.超卖程序 V2 解决竞态条件">
-      <option name="closed" value="true" />
-      <created>1706020610910</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1706020610910</updated>
+      <workItem from="1706459764998" duration="32852000" />
     </task>
     <task id="LOCAL-00015" summary="18.超卖程序 V4 finally自动释放分布式锁">
       <option name="closed" value="true" />
@@ -613,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706619864596</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1706628675838</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1706628675838</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
