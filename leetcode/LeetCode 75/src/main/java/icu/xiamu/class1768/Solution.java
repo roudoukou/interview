@@ -1,5 +1,8 @@
 package icu.xiamu.class1768;
 
+/**
+ * https://leetcode.cn/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75
+ */
 public class Solution {
     public String mergeAlternately(String word1, String word2) {
 

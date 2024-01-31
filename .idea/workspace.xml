@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class1137/Solution.java" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="leetcode">
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class739/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class746/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class1768/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class1768/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class2215/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class2215/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.icu.xiamu.class1137.Solution">
+  <component name="RunManager" selected="Application.icu.xiamu.class746.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.class739.Solution" />
       <module name="leetcode-75" />
@@ -142,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.class1768.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class1768.Solution" />
+    <configuration name="icu.xiamu.class2215.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class2215.Solution" />
       <module name="leetcode-75" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.class1768.*" />
+          <option name="PATTERN" value="icu.xiamu.class2215.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.class2215.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class2215.Solution" />
+    <configuration name="icu.xiamu.class746.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class746.Solution" />
       <module name="leetcode-75" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.class2215.*" />
+          <option name="PATTERN" value="icu.xiamu.class746.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,19 +192,19 @@
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.icu.xiamu.class1071.Solution" />
       <item itemvalue="Application.icu.xiamu.class1137.Solution" />
-      <item itemvalue="Application.icu.xiamu.class1768.Solution" />
       <item itemvalue="Application.icu.xiamu.class2215.Solution" />
+      <item itemvalue="Application.icu.xiamu.class746.Solution" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
       <item itemvalue="Spring Boot.BootRedis02Application" />
       <item itemvalue="Spring Boot.MainApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.icu.xiamu.class746.Solution" />
         <item itemvalue="Application.icu.xiamu.class1137.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.icu.xiamu.class2215.Solution" />
         <item itemvalue="Application.icu.xiamu.class1071.Solution" />
-        <item itemvalue="Application.icu.xiamu.class1768.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -222,15 +221,7 @@
       <workItem from="1706326450677" duration="61609000" />
       <workItem from="1706450181333" duration="2058000" />
       <workItem from="1706457455338" duration="5000" />
-      <workItem from="1706459764998" duration="39927000" />
-    </task>
-    <task id="LOCAL-00017" summary="19.超卖程序 V5 锁超时时间设定">
-      <option name="closed" value="true" />
-      <created>1706077368013</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1706077368013</updated>
+      <workItem from="1706459764998" duration="41331000" />
     </task>
     <task id="LOCAL-00018" summary="20.超卖程序 V6 原子性保障超时时间">
       <option name="closed" value="true" />
@@ -616,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706634390352</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1706671999493</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1706671999493</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
