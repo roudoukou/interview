@@ -2,6 +2,9 @@ package icu.xiamu.class1679;
 
 import java.util.Arrays;
 
+/**
+ * https://leetcode.cn/problems/max-number-of-k-sum-pairs/description/?envType=study-plan-v2&envId=leetcode-75
+ */
 class Solution {
     public int maxOperations(int[] nums, int k) {
         return solve1(nums, k);
