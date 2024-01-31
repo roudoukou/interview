@@ -2,6 +2,9 @@ package icu.xiamu.class2215;
 
 import java.util.*;
 
+/**
+ * https://leetcode.cn/problems/find-the-difference-of-two-arrays/description/?envType=study-plan-v2&envId=leetcode-75
+ */
 class Solution {
     public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
         return solve1(nums1, nums2);
