@@ -1,9 +1,10 @@
 package icu.xiamu.class2095;
 
-import com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector;
 import icu.xiamu.common.ListNode;
 
 /**
+ * https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/description/?envType=study-plan-v2&envId=leetcode-75
+ *
  * Definition for singly-linked list.
  * public class ListNode {
  * int val;
