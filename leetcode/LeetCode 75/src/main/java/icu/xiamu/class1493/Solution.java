@@ -8,6 +8,7 @@ class Solution {
         return solve2(nums);
     }
 
+    // 维护一个滑动窗口，其中最多有一个零。
     // 直接使用left++来更新滑动窗口
     private int solve2(int[] nums) {
 
