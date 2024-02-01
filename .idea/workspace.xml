@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="leetcode">
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class1456/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class238/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class374/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class394/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class643/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class739/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/algorithmzuo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/algorithmzuo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/algorithmzuo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/algorithmzuo/src/main/java/icu/xiamu/class049/Code01_MinimumSizeSubarraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class328/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class328/Solution.java" afterDir="false" />
     </list>
@@ -109,7 +104,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.icu.xiamu.class643.Solution">
+  <component name="RunManager" selected="Application.icu.xiamu.class1456.Solution">
     <configuration name="Code01_MinimumSizeSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.class049.Code01_MinimumSizeSubarraySum" />
       <module name="algorithmzuo" />
@@ -136,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.class11.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class11.Solution" />
+    <configuration name="icu.xiamu.class1456.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class1456.Solution" />
       <module name="leetcode-75" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.class11.*" />
+          <option name="PATTERN" value="icu.xiamu.class1456.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,9 +193,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.Code01_MinimumSizeSubarraySum" />
+      <item itemvalue="Application.icu.xiamu.class1456.Solution" />
       <item itemvalue="Application.icu.xiamu.class643.Solution" />
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.icu.xiamu.class11.Solution" />
       <item itemvalue="Application.icu.xiamu.class215.Solution" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
       <item itemvalue="Spring Boot.BootRedis02Application" />
@@ -208,11 +203,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.icu.xiamu.class1456.Solution" />
         <item itemvalue="Application.icu.xiamu.class643.Solution" />
         <item itemvalue="Application.Code01_MinimumSizeSubarraySum" />
         <item itemvalue="Application.icu.xiamu.class215.Solution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.icu.xiamu.class11.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -230,23 +225,7 @@
       <workItem from="1706450181333" duration="2058000" />
       <workItem from="1706457455338" duration="5000" />
       <workItem from="1706459764998" duration="65191000" />
-      <workItem from="1706710252000" duration="7809000" />
-    </task>
-    <task id="LOCAL-00034" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1706358698970</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1706358698970</updated>
-    </task>
-    <task id="LOCAL-00035" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1706358708058</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1706358708058</updated>
+      <workItem from="1706710252000" duration="10484000" />
     </task>
     <task id="LOCAL-00036" summary="leetcode">
       <option name="closed" value="true" />
@@ -624,7 +603,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706704669155</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1706761246854</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1706761246854</updated>
+    </task>
+    <task id="LOCAL-00084" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1706761262984</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1706761262984</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,13 +750,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class643/Solution.java</url>
-          <line>65</line>
+          <line>68</line>
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class643/Solution.java</url>
-          <line>26</line>
+          <line>29</line>
           <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class1456/Solution.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="209" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
