@@ -1,5 +1,8 @@
 package icu.xiamu.class643;
 
+/**
+ * https://leetcode.cn/problems/maximum-average-subarray-i/submissions/499791739/?envType=study-plan-v2&envId=leetcode-75
+ */
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
         return solve2(nums, k);
