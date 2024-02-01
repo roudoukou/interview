@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class215/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class238/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class374/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class394/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class643/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class739/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/algorithmzuo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/algorithmzuo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/algorithmzuo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/algorithmzuo/src/main/java/icu/xiamu/class049/Code01_MinimumSizeSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class328/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class328/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +81,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/Code/面试题/leetcode/leetcode-75/src/main/java/icu/xiamu/Main.java",
-    "project.structure.last.edited": "Project",
+    "onboarding.tips.debug.path": "E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.18652344",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "b4aa270ed9b990a847d06a672bb22ce2",
     "vue.rearranger.settings.migration": "true"
   }
@@ -105,7 +109,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.icu.xiamu.class215.Solution">
+  <component name="RunManager" selected="Application.icu.xiamu.class643.Solution">
+    <configuration name="Code01_MinimumSizeSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class049.Code01_MinimumSizeSubarraySum" />
+      <module name="algorithmzuo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="icu.xiamu.class049.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.class1679.Solution" />
       <module name="leetcode-75" />
@@ -132,19 +149,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.class1657.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class1657.Solution" />
-      <module name="leetcode-75" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="icu.xiamu.class1657.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="icu.xiamu.class215.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.class215.Solution" />
       <module name="leetcode-75" />
@@ -158,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.class392.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class392.Solution" />
+    <configuration name="icu.xiamu.class643.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class643.Solution" />
       <module name="leetcode-75" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.class392.*" />
+          <option name="PATTERN" value="icu.xiamu.class643.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,22 +197,22 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Code01_MinimumSizeSubarraySum" />
+      <item itemvalue="Application.icu.xiamu.class643.Solution" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.icu.xiamu.class11.Solution" />
-      <item itemvalue="Application.icu.xiamu.class1657.Solution" />
       <item itemvalue="Application.icu.xiamu.class215.Solution" />
-      <item itemvalue="Application.icu.xiamu.class392.Solution" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
       <item itemvalue="Spring Boot.BootRedis02Application" />
       <item itemvalue="Spring Boot.MainApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.icu.xiamu.class643.Solution" />
+        <item itemvalue="Application.Code01_MinimumSizeSubarraySum" />
         <item itemvalue="Application.icu.xiamu.class215.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.icu.xiamu.class11.Solution" />
-        <item itemvalue="Application.icu.xiamu.class1657.Solution" />
-        <item itemvalue="Application.icu.xiamu.class392.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +230,7 @@
       <workItem from="1706450181333" duration="2058000" />
       <workItem from="1706457455338" duration="5000" />
       <workItem from="1706459764998" duration="65191000" />
+      <workItem from="1706710252000" duration="7809000" />
     </task>
     <task id="LOCAL-00034" summary="leetcode">
       <option name="closed" value="true" />
@@ -747,6 +752,16 @@
           <url>file://$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class1657/Solution.java</url>
           <line>31</line>
           <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class643/Solution.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class643/Solution.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="207" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
