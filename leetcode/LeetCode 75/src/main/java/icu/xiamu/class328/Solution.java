@@ -24,6 +24,7 @@ class Solution {
             return head;
         }
 
+        // 两根链表分别记录, 然后再拼起来
         ListNode odd = new ListNode(0);
         ListNode even = new ListNode(0);
         ListNode current = head;
