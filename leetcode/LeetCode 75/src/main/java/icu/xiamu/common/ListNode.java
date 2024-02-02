@@ -18,12 +18,14 @@ public class ListNode {
 
     /**
      * 打印链表
+     *
      * @param head 头节点
      */
     public static void printListNode(ListNode head) {
         if (head == null) {
             System.out.print("head: null\n");
-            return;}
+            return;
+        }
         System.out.print("head: ");
         while (head != null) {
             System.out.print(head.val + " => ");
@@ -34,6 +36,7 @@ public class ListNode {
 
     /**
      * 将数组转换成链表
+     *
      * @param nums 要转换的数组
      * @return 数组第零个元素作为头节点
      */
@@ -68,6 +71,7 @@ public class ListNode {
 
     /**
      * 反转链表
+     *
      * @return 将尾结点作为头结点返回
      */
     public ListNode reverseList() {
@@ -76,6 +80,7 @@ public class ListNode {
 
     /**
      * 反转链表
+     *
      * @param head 头结点
      * @return 将尾结点作为头结点返回
      */
@@ -87,5 +92,18 @@ public class ListNode {
         head.next.next = head;
         head.next = null;
         return newHead;
+    }
+
+    /**
+     * 比较两个链表是否相等
+     * @param p head1
+     * @param q head2
+     * @return boolean
+     */
+    public static boolean isSameListNode(ListNode p, ListNode q) {
+        if (p == null || q == null) {
+            return p == q;
+        }
+        return p.val == q.val && isSameListNode(p.next, q.next);
     }
 }
