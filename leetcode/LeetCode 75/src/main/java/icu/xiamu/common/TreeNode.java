@@ -157,7 +157,7 @@ public class TreeNode {
      *
      * @param head
      */
-    public static void f(TreeNode head) {
+    private static void f(TreeNode head) {
         if (head == null) {
             return;
         }
