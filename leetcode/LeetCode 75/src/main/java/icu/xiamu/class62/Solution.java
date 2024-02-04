@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 class Solution {
     public int uniquePaths(int m, int n) {
-        return solve1(m, n);
+        return solve3(m, n);
     }
 
     // 0ms , 直接使用循环初始值
