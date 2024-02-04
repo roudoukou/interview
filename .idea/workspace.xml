@@ -6,15 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="leetcode">
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class17/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class199/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class2300/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class236/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class394/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class443/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class724/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class739/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/common/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/common/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.icu.xiamu.class394.Solution">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.common.Demo1" />
       <module name="leetcode-75" />
@@ -122,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.class238.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class238.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class199.Solution" />
       <module name="leetcode-75" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.class238.*" />
+          <option name="PATTERN" value="icu.xiamu.class199.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,21 +197,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.Demo1" />
-      <item itemvalue="Application.icu.xiamu.class238.Solution" />
       <item itemvalue="Application.icu.xiamu.class334.Solution" />
       <item itemvalue="Application.icu.xiamu.class394.Solution" />
       <item itemvalue="Application.icu.xiamu.class735.Solution" />
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
       <item itemvalue="Spring Boot.BootRedis02Application" />
       <item itemvalue="Spring Boot.MainApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.icu.xiamu.class394.Solution" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.icu.xiamu.class735.Solution" />
         <item itemvalue="Application.icu.xiamu.class334.Solution" />
-        <item itemvalue="Application.icu.xiamu.class238.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -229,15 +229,7 @@
       <workItem from="1706450181333" duration="2058000" />
       <workItem from="1706457455338" duration="5000" />
       <workItem from="1706459764998" duration="65191000" />
-      <workItem from="1706710252000" duration="77784000" />
-    </task>
-    <task id="LOCAL-00057" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1706438281730</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1706438281730</updated>
+      <workItem from="1706710252000" duration="89190000" />
     </task>
     <task id="LOCAL-00058" summary="leetcode">
       <option name="closed" value="true" />
@@ -623,7 +615,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706943597544</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1707013457305</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1707013457305</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -809,7 +809,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class394/Solution.java</url>
-          <line>114</line>
+          <line>119</line>
           <option name="timeStamp" value="284" />
         </line-breakpoint>
       </breakpoints>

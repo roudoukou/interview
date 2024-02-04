@@ -1,7 +1,6 @@
 package icu.xiamu.common;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class TreeNode {
     public int val;
@@ -78,7 +77,7 @@ public class TreeNode {
     }
 
     // 用于获得树的层数
-    private static int getTreeDepth(TreeNode root) {
+    public static int getTreeDepth(TreeNode root) {
         return root == null ? 0 : (1 + Math.max(getTreeDepth(root.left), getTreeDepth(root.right)));
     }
 
@@ -207,4 +206,30 @@ public class TreeNode {
         System.out.print(head.val + " ");
     }
 
+    /**
+     * 广度遍历
+     * 无返回值, 如需返回值, 用List接收返回
+     * @param head
+     */
+    public static List<Integer> printLevelOrder(TreeNode head) {
+        if (head == null) return Collections.emptyList();
+
+        List<Integer> list = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(head);
+
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            System.out.print(node.val + " ");
+            list.add(node.val);
+            if (node.left != null) {
+                queue.offer(node.left);
+            }
+            if (node.right != null) {
+                queue.offer(node.right);
+            }
+        }
+        System.out.println();
+        return list;
+    }
 }
