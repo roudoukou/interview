@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/backtrace/class46/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/backtrace/class77/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class1143/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class1318/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class216/Solution.java" afterDir="false" />
@@ -17,7 +15,8 @@
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class724/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class739/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/backtrace/class46/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/backtrace/class46/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/backtrace/class77/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/backtrace/class77/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,15 +232,7 @@
       <workItem from="1706450181333" duration="2058000" />
       <workItem from="1706457455338" duration="5000" />
       <workItem from="1706459764998" duration="65191000" />
-      <workItem from="1706710252000" duration="123899000" />
-    </task>
-    <task id="LOCAL-00068" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1706677902571</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1706677902571</updated>
+      <workItem from="1706710252000" duration="126091000" />
     </task>
     <task id="LOCAL-00069" summary="leetcode">
       <option name="closed" value="true" />
@@ -627,7 +618,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707189912858</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1707202470390</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1707202470391</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -830,11 +829,6 @@
           <url>file://$PROJECT_DIR$/leetcode/「新」动计划 · 编程入门/src/main/java/icu/xiamu/class263/Solution.java</url>
           <line>20</line>
           <option name="timeStamp" value="304" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/backtrace/class46/Solution.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="317" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -21,7 +21,8 @@ class Solution {
             return;
         }
 
-        for (int i = index; i <= n; i++) {
+        // for (int i = index; i <= n; i++) {
+        for (int i = index; i <= n - (k - path.size()) + 1; i++) {
             path.add(i);
             process(n, k, i+1);
             path.remove(path.size() - 1);
@@ -29,6 +30,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
+        System.out.println(new Solution().combine(4, 3));
         System.out.println(new Solution().combine(4, 2));
         System.out.println(new Solution().combine(1, 1));
     }
