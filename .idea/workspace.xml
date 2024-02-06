@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="leetcode">
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/backtrace/class46/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/backtrace/class77/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class1143/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class1318/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class17/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class216/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class2300/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class2352/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class236/Solution.java" afterDir="false" />
@@ -15,6 +17,7 @@
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class724/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/class739/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,13 +112,39 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.icu.xiamu.backtrace.class77.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.class17.Solution" />
       <module name="leetcode-75" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="icu.xiamu.class17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="icu.xiamu.backtrace.class46.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.backtrace.class46.Solution" />
+      <module name="leetcode-75" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="icu.xiamu.backtrace.class46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="icu.xiamu.backtrace.class77.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.backtrace.class77.Solution" />
+      <module name="leetcode-75" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="icu.xiamu.backtrace.class77.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,38 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.class263.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class263.Solution" />
-      <module name="primers-list" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="icu.xiamu.class263.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="icu.xiamu.class790.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.class790.Solution" />
       <module name="leetcode-75" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="icu.xiamu.class790.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="icu.xiamu.class852.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class852.Solution" />
-      <module name="primers-list" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="icu.xiamu.class852.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,10 +200,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.icu.xiamu.backtrace.class46.Solution" />
+      <item itemvalue="Application.icu.xiamu.backtrace.class77.Solution" />
       <item itemvalue="Application.icu.xiamu.class1071.Solution" />
-      <item itemvalue="Application.icu.xiamu.class263.Solution" />
       <item itemvalue="Application.icu.xiamu.class790.Solution" />
-      <item itemvalue="Application.icu.xiamu.class852.Solution" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
       <item itemvalue="Spring Boot.BootRedis02Application" />
@@ -208,11 +211,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.icu.xiamu.backtrace.class77.Solution" />
+        <item itemvalue="Application.icu.xiamu.backtrace.class46.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.icu.xiamu.class790.Solution" />
         <item itemvalue="Application.icu.xiamu.class1071.Solution" />
-        <item itemvalue="Application.icu.xiamu.class263.Solution" />
-        <item itemvalue="Application.icu.xiamu.class852.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -230,15 +233,7 @@
       <workItem from="1706450181333" duration="2058000" />
       <workItem from="1706457455338" duration="5000" />
       <workItem from="1706459764998" duration="65191000" />
-      <workItem from="1706710252000" duration="118633000" />
-    </task>
-    <task id="LOCAL-00067" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1706673691261</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1706673691261</updated>
+      <workItem from="1706710252000" duration="123899000" />
     </task>
     <task id="LOCAL-00068" summary="leetcode">
       <option name="closed" value="true" />
@@ -624,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707115647252</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1707189912858</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1707189912858</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,6 +830,11 @@
           <url>file://$PROJECT_DIR$/leetcode/「新」动计划 · 编程入门/src/main/java/icu/xiamu/class263/Solution.java</url>
           <line>20</line>
           <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/xiamu/backtrace/class46/Solution.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="317" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
