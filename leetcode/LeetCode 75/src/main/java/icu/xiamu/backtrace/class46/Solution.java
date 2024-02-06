@@ -3,6 +3,9 @@ package icu.xiamu.backtrace.class46;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * https://leetcode.cn/problems/permutations/description/
+ */
 class Solution {
     List<List<Integer>> result = new ArrayList<>();
     List<Integer> path = new ArrayList<>();
@@ -14,21 +17,20 @@ class Solution {
 
     private void process(int[] nums, int index) {
 
-        if (index == nums.length) {
-            result.add(path);
+        if (path.size() == nums.length) {
+            result.add(new ArrayList<>(path));
             return;
         }
 
         // 第一次的for循坏表示是第一位可能出现的值： 1 2 3
-        for (int i = index; i < nums.length; i++) {
-            path.add(nums[index]);
-            // index+1 = 2 表示第二次for循环，第二位可能出现的值：2 | 3
-            // index+1 = 3 表示第三次for循环，第三位的值一定是3
-            // 回退一个 path = [1, 2]
-            // 此时index+1=2 第二位只能是3
-            // 之后的循环, 貌似就卡死了???
-            process(nums, index+1);
-            path.remove(path.size()-1);
+        for (int i = 0; i < nums.length; i++) {
+            if (!path.contains(nums[i])) {
+                path.add(nums[i]);
+            } else {
+                continue;
+            }
+            process(nums, i + 1);
+            path.remove(path.size() - 1);
         }
     }
 
