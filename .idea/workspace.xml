@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/top-100-liked/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/top-100-liked/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/class1/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/题单地址.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Code/面试题/leetcode/LeetCode 75",
+    "last_opened_file_path": "E:/Code/面试题/leetcode/LeetCode 热题 100",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,6 +85,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\面试题\leetcode\LeetCode 热题 100" />
       <recent name="E:\Code\面试题\leetcode\LeetCode 75" />
       <recent name="E:\Code\面试题\leetcode\「新」动计划 · 编程入门\src\main\java\icu\xiamu" />
       <recent name="E:\Code\面试题\leetcode\leetcode-75\src\main\java\icu\xiamu" />
@@ -223,15 +223,7 @@
       <workItem from="1706450181333" duration="2058000" />
       <workItem from="1706457455338" duration="5000" />
       <workItem from="1706459764998" duration="65191000" />
-      <workItem from="1706710252000" duration="140005000" />
-    </task>
-    <task id="LOCAL-00075" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1706689450429</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1706689450430</updated>
+      <workItem from="1706710252000" duration="140312000" />
     </task>
     <task id="LOCAL-00076" summary="leetcode">
       <option name="closed" value="true" />
@@ -617,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707274119664</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1707275719867</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1707275719867</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
