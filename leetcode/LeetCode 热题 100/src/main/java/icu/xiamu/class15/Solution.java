@@ -11,6 +11,11 @@ class Solution {
         return solve1(nums);
     }
 
+    /**
+     * 暴力遍历算法 O(n^3) 超时了...
+     * @param nums
+     * @return
+     */
     private List<List<Integer>> solve1(int[] nums) {
         Arrays.sort(nums);
         Set<List<Integer>> ans = new HashSet<>();
