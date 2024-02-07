@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/class118/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/剑指Offer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/剑指Offer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/剑指Offer/src/main/java/icu/xiamu/lcr/class120/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/剑指Offer/题单地址.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +70,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Code/面试题/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu",
+    "last_opened_file_path": "E:/Code/面试题/leetcode/剑指Offer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,11 +90,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\面试题\leetcode\剑指Offer" />
       <recent name="E:\Code\面试题\leetcode\LeetCode 热题 100\src\main\java\icu\xiamu" />
       <recent name="E:\Code\面试题\leetcode\LeetCode 热题 100" />
       <recent name="E:\Code\面试题\leetcode\LeetCode 75" />
       <recent name="E:\Code\面试题\leetcode\「新」动计划 · 编程入门\src\main\java\icu\xiamu" />
-      <recent name="E:\Code\面试题\leetcode\leetcode-75\src\main\java\icu\xiamu" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Code\面试题\第一季" />
@@ -102,7 +107,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.icu.xiamu.class118.Solution">
+  <component name="RunManager" selected="Application.icu.xiamu.lcr.class120.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.class70.Solution" />
       <module name="top-100-liked" />
@@ -155,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.class2.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class2.Solution" />
-      <module name="top-100-liked" />
+    <configuration name="icu.xiamu.lcr.class120.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.lcr.class120.Solution" />
+      <module name="jianzhi-Offer-Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.class2.*" />
+          <option name="PATTERN" value="icu.xiamu.lcr.class120.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,8 +197,8 @@
     <list>
       <item itemvalue="Application.icu.xiamu.class118.Solution" />
       <item itemvalue="Application.icu.xiamu.class19.Solution" />
-      <item itemvalue="Application.icu.xiamu.class2.Solution" />
       <item itemvalue="Application.icu.xiamu.class24.Solution" />
+      <item itemvalue="Application.icu.xiamu.lcr.class120.Solution" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
       <item itemvalue="Spring Boot.BootRedis02Application" />
@@ -201,11 +206,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.icu.xiamu.lcr.class120.Solution" />
         <item itemvalue="Application.icu.xiamu.class118.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.icu.xiamu.class24.Solution" />
         <item itemvalue="Application.icu.xiamu.class19.Solution" />
-        <item itemvalue="Application.icu.xiamu.class2.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -223,15 +228,7 @@
       <workItem from="1706450181333" duration="2058000" />
       <workItem from="1706457455338" duration="5000" />
       <workItem from="1706459764998" duration="65191000" />
-      <workItem from="1706710252000" duration="162248000" />
-    </task>
-    <task id="LOCAL-00094" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1706853860623</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1706853860623</updated>
+      <workItem from="1706710252000" duration="164139000" />
     </task>
     <task id="LOCAL-00095" summary="leetcode">
       <option name="closed" value="true" />
@@ -617,7 +614,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707311066382</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1707311778950</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1707311778950</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -845,11 +850,6 @@
           <url>file://$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/class19/Solution.java</url>
           <line>31</line>
           <option name="timeStamp" value="337" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/class118/Solution.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="341" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
