@@ -79,7 +79,8 @@ public class ListNode {
     }
 
     /**
-     * 反转链表
+     * 反转链表, 原head会到尾结点的位置
+     * 如果想保留原head, 先拷贝一份链表
      *
      * @param head 头结点
      * @return 将尾结点作为头结点返回
@@ -105,5 +106,28 @@ public class ListNode {
             return p == q;
         }
         return p.val == q.val && isSameListNode(p.next, q.next);
+    }
+
+    /**
+     * isPalindrome
+     * 比较当前链表是否是回文链表
+     * 使用快慢指针
+     */
+    public static boolean isPalindrome(ListNode head) {
+        return false;
+    }
+
+    /**
+     * 拷贝一份ListNode
+     */
+    private ListNode copyLinkedList(ListNode head) {
+        ListNode current = new ListNode(-1);
+        ListNode newHead = current;
+        while (head != null) {
+            current.next = new ListNode(head.val);
+            current = current.next;
+            head = head.next;
+        }
+        return newHead.next;
     }
 }
