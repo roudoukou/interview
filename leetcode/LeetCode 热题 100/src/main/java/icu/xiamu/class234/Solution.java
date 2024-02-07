@@ -3,6 +3,7 @@ package icu.xiamu.class234;
 import icu.xiamu.common.ListNode;
 
 /**
+ * https://leetcode.cn/problems/palindrome-linked-list/submissions/501101977/?envType=study-plan-v2&envId=top-100-liked
  *
  * Definition for singly-linked list.
  * public class ListNode {
