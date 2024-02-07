@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/class234/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/class141/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/common/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/common/ListNode.java" afterDir="false" />
     </list>
@@ -224,23 +224,7 @@
       <workItem from="1706450181333" duration="2058000" />
       <workItem from="1706457455338" duration="5000" />
       <workItem from="1706459764998" duration="65191000" />
-      <workItem from="1706710252000" duration="150133000" />
-    </task>
-    <task id="LOCAL-00084" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1706761262984</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1706761262984</updated>
-    </task>
-    <task id="LOCAL-00085" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1706766903793</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1706766903793</updated>
+      <workItem from="1706710252000" duration="150990000" />
     </task>
     <task id="LOCAL-00086" summary="leetcode">
       <option name="closed" value="true" />
@@ -618,7 +602,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707288013966</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1707290629982</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1707290629982</updated>
+    </task>
+    <task id="LOCAL-00134" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1707290656151</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1707290656151</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

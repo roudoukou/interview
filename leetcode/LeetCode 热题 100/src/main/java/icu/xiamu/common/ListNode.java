@@ -1,5 +1,8 @@
 package icu.xiamu.common;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class ListNode {
     public int val;
     public ListNode next;
@@ -97,6 +100,7 @@ public class ListNode {
 
     /**
      * 比较两个链表是否相等
+     *
      * @param p head1
      * @param q head2
      * @return boolean
@@ -129,5 +133,24 @@ public class ListNode {
             head = head.next;
         }
         return newHead.next;
+    }
+
+    /**
+     * 判断链表是否有环
+     * 使用快慢指针, 让快指针先出发, 如果有环, 快指针最终会绕环一圈与慢指针相遇
+     * 或者使用set去记录每一个node地址, 遇到重复的就说明有环
+     * @param head 头指针
+     * @return true 表示有环; false 表示无环
+     */
+    public boolean isCycle(ListNode head) {
+        if (head == null) return false;
+        ListNode slow = head;
+        ListNode fast = head.next;
+        while (fast != null && fast.next != null) {
+            if (fast == slow) return true;
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return false;
     }
 }
