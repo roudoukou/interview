@@ -1,5 +1,8 @@
 package icu.xiamu.lcr.class122;
 
+/**
+ * https://leetcode.cn/problems/ti-huan-kong-ge-lcof/description/
+ */
 class Solution {
     public String pathEncryption(String path) {
         return solve1(path);
