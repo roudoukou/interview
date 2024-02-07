@@ -116,6 +116,7 @@ public class ListNode {
      * isPalindrome
      * 比较当前链表是否是回文链表
      * 使用快慢指针
+     * https://leetcode.cn/problems/palindrome-linked-list/solutions/?envType=study-plan-v2&envId=top-100-liked
      */
     public static boolean isPalindrome(ListNode head) {
         return false;
@@ -145,12 +146,38 @@ public class ListNode {
     public boolean isCycle(ListNode head) {
         if (head == null) return false;
         ListNode slow = head;
-        ListNode fast = head.next;
+        ListNode fast = head;
         while (fast != null && fast.next != null) {
-            if (fast == slow) return true;
             fast = fast.next.next;
             slow = slow.next;
+            if (fast == slow) return true;
         }
         return false;
+    }
+
+    /**
+     * 使用快慢指针解决, 或者使用set来解决
+     * @param head 头指针
+     * @return 检测链表中是否存在环，并返回环的交叉点节点。
+     */
+    public ListNode detectCycle(ListNode head) {
+        if (head == null) return null;
+
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (fast == slow) {
+                fast = head;
+                while (fast != slow) {
+                    fast = fast.next;
+                    slow = slow.next;
+                }
+                return fast;
+            }
+        }
+        return null;
     }
 }
