@@ -102,7 +102,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.icu.xiamu.lcr.class240.Solution">
+  <component name="RunManager" selected="Application.icu.xiamu.lcr.class122.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.class70.Solution" />
       <module name="top-100-liked" />
@@ -129,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.class24.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class24.Solution" />
-      <module name="top-100-liked" />
+    <configuration name="icu.xiamu.lcr.class120.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.lcr.class120.Solution" />
+      <module name="jianzhi-Offer-Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.class24.*" />
+          <option name="PATTERN" value="icu.xiamu.lcr.class120.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.lcr.class120.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.lcr.class120.Solution" />
+    <configuration name="icu.xiamu.lcr.class122.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.lcr.class122.Solution" />
       <module name="jianzhi-Offer-Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.lcr.class120.*" />
+          <option name="PATTERN" value="icu.xiamu.lcr.class122.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,8 +191,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.icu.xiamu.class118.Solution" />
-      <item itemvalue="Application.icu.xiamu.class24.Solution" />
       <item itemvalue="Application.icu.xiamu.lcr.class120.Solution" />
+      <item itemvalue="Application.icu.xiamu.lcr.class122.Solution" />
       <item itemvalue="Application.icu.xiamu.lcr.class240.Solution" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
@@ -201,11 +201,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.icu.xiamu.lcr.class122.Solution" />
         <item itemvalue="Application.icu.xiamu.lcr.class240.Solution" />
         <item itemvalue="Application.icu.xiamu.lcr.class120.Solution" />
         <item itemvalue="Application.icu.xiamu.class118.Solution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.icu.xiamu.class24.Solution" />
       </list>
     </recent_temporary>
   </component>
