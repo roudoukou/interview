@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/剑指Offer/src/main/java/icu/xiamu/lcr/class105/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/剑指Offer/src/main/java/icu/xiamu/lcr/class123/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/剑指Offer/src/main/java/icu/xiamu/lcr/common/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/剑指Offer/src/main/java/icu/xiamu/lcr/common/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/剑指Offer/src/main/java/icu/xiamu/lcr/unfinished" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/剑指Offer/src/main/java/icu/xiamu/lcr/class190/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/剑指Offer/src/main/java/icu/xiamu/lcr/class260/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/剑指Offer/src/main/java/icu/xiamu/lcr/class122/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/剑指Offer/src/main/java/icu/xiamu/lcr/class122/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/剑指Offer/题单地址.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/剑指Offer/题单地址.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,15 +225,7 @@
       <workItem from="1706450181333" duration="2058000" />
       <workItem from="1706457455338" duration="5000" />
       <workItem from="1706459764998" duration="65191000" />
-      <workItem from="1706710252000" duration="165496000" />
-    </task>
-    <task id="LOCAL-00098" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1706858324847</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1706858324847</updated>
+      <workItem from="1706710252000" duration="168393000" />
     </task>
     <task id="LOCAL-00099" summary="leetcode">
       <option name="closed" value="true" />
@@ -623,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707315152997</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1707316174599</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1707316174599</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
