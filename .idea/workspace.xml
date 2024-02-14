@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sgg-juc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sgg-juc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sgg-juc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sgg-juc/src/main/java/icu/xiamu/juc/base/ThreadBaseDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,15 +228,7 @@
       <workItem from="1706450181333" duration="2058000" />
       <workItem from="1706457455338" duration="5000" />
       <workItem from="1706459764998" duration="65191000" />
-      <workItem from="1706710252000" duration="169602000" />
-    </task>
-    <task id="LOCAL-00100" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1706865473248</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1706865473248</updated>
+      <workItem from="1706710252000" duration="173047000" />
     </task>
     <task id="LOCAL-00101" summary="leetcode">
       <option name="closed" value="true" />
@@ -616,7 +614,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707397834382</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1707827966708</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1707827966708</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +633,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
