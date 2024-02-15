@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sgg-juc/src/main/java/icu/xiamu/juc/cf/FutureThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sgg-juc/src/main/java/icu/xiamu/juc/cf/FutureAPIDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +102,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FutureThreadPoolDemo">
+  <component name="RunManager" selected="Application.FutureAPIDemo">
     <configuration name="CompletableFutureDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.cf.CompletableFutureDemo" />
       <module name="sgg-juc" />
@@ -129,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FutureThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.cf.FutureThreadPoolDemo" />
+    <configuration name="FutureAPIDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.cf.FutureAPIDemo" />
       <module name="sgg-juc" />
       <extension name="coverage">
         <pattern>
@@ -142,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.lcr.class122.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.lcr.class122.Solution" />
-      <module name="jianzhi-Offer-Leetcode" />
+    <configuration name="FutureThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.cf.FutureThreadPoolDemo" />
+      <module name="sgg-juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.lcr.class122.*" />
+          <option name="PATTERN" value="icu.xiamu.juc.cf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,8 +192,8 @@
     <list>
       <item itemvalue="Application.CompletableFutureDemo" />
       <item itemvalue="Application.DaemonDemo" />
+      <item itemvalue="Application.FutureAPIDemo" />
       <item itemvalue="Application.FutureThreadPoolDemo" />
-      <item itemvalue="Application.icu.xiamu.lcr.class122.Solution" />
       <item itemvalue="Application.icu.xiamu.lcr.class123.Solution" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
       <item itemvalue="Spring Boot.BootRedis02Application" />
@@ -201,11 +201,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FutureAPIDemo" />
         <item itemvalue="Application.FutureThreadPoolDemo" />
         <item itemvalue="Application.CompletableFutureDemo" />
         <item itemvalue="Application.DaemonDemo" />
         <item itemvalue="Application.icu.xiamu.lcr.class123.Solution" />
-        <item itemvalue="Application.icu.xiamu.lcr.class122.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -224,15 +224,7 @@
       <workItem from="1706457455338" duration="5000" />
       <workItem from="1706459764998" duration="65191000" />
       <workItem from="1706710252000" duration="174087000" />
-      <workItem from="1707995902554" duration="8604000" />
-    </task>
-    <task id="LOCAL-00105" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1706943597543</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1706943597544</updated>
+      <workItem from="1707995902554" duration="9129000" />
     </task>
     <task id="LOCAL-00106" summary="leetcode">
       <option name="closed" value="true" />
@@ -618,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708004413127</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="3.future结合线程池提示性能">
+      <option name="closed" value="true" />
+      <created>1708006670584</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1708006670584</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +650,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="7.Condition接口: lock await signal" />
     <MESSAGE value="8.LockSupport类: park unpark" />
     <MESSAGE value="6.AQSDemo" />
     <MESSAGE value="9.AQSDemo" />
@@ -675,7 +674,8 @@
     <MESSAGE value="JUC" />
     <MESSAGE value="2.daemon" />
     <MESSAGE value="3.CompletableFuture" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.CompletableFuture" />
+    <MESSAGE value="3.future结合线程池提示性能" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.future结合线程池提示性能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
