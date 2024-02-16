@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sgg-juc/src/main/java/icu/xiamu/juc/cf/FutureAPIDemo.java" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="4.Future缺点">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgg-juc/src/main/java/icu/xiamu/juc/cf/FutureAPIDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/sgg-juc/src/main/java/icu/xiamu/juc/cf/FutureAPIDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,15 +224,8 @@
       <workItem from="1706457455338" duration="5000" />
       <workItem from="1706459764998" duration="65191000" />
       <workItem from="1706710252000" duration="174087000" />
-      <workItem from="1707995902554" duration="9129000" />
-    </task>
-    <task id="LOCAL-00106" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1707013457305</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1707013457305</updated>
+      <workItem from="1707995902554" duration="11121000" />
+      <workItem from="1708014126143" duration="624000" />
     </task>
     <task id="LOCAL-00107" summary="leetcode">
       <option name="closed" value="true" />
@@ -618,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708006670584</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="4.Future缺点">
+      <option name="closed" value="true" />
+      <created>1708007220549</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1708007220549</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +651,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="8.LockSupport类: park unpark" />
     <MESSAGE value="6.AQSDemo" />
     <MESSAGE value="9.AQSDemo" />
     <MESSAGE value="10.Spring4 AOP测试" />
@@ -675,7 +675,8 @@
     <MESSAGE value="2.daemon" />
     <MESSAGE value="3.CompletableFuture" />
     <MESSAGE value="3.future结合线程池提示性能" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.future结合线程池提示性能" />
+    <MESSAGE value="4.Future缺点" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.Future缺点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
