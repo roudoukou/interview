@@ -11,12 +11,12 @@ class Solution {
     List<Integer> path = new ArrayList<>();
 
     public List<List<Integer>> subsets(int[] nums) {
-        process(nums, 0);
+        process1(nums, 0);
         result.add(new ArrayList<>()); // 处理一个特殊值
         return result;
     }
 
-    private void process(int[] nums, int index) {
+    private void process1(int[] nums, int index) {
         if (index == nums.length) {
             // result.add(new ArrayList<>(path));
             return;
@@ -24,7 +24,7 @@ class Solution {
 
         for (int i = index; i < nums.length; i++) {
             path.add(nums[i]);
-            process(nums, i+1);
+            process1(nums, i+1);
             result.add(new ArrayList<>(path));
             path.remove(path.size()-1);
         }
