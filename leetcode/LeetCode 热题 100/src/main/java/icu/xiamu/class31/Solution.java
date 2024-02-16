@@ -2,6 +2,7 @@ package icu.xiamu.class31;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -10,26 +11,37 @@ import java.util.List;
  */
 class Solution {
     public void nextPermutation(int[] nums) {
-        process1(nums, 0);
-        System.out.println(result);
+        process1(nums);
     }
 
-    List<List<Integer>> result = new ArrayList<>();
-    List<Integer> path = new ArrayList<>();
-
-    private void process1(int[] nums, int index) {
-        if (path.size() == nums.length) {
-            result.add(new ArrayList<>(path));
-            return;
-        }
-
+    /**
+     * 找到最大值, 然后向前移动一位, 我貌似理解题意错了???
+     * @param nums
+     */
+    private void process1(int[] nums) {
+        int max = Integer.MIN_VALUE;
+        int index = -1;
         for (int i = 0; i < nums.length; i++) {
-            if (!path.contains(nums[i])) path.add(nums[i]);
-            else continue;
-            process1(nums, i + 1);
-            path.remove(path.size() - 1);
+            if (max < nums[i]) {
+                max = nums[i];
+                index = i;
+            }
         }
+
+        if (nums[0] == max) {
+            // 直接返回升序
+            Arrays.sort(nums);
+        } else {
+            // 最大值向前移动一位
+            int temp = nums[index-1];
+            nums[index-1] = nums[index];
+            nums[index] = temp;
+        }
+
+
+        System.out.println(Arrays.toString(nums));
     }
+
 
     public static void main(String[] args) {
         new Solution().nextPermutation(new int[]{1, 2, 3});
