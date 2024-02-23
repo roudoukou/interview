@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/class102/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java/icu/Demo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-demo/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-transaction/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-transaction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-prometheus/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-prometheus/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-prometheus/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-prometheus/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-prometheus/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-prometheus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-prometheus/src/main/java/icu/xiamu/springprometheus/SpringPrometheusApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-prometheus/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-prometheus/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-prometheus/src/test/java/icu/xiamu/springprometheus/SpringPrometheusApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +78,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Code/面试题/leetcode/剑指Offer/src/main/java/icu/xiamu/lcr",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/Code/面试题/spring-demo/spring-prometheus/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,7 +90,7 @@
     "project.structure.proportion": "0.18652344",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "7f7559443d6bb823046b6e0fc4052029",
+    "spring.configuration.checksum": "a2886580ad76797dec2fc20037fbf1b0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -93,11 +99,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\面试题\spring-demo\spring-prometheus\src\main\resources" />
       <recent name="E:\Code\面试题\leetcode\剑指Offer\src\main\java\icu\xiamu\lcr" />
       <recent name="E:\Code\面试题\leetcode\剑指Offer" />
       <recent name="E:\Code\面试题\leetcode\LeetCode 热题 100\src\main\java\icu\xiamu" />
       <recent name="E:\Code\面试题\leetcode\LeetCode 热题 100" />
-      <recent name="E:\Code\面试题\leetcode\LeetCode 75" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Code\面试题\spring-demo\src\main\java\icu\xiamu\springdemo" />
@@ -112,13 +118,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringDemoApplication">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class114.Solution" />
-      <module name="top-100-liked" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.Demo" />
+      <module name="leetcode-75" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.class114.*" />
+          <option name="PATTERN" value="icu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +212,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringPrometheusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-prometheus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="icu.xiamu.springprometheus.SpringPrometheusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Demo" />
       <item itemvalue="Application.icu.xiamu.class11.Solution" />
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.icu.xiamu.class102.Solution" />
       <item itemvalue="Application.icu.xiamu.class138.Solution" />
       <item itemvalue="Application.icu.xiamu.class48.Solution" />
+      <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
       <item itemvalue="Spring Boot.BootRedis02Application" />
@@ -219,11 +233,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.icu.xiamu.class11.Solution" />
         <item itemvalue="Application.icu.xiamu.class102.Solution" />
         <item itemvalue="Application.icu.xiamu.class138.Solution" />
         <item itemvalue="Application.icu.xiamu.class48.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -246,15 +260,9 @@
       <workItem from="1708014126143" duration="21556000" />
       <workItem from="1708186598234" duration="1369000" />
       <workItem from="1708321691730" duration="3081000" />
-      <workItem from="1708325808160" duration="1186000" />
-    </task>
-    <task id="LOCAL-00123" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1707274119664</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1707274119664</updated>
+      <workItem from="1708325808160" duration="3205000" />
+      <workItem from="1708347318855" duration="4648000" />
+      <workItem from="1708696183026" duration="327000" />
     </task>
     <task id="LOCAL-00124" summary="leetcode">
       <option name="closed" value="true" />
@@ -640,7 +648,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708151208255</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="项目调整">
+      <option name="closed" value="true" />
+      <created>1708327177971</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1708327177971</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,7 +688,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="6.AQSDemo" />
     <MESSAGE value="9.AQSDemo" />
     <MESSAGE value="10.Spring4 AOP测试" />
     <MESSAGE value="11.Spring5 AOP测试" />
@@ -697,7 +712,8 @@
     <MESSAGE value="4.Future缺点" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
+    <MESSAGE value="项目调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目调整" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

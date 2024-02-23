@@ -22,12 +22,8 @@
         <option value="$PROJECT_DIR$/leetcode/剑指Offer/pom.xml" />
         <option value="$PROJECT_DIR$/sgg-juc/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo/spring-prometheus/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/spring-demo/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

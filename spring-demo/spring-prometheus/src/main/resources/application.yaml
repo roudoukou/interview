@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: springboot-prometheus
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    prometheus:
+      enabled: true
+    health:
+      show-details: always
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+server:
+  port: 9333
