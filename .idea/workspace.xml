@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/尚硅谷_50道Java面试题/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/尚硅谷_50道Java面试题/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/尚硅谷_50道Java面试题/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/尚硅谷_50道Java面试题/src/main/java/icu/xiamu/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1757.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -263,15 +256,8 @@
       <workItem from="1708347318855" duration="4648000" />
       <workItem from="1708696183026" duration="4125000" />
       <workItem from="1708845302006" duration="1634000" />
-      <workItem from="1708956534351" duration="353000" />
-    </task>
-    <task id="LOCAL-00125" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1707276138666</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1707276138666</updated>
+      <workItem from="1708956534351" duration="434000" />
+      <workItem from="1709031148653" duration="315000" />
     </task>
     <task id="LOCAL-00126" summary="leetcode">
       <option name="closed" value="true" />
@@ -657,7 +643,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708696643147</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="整合prometheus">
+      <option name="closed" value="true" />
+      <created>1708956895792</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1708956895792</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,8 +707,8 @@
     <MESSAGE value="leetcode" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="项目调整" />
-    <MESSAGE value="整合prometheus" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合prometheus" />
+    <MESSAGE value="高频 SQL 50 题（基础版）" />
+    <option name="LAST_COMMIT_MESSAGE" value="高频 SQL 50 题（基础版）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
