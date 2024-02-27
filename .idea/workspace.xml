@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1683.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1378.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,15 +255,7 @@
       <workItem from="1708696183026" duration="4125000" />
       <workItem from="1708845302006" duration="1634000" />
       <workItem from="1708956534351" duration="434000" />
-      <workItem from="1709031148653" duration="1883000" />
-    </task>
-    <task id="LOCAL-00130" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1707286415119</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1707286415119</updated>
+      <workItem from="1709031148653" duration="2229000" />
     </task>
     <task id="LOCAL-00131" summary="leetcode">
       <option name="closed" value="true" />
@@ -650,7 +641,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709032722874</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="5.sql">
+      <option name="closed" value="true" />
+      <created>1709033074724</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1709033074724</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,7 +681,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="14.循环依赖案例演示" />
     <MESSAGE value="15.超卖程序 V1 搭建" />
     <MESSAGE value="16.超卖程序 V2 解决竞态条件" />
     <MESSAGE value="18.超卖程序 V4 finally自动释放分布式锁" />
@@ -707,7 +705,8 @@
     <MESSAGE value="2.sql" />
     <MESSAGE value="3.sql" />
     <MESSAGE value="4.sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.sql" />
+    <MESSAGE value="5.sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.sql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
