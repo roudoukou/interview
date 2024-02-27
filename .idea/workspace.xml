@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1581.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1667.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1527.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/笔记.md" afterDir="false" />
     </list>
@@ -258,15 +257,7 @@
       <workItem from="1708696183026" duration="4125000" />
       <workItem from="1708845302006" duration="1634000" />
       <workItem from="1708956534351" duration="434000" />
-      <workItem from="1709031148653" duration="5468000" />
-    </task>
-    <task id="LOCAL-00133" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1707290629982</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1707290629982</updated>
+      <workItem from="1709031148653" duration="6206000" />
     </task>
     <task id="LOCAL-00134" summary="leetcode">
       <option name="closed" value="true" />
@@ -652,7 +643,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709033960172</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="8.sql">
+      <option name="closed" value="true" />
+      <created>1709037395528</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1709037395528</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,7 +683,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="18.超卖程序 V4 finally自动释放分布式锁" />
     <MESSAGE value="19.超卖程序 V5 锁超时时间设定" />
     <MESSAGE value="20.超卖程序 V6 原子性保障超时时间" />
     <MESSAGE value="21.超卖程序 V7 自己只能删除自己的锁, 不许动别人的锁" />
@@ -709,7 +707,8 @@
     <MESSAGE value="5.sql" />
     <MESSAGE value="6.sql" />
     <MESSAGE value="7.sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.sql" />
+    <MESSAGE value="8.sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.sql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
