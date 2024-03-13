@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-redis</module>
-        <module>java-lambda</module>
+        <module>java-demo</module>
     </modules>
 
     <properties>
