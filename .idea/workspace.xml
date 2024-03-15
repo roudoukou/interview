@@ -8,16 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/java-demo/src/main/java/icu/xiamu/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/java-demo/src/main/java/icu/xiamu/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/几种应用场景.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/java-demo/src/main/java/icu/xiamu/Demo3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/java-lambda/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/java-demo/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/java-lambda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/java-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/java-lambda/src/main/java/icu/xiamu/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +86,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.18652344",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "通义灵码",
     "spring.configuration.checksum": "8e60ab13c2287d5ee84d4cef600ac5b8",
     "vue.rearranger.settings.migration": "true"
   }
@@ -123,13 +115,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo2">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.Demo" />
-      <module name="leetcode-75" />
+  <component name="RunManager" selected="Application.Demo3">
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo2" />
+      <module name="java-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.*" />
+          <option name="PATTERN" value="icu.xiamu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo2" />
+    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo3" />
       <module name="java-demo" />
       <extension name="coverage">
         <pattern>
@@ -226,9 +218,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.Demo2" />
+      <item itemvalue="Application.Demo3" />
       <item itemvalue="Application.icu.xiamu.Demo (2)" />
       <item itemvalue="Application.icu.xiamu.Demo (1)" />
-      <item itemvalue="Application.Demo" />
       <item itemvalue="Application.icu.xiamu.Demo" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
@@ -238,11 +230,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo3" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.icu.xiamu.Demo (2)" />
         <item itemvalue="Application.icu.xiamu.Demo (1)" />
         <item itemvalue="Application.icu.xiamu.Demo" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -273,15 +265,7 @@
       <workItem from="1709031148653" duration="7359000" />
       <workItem from="1709093187223" duration="3329000" />
       <workItem from="1710164419705" duration="3100000" />
-      <workItem from="1710167537864" duration="11218000" />
-    </task>
-    <task id="LOCAL-00137" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1707296701722</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1707296701722</updated>
+      <workItem from="1710167537864" duration="25971000" />
     </task>
     <task id="LOCAL-00138" summary="leetcode">
       <option name="closed" value="true" />
@@ -667,7 +651,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710166655122</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="Date">
+      <option name="closed" value="true" />
+      <created>1710337092821</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1710337092821</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -699,7 +691,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="22.超卖程序 V8.1 Redis事务控制删除锁" />
     <MESSAGE value="23.超卖程序 V8.2 Lua脚本控制删除锁" />
     <MESSAGE value="24.超卖程序 V9.1 Redisson分布式锁" />
     <MESSAGE value="25.LinkedHashMap巧用" />
@@ -724,7 +715,8 @@
     <MESSAGE value="9.sql" />
     <MESSAGE value="10.sql" />
     <MESSAGE value="lambda demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda demo" />
+    <MESSAGE value="Date" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -911,5 +903,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
