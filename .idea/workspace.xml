@@ -8,8 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-demo/java-demo/src/main/java/icu/xiamu/Demo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/java-read-file/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/java-read-file/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/java-read-file/src/main/java/icu/xiamu/ReadProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/java-read-file/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,33 +69,33 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Code/面试题/spring-demo/spring-prometheus/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.18652344",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "通义灵码",
-    "spring.configuration.checksum": "8e60ab13c2287d5ee84d4cef600ac5b8",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Code/面试题/spring-demo/spring-prometheus/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.18652344&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;通义灵码&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8e60ab13c2287d5ee84d4cef600ac5b8&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -115,7 +120,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo3">
+  <component name="RunManager" selected="Application.ReadProperties">
     <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo2" />
       <module name="java-demo" />
@@ -142,6 +147,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.ReadProperties" />
+      <module name="java-read-file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="icu.xiamu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="icu.xiamu.Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo" />
       <module name="sql-free-50" />
@@ -158,19 +176,6 @@
     <configuration name="icu.xiamu.Demo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo" />
       <module name="java-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="icu.xiamu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="icu.xiamu.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo" />
-      <module name="sgg-50" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="icu.xiamu.*" />
@@ -219,9 +224,9 @@
     <list>
       <item itemvalue="Application.Demo2" />
       <item itemvalue="Application.Demo3" />
+      <item itemvalue="Application.ReadProperties" />
       <item itemvalue="Application.icu.xiamu.Demo (2)" />
       <item itemvalue="Application.icu.xiamu.Demo (1)" />
-      <item itemvalue="Application.icu.xiamu.Demo" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
@@ -230,11 +235,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadProperties" />
         <item itemvalue="Application.Demo3" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.icu.xiamu.Demo (2)" />
         <item itemvalue="Application.icu.xiamu.Demo (1)" />
-        <item itemvalue="Application.icu.xiamu.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -265,15 +270,8 @@
       <workItem from="1709031148653" duration="7359000" />
       <workItem from="1709093187223" duration="3329000" />
       <workItem from="1710164419705" duration="3100000" />
-      <workItem from="1710167537864" duration="25971000" />
-    </task>
-    <task id="LOCAL-00138" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1707297245145</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1707297245145</updated>
+      <workItem from="1710167537864" duration="27492000" />
+      <workItem from="1710568169553" duration="2860000" />
     </task>
     <task id="LOCAL-00139" summary="leetcode">
       <option name="closed" value="true" />
@@ -659,7 +657,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710337092821</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="lambda表达式">
+      <option name="closed" value="true" />
+      <created>1710511727390</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1710511727390</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,7 +697,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="23.超卖程序 V8.2 Lua脚本控制删除锁" />
     <MESSAGE value="24.超卖程序 V9.1 Redisson分布式锁" />
     <MESSAGE value="25.LinkedHashMap巧用" />
     <MESSAGE value="26.LinkedHashMap巧用" />
@@ -716,7 +721,8 @@
     <MESSAGE value="10.sql" />
     <MESSAGE value="lambda demo" />
     <MESSAGE value="Date" />
-    <option name="LAST_COMMIT_MESSAGE" value="Date" />
+    <MESSAGE value="lambda表达式" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda表达式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
