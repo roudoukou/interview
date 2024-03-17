@@ -8,13 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-demo/java-read-file/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/java-read-file/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/java-read-file/src/main/java/icu/xiamu/ReadProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/java-read-file/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/java-read-file/src/main/java/icu/xiamu/ReadJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/java-read-file/src/main/resources/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/java-read-file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/java-read-file/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +117,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadProperties">
+  <component name="RunManager" selected="Application.ReadJson">
     <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo2" />
       <module name="java-demo" />
@@ -147,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.ReadProperties" />
+    <configuration name="ReadJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.ReadJson" />
       <module name="java-read-file" />
       <extension name="coverage">
         <pattern>
@@ -160,9 +157,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo" />
-      <module name="sql-free-50" />
+    <configuration name="ReadProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.ReadProperties" />
+      <module name="java-read-file" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="icu.xiamu.*" />
@@ -222,11 +219,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ReadJson" />
       <item itemvalue="Application.Demo2" />
       <item itemvalue="Application.Demo3" />
       <item itemvalue="Application.ReadProperties" />
       <item itemvalue="Application.icu.xiamu.Demo (2)" />
-      <item itemvalue="Application.icu.xiamu.Demo (1)" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
@@ -235,11 +232,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadJson" />
         <item itemvalue="Application.ReadProperties" />
         <item itemvalue="Application.Demo3" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.icu.xiamu.Demo (2)" />
-        <item itemvalue="Application.icu.xiamu.Demo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -271,15 +268,7 @@
       <workItem from="1709093187223" duration="3329000" />
       <workItem from="1710164419705" duration="3100000" />
       <workItem from="1710167537864" duration="27492000" />
-      <workItem from="1710568169553" duration="2860000" />
-    </task>
-    <task id="LOCAL-00139" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1707298777922</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1707298777922</updated>
+      <workItem from="1710568169553" duration="10280000" />
     </task>
     <task id="LOCAL-00140" summary="leetcode">
       <option name="closed" value="true" />
@@ -665,7 +654,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710511727390</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="java读取properties文件">
+      <option name="closed" value="true" />
+      <created>1710571047917</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1710571047918</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,7 +694,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="24.超卖程序 V9.1 Redisson分布式锁" />
     <MESSAGE value="25.LinkedHashMap巧用" />
     <MESSAGE value="26.LinkedHashMap巧用" />
     <MESSAGE value="JUC" />
@@ -722,7 +718,8 @@
     <MESSAGE value="lambda demo" />
     <MESSAGE value="Date" />
     <MESSAGE value="lambda表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda表达式" />
+    <MESSAGE value="java读取properties文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="java读取properties文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
