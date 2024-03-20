@@ -8,10 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-demo/java-read-file/src/main/java/icu/xiamu/ReadJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/java-read-file/src/main/resources/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/class101/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/java-demo/src/main/java/icu/xiamu/LocalDateDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/java-demo/src/main/java/icu/xiamu/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/java-read-file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/java-read-file/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/class226/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/class226/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;roudoukou&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: []
+}</component>
+  <component name="GitLabMergeRequestsSettings">{}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/roudoukou/interview.git&quot;,
+    &quot;accountId&quot;: &quot;41f8e247-dbf9-4cf2-b489-4377b761f544&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://D:/java/jdk1.8.0_141/src.zip!/java/util/Calendar.java" root0="SKIP_INSPECTION" />
   </component>
@@ -43,15 +60,16 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
+  <component name="KubernetesApiProvider">{}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:/Maven/apache-maven-3.5.4" />
         <option name="localRepository" value="D:\Maven\maven-repo" />
-        <option name="mavenHome" value="D:/Maven/apache-maven-3.5.4" />
-        <option name="useMavenConfig" value="true" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -60,39 +78,47 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2b5SBhdeqm9nu6S2XdDshq4qvb0" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Code/面试题/spring-demo/spring-prometheus/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.18652344&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;通义灵码&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;8e60ab13c2287d5ee84d4cef600ac5b8&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Solution.executor": "Run",
+    "Application.icu.xiamu.class101.Solution.executor": "Run",
+    "Application.icu.xiamu.class102.Solution.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/JT808",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.18652344",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "spring.configuration.checksum": "8e60ab13c2287d5ee84d4cef600ac5b8",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -113,13 +139,15 @@
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadJson">
-    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo2" />
+  <component name="RunManager" selected="Application.icu.xiamu.class102.Solution">
+    <configuration name="LocalDateDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.LocalDateDemo4" />
       <module name="java-demo" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +159,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo3" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class226.Solution" />
+      <module name="top-100-liked" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="icu.xiamu.class226.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Test1" />
       <module name="java-demo" />
       <extension name="coverage">
         <pattern>
@@ -144,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.ReadJson" />
-      <module name="java-read-file" />
+    <configuration name="icu.xiamu.class101.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class101.Solution" />
+      <module name="top-100-liked" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.*" />
+          <option name="PATTERN" value="icu.xiamu.class101.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,25 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.ReadProperties" />
-      <module name="java-read-file" />
+    <configuration name="icu.xiamu.class102.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class102.Solution" />
+      <module name="top-100-liked" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="icu.xiamu.Demo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo" />
-      <module name="java-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="icu.xiamu.*" />
+          <option name="PATTERN" value="icu.xiamu.class102.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +247,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReadJson" />
-      <item itemvalue="Application.Demo2" />
-      <item itemvalue="Application.Demo3" />
-      <item itemvalue="Application.ReadProperties" />
-      <item itemvalue="Application.icu.xiamu.Demo (2)" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.icu.xiamu.class101.Solution" />
+      <item itemvalue="Application.icu.xiamu.class102.Solution" />
+      <item itemvalue="Application.LocalDateDemo4" />
+      <item itemvalue="Application.Test1" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
@@ -232,13 +260,21 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadJson" />
-        <item itemvalue="Application.ReadProperties" />
-        <item itemvalue="Application.Demo3" />
-        <item itemvalue="Application.Demo2" />
-        <item itemvalue="Application.icu.xiamu.Demo (2)" />
+        <item itemvalue="Application.icu.xiamu.class102.Solution" />
+        <item itemvalue="Application.icu.xiamu.class101.Solution" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.LocalDateDemo4" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.127" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.127" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -268,15 +304,16 @@
       <workItem from="1709093187223" duration="3329000" />
       <workItem from="1710164419705" duration="3100000" />
       <workItem from="1710167537864" duration="27492000" />
-      <workItem from="1710568169553" duration="10280000" />
-    </task>
-    <task id="LOCAL-00140" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1707309125831</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1707309125831</updated>
+      <workItem from="1710568169553" duration="17835000" />
+      <workItem from="1710731589566" duration="1161000" />
+      <workItem from="1710740583384" duration="58000" />
+      <workItem from="1710760393822" duration="647000" />
+      <workItem from="1710774384048" duration="623000" />
+      <workItem from="1710857989561" duration="2297000" />
+      <workItem from="1710866725861" duration="37000" />
+      <workItem from="1710866804398" duration="666000" />
+      <workItem from="1710867883492" duration="115000" />
+      <workItem from="1710941764067" duration="4253000" />
     </task>
     <task id="LOCAL-00141" summary="leetcode">
       <option name="closed" value="true" />
@@ -662,7 +699,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710571047918</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="java读取json文件">
+      <option name="closed" value="true" />
+      <created>1710668038287</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1710668038287</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -694,7 +739,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="25.LinkedHashMap巧用" />
     <MESSAGE value="26.LinkedHashMap巧用" />
     <MESSAGE value="JUC" />
     <MESSAGE value="2.daemon" />
@@ -719,7 +763,8 @@
     <MESSAGE value="Date" />
     <MESSAGE value="lambda表达式" />
     <MESSAGE value="java读取properties文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="java读取properties文件" />
+    <MESSAGE value="java读取json文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="java读取json文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

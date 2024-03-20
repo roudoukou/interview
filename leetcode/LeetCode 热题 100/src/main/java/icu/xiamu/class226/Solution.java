@@ -2,6 +2,11 @@ package icu.xiamu.class226;
 
 import icu.xiamu.common.TreeNode;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 /**
  * 226. 翻转二叉树
  * https://leetcode.cn/problems/invert-binary-tree/description/?envType=study-plan-v2&envId=top-100-liked
@@ -22,7 +27,19 @@ import icu.xiamu.common.TreeNode;
 class Solution {
     // 直接遍历 , 然后交换左节点和右节点
     public TreeNode invertTree(TreeNode root) {
-        process1(root);
+        return process2(root);
+    }
+
+    private TreeNode process2(TreeNode root) {
+        if (root == null) return null;
+
+        TreeNode tmp = root.right;
+        root.right = root.left;
+        root.left = tmp;
+
+        process2(root.left);
+        process2(root.right);
+
         return root;
     }
 
