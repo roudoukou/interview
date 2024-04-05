@@ -7,11 +7,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="LeetCode">
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/RedissonScheduler.java" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="redis">
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/class279/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-redis/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,39 +82,40 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.RedissonScheduler.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.icu.xiamu.class101.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.icu.xiamu.class102.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/JT808&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.18652344&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;8e60ab13c2287d5ee84d4cef600ac5b8&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Demo1.executor": "Run",
+    "Application.RedissonScheduler.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.icu.xiamu.class101.Solution.executor": "Run",
+    "Application.icu.xiamu.class102.Solution.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/JT808",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.18652344",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "8e60ab13c2287d5ee84d4cef600ac5b8",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -143,7 +142,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RedissonScheduler">
+  <component name="RunManager" selected="Application.Demo1">
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo1" />
+      <module name="top-100-liked" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="icu.xiamu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedissonScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.RedissonScheduler" />
       <module name="spring-redis" />
@@ -163,19 +175,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="icu.xiamu.class226.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Test1" />
-      <module name="java-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="icu.xiamu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,11 +244,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Demo1" />
       <item itemvalue="Application.RedissonScheduler" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.icu.xiamu.class101.Solution" />
       <item itemvalue="Application.icu.xiamu.class102.Solution" />
-      <item itemvalue="Application.Test1" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
@@ -258,11 +257,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.RedissonScheduler" />
         <item itemvalue="Application.icu.xiamu.class102.Solution" />
         <item itemvalue="Application.icu.xiamu.class101.Solution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -317,14 +316,10 @@
       <workItem from="1711011199846" duration="24000" />
       <workItem from="1711109418564" duration="3777000" />
       <workItem from="1711201018068" duration="48000" />
-    </task>
-    <task id="LOCAL-00142" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1707311066382</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1707311066382</updated>
+      <workItem from="1711257298131" duration="2469000" />
+      <workItem from="1711288385857" duration="487000" />
+      <workItem from="1711937685487" duration="951000" />
+      <workItem from="1712205535553" duration="1343000" />
     </task>
     <task id="LOCAL-00143" summary="leetcode">
       <option name="closed" value="true" />
@@ -710,7 +705,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710950311821</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="redis">
+      <option name="closed" value="true" />
+      <created>1711257559544</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1711257559545</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,7 +745,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="JUC" />
     <MESSAGE value="2.daemon" />
     <MESSAGE value="3.CompletableFuture" />
     <MESSAGE value="3.future结合线程池提示性能" />
@@ -767,7 +769,8 @@
     <MESSAGE value="java读取properties文件" />
     <MESSAGE value="java读取json文件" />
     <MESSAGE value="LeetCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode" />
+    <MESSAGE value="redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
