@@ -7,8 +7,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="redis">
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/class279/Solution.java" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="leetcode">
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/meituan/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/meituan/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/meituan/Demo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/meituan/Demo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,10 +88,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Demo1.executor": "Run",
+    "Application.Demo2.executor": "Run",
+    "Application.Demo3.executor": "Run",
+    "Application.Demo4.executor": "Run",
     "Application.RedissonScheduler.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.icu.xiamu.class101.Solution.executor": "Run",
     "Application.icu.xiamu.class102.Solution.executor": "Run",
+    "Application.icu.xiamu.meituan.Demo1.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -142,7 +149,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo1">
+  <component name="RunManager" selected="Application.Demo2">
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.Demo1" />
       <module name="top-100-liked" />
@@ -156,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedissonScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.RedissonScheduler" />
-      <module name="spring-redis" />
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.meituan.Demo2" />
+      <module name="top-100-liked" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.*" />
+          <option name="PATTERN" value="icu.xiamu.meituan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class226.Solution" />
+    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.meituan.Demo3" />
       <module name="top-100-liked" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.class226.*" />
+          <option name="PATTERN" value="icu.xiamu.meituan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.class101.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class101.Solution" />
+    <configuration name="Demo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.meituan.Demo4" />
       <module name="top-100-liked" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.class101.*" />
+          <option name="PATTERN" value="icu.xiamu.meituan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="icu.xiamu.class102.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.class102.Solution" />
+    <configuration name="icu.xiamu.meituan.Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.meituan.Demo1" />
       <module name="top-100-liked" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.class102.*" />
+          <option name="PATTERN" value="icu.xiamu.meituan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +251,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Demo2" />
+      <item itemvalue="Application.Demo3" />
+      <item itemvalue="Application.Demo4" />
+      <item itemvalue="Application.icu.xiamu.meituan.Demo1" />
       <item itemvalue="Application.Demo1" />
-      <item itemvalue="Application.RedissonScheduler" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.icu.xiamu.class101.Solution" />
-      <item itemvalue="Application.icu.xiamu.class102.Solution" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
@@ -257,11 +264,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.Demo3" />
+        <item itemvalue="Application.Demo4" />
+        <item itemvalue="Application.icu.xiamu.meituan.Demo1" />
         <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.RedissonScheduler" />
-        <item itemvalue="Application.icu.xiamu.class102.Solution" />
-        <item itemvalue="Application.icu.xiamu.class101.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -319,15 +326,8 @@
       <workItem from="1711257298131" duration="2469000" />
       <workItem from="1711288385857" duration="487000" />
       <workItem from="1711937685487" duration="951000" />
-      <workItem from="1712205535553" duration="1343000" />
-    </task>
-    <task id="LOCAL-00143" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1707311778950</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1707311778950</updated>
+      <workItem from="1712205535553" duration="3815000" />
+      <workItem from="1712370850454" duration="4953000" />
     </task>
     <task id="LOCAL-00144" summary="leetcode">
       <option name="closed" value="true" />
@@ -713,7 +713,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711257559545</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1712329120382</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1712329120383</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,7 +758,6 @@
     <MESSAGE value="3.future结合线程池提示性能" />
     <MESSAGE value="4.Future缺点" />
     <MESSAGE value="leetcode" />
-    <MESSAGE value="leetcode" />
     <MESSAGE value="项目调整" />
     <MESSAGE value="高频 SQL 50 题（基础版）" />
     <MESSAGE value="1.sql" />
@@ -770,7 +777,8 @@
     <MESSAGE value="java读取json文件" />
     <MESSAGE value="LeetCode" />
     <MESSAGE value="redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis" />
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -954,6 +962,26 @@
           <url>file://$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/class19/Solution.java</url>
           <line>31</line>
           <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/meituan/Demo3.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/meituan/Demo2.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/meituan/Demo2.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/meituan/Demo2.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="348" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
