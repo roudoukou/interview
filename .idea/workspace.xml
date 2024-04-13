@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="1.CompletableFuture常用方法: 获取结果和触发计算">
-      <change afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/cf/CompletableFutureAPI2Demo.java" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="3.CompletableFuture常用方法: 对计算结果进行消费">
+      <change afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/cf/CompletableFutureWithThreadPoolDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/cf/CompletableFutureAPIDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/cf/CompletableFutureAPIDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +85,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CompletableFutureAPI2Demo.executor": "Run",
+    "Application.CompletableFutureAPI3Demo.executor": "Run",
     "Application.CompletableFutureAPIDemo.executor": "Run",
     "Application.CompletableFutureBuildDemo.executor": "Run",
     "Application.CompletableFutureMallDemo.executor": "Run",
     "Application.CompletableFutureUseDemo.executor": "Run",
+    "Application.CompletableFutureWithThreadPoolDemo.executor": "Run",
     "Application.Demo1.executor": "Run",
     "Application.Demo2.executor": "Run",
     "Application.Demo3.executor": "Run",
@@ -152,9 +153,22 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompletableFutureAPI2Demo">
+  <component name="RunManager" selected="Application.CompletableFutureWithThreadPoolDemo">
     <configuration name="CompletableFutureAPI2Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.cf.CompletableFutureAPI2Demo" />
+      <module name="sgg-juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="icu.xiamu.juc.cf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompletableFutureAPI3Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.cf.CompletableFutureAPI3Demo" />
       <module name="sgg-juc" />
       <extension name="coverage">
         <pattern>
@@ -179,19 +193,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompletableFutureBuildDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.cf.CompletableFutureBuildDemo" />
-      <module name="sgg-juc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="icu.xiamu.juc.cf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CompletableFutureMallDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.cf.CompletableFutureMallDemo" />
       <module name="sgg-juc" />
@@ -205,8 +206,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompletableFutureUseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.cf.CompletableFutureUseDemo" />
+    <configuration name="CompletableFutureWithThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.cf.CompletableFutureWithThreadPoolDemo" />
       <module name="sgg-juc" />
       <extension name="coverage">
         <pattern>
@@ -255,10 +256,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.CompletableFutureAPI2Demo" />
+      <item itemvalue="Application.CompletableFutureAPI3Demo" />
       <item itemvalue="Application.CompletableFutureAPIDemo" />
-      <item itemvalue="Application.CompletableFutureBuildDemo" />
       <item itemvalue="Application.CompletableFutureMallDemo" />
-      <item itemvalue="Application.CompletableFutureUseDemo" />
+      <item itemvalue="Application.CompletableFutureWithThreadPoolDemo" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
@@ -267,11 +268,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompletableFutureWithThreadPoolDemo" />
+        <item itemvalue="Application.CompletableFutureAPI3Demo" />
         <item itemvalue="Application.CompletableFutureAPI2Demo" />
         <item itemvalue="Application.CompletableFutureAPIDemo" />
         <item itemvalue="Application.CompletableFutureMallDemo" />
-        <item itemvalue="Application.CompletableFutureUseDemo" />
-        <item itemvalue="Application.CompletableFutureBuildDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -332,23 +333,7 @@
       <workItem from="1712205535553" duration="3815000" />
       <workItem from="1712370850454" duration="4953000" />
       <workItem from="1712375888665" duration="1043000" />
-      <workItem from="1712938893305" duration="13291000" />
-    </task>
-    <task id="LOCAL-00152" summary="daemon">
-      <option name="closed" value="true" />
-      <created>1708001352022</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1708001352023</updated>
-    </task>
-    <task id="LOCAL-00153" summary="3.CompletableFuture">
-      <option name="closed" value="true" />
-      <created>1708004413127</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1708004413127</updated>
+      <workItem from="1712938893305" duration="14634000" />
     </task>
     <task id="LOCAL-00154" summary="3.future结合线程池提示性能">
       <option name="closed" value="true" />
@@ -726,7 +711,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712985705334</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="2.CompletableFuture常用方法: 对计算结果进行处理">
+      <option name="closed" value="true" />
+      <created>1712992401646</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1712992401647</updated>
+    </task>
+    <task id="LOCAL-00202" summary="3.CompletableFuture常用方法: 对计算结果进行消费">
+      <option name="closed" value="true" />
+      <created>1712993504913</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1712993504913</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -758,8 +759,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="1.sql" />
-    <MESSAGE value="2.sql" />
     <MESSAGE value="3.sql" />
     <MESSAGE value="4.sql" />
     <MESSAGE value="5.sql" />
@@ -783,7 +782,9 @@
     <MESSAGE value="CompletableFuture的get()与join区别" />
     <MESSAGE value="CompletableFuture的实战演示,电商案例" />
     <MESSAGE value="1.CompletableFuture常用方法: 获取结果和触发计算" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.CompletableFuture常用方法: 获取结果和触发计算" />
+    <MESSAGE value="2.CompletableFuture常用方法: 对计算结果进行处理" />
+    <MESSAGE value="3.CompletableFuture常用方法: 对计算结果进行消费" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.CompletableFuture常用方法: 对计算结果进行消费" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
