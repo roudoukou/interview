@@ -1,70 +1,106 @@
 package icu.xiamu.juc.cf;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.experimental.Accessors;
+import lombok.Getter;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ThreadLocalRandom;
+import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 /**
  * @author 肉豆蔻吖
  * @date 2024/4/13
  */
 public class CompletableFutureMallDemo {
-    public static void main(String[] args) {
-        // chain链式调用
-        // chain();
 
-        CompletableFuture<String> completableFuture = CompletableFuture.supplyAsync(() -> {
-            int i =  1/0;
-            return "hello 1234";
-        });
-        // System.out.println(completableFuture.get());
-        System.out.println(completableFuture.join());
+    static List<NetMall> list = Arrays.asList(
+            new NetMall("jd"),
+            new NetMall("taobao"),
+            new NetMall("dangdang"),
+            new NetMall("amazon"),
+            new NetMall("pdd"),
+            new NetMall("tmall")
+    );
+
+    /**
+     * step by step 一家家搜查
+     * @param list
+     * @param productName
+     * @return
+     */
+    public static List<String> getPrice(List<NetMall> list, String productName) {
+        return list.stream().map(netMall -> String.format(productName + "in %s price is %.2f",
+                        netMall.getNetMallName(),
+                        netMall.calcPrice(productName))
+                ).collect(Collectors.toList());
     }
 
-    private static void chain() {
-        Student student = new Student();
+    public static List<String> getPriceByCompletableFuture(List<NetMall> list, String productName) {
+        return list.stream().map(netMall -> CompletableFuture.supplyAsync(() -> {
+                    return String.format(productName + "in %s price is %.2f", netMall.getNetMallName(), netMall.calcPrice(productName));
+                })).collect(Collectors.toList())
+                .stream().map(data -> data.join())
+                .collect(Collectors.toList());
+    }
 
-        student.setId(1);
-        student.setStudentName("黄磊");
-        student.setMajor("软件工程");
+    public static void main(String[] args) {
+        long startTime = System.currentTimeMillis();
+        List<String> list1 = getPrice(list, "mysql");
+        for (String element : list1) {
+            System.out.println(element);
+        }
+        long endTime = System.currentTimeMillis();
+        System.out.println("----costTime: " + (endTime - startTime) + "毫秒");
 
-        System.out.println(student);
-
-        Student student2 = student.setId(2)
-                .setStudentName("黄磊")
-                .setMajor("泌尿科");
-        System.out.println(student2);
-
-        // 运行结果:
+        // 运行结果
         /*
-        Student(id=1, studentName=黄磊, major=软件工程)
-        Student(id=2, studentName=黄磊, major=泌尿科)
+        mysqlin jd price is 110.68
+        mysqlin taobao price is 110.77
+        mysqlin dangdang price is 109.00
+        mysqlin amazon price is 109.02
+        mysqlin pdd price is 109.35
+        mysqlin tmall price is 110.51
+        ----costTime: 6154毫秒
+         */
+
+        long startTime2 = System.currentTimeMillis();
+        List<String> list2 = getPriceByCompletableFuture(list, "mysql");
+        for (String element : list2) {
+            System.out.println(element);
+        }
+        long endTime2 = System.currentTimeMillis();
+        System.out.println("----costTime: " + (endTime2 - startTime2) + "毫秒");
+
+        // 运行结果
+        /*
+        mysqlin jd price is 109.49
+        mysqlin taobao price is 109.91
+        mysqlin dangdang price is 109.19
+        mysqlin amazon price is 109.23
+        mysqlin pdd price is 109.79
+        mysqlin tmall price is 110.17
+        ----costTime: 1015毫秒
          */
     }
 }
 
-@AllArgsConstructor
-@NoArgsConstructor
-@Data
-@Accessors(chain = true)
-class Student {
-    private Integer id;
-    private String studentName;
-    private String major;
+class NetMall {
+    @Getter
+    private String netMallName;
 
-    // 链式调用本质基本上就是返回值返回了当前函数对象本身
-    /*
-    public void setId(Integer id) {
-        this.id = id;
+    public NetMall(String netMallName) {
+        this.netMallName = netMallName;
     }
 
-    public Student setId(Integer id) {
-        this.id = id;
-        return this;
+    public double calcPrice(String productName) {
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        return ThreadLocalRandom.current().nextDouble() * 2 + productName.charAt(0);
     }
-    */
 }

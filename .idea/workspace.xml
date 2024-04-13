@@ -7,10 +7,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="CompletableFuture的whenComplete用法">
-      <change afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/cf/CompletableFutureMallDemo.java" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="CompletableFuture的get()与join区别">
+      <change afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/cf/CompletableFutureChainDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/尚硅谷JUC并发编程/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/cf/CompletableFutureMallDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/cf/CompletableFutureMallDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +119,7 @@
     "project.structure.proportion": "0.18652344",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editing.templates",
     "spring.configuration.checksum": "8e60ab13c2287d5ee84d4cef600ac5b8",
     "vue.rearranger.settings.migration": "true"
   }
@@ -330,23 +330,7 @@
       <workItem from="1712205535553" duration="3815000" />
       <workItem from="1712370850454" duration="4953000" />
       <workItem from="1712375888665" duration="1043000" />
-      <workItem from="1712938893305" duration="6581000" />
-    </task>
-    <task id="LOCAL-00148" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1707397834381</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1707397834382</updated>
-    </task>
-    <task id="LOCAL-00149" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1707827966708</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1707827966708</updated>
+      <workItem from="1712938893305" duration="9394000" />
     </task>
     <task id="LOCAL-00150" summary="JUC">
       <option name="closed" value="true" />
@@ -724,7 +708,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712980618518</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="chain链式调用">
+      <option name="closed" value="true" />
+      <created>1712981350628</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1712981350629</updated>
+    </task>
+    <task id="LOCAL-00198" summary="CompletableFuture的get()与join区别">
+      <option name="closed" value="true" />
+      <created>1712981589863</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1712981589863</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -756,8 +756,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="4.Future缺点" />
-    <MESSAGE value="leetcode" />
     <MESSAGE value="项目调整" />
     <MESSAGE value="高频 SQL 50 题（基础版）" />
     <MESSAGE value="1.sql" />
@@ -781,7 +779,9 @@
     <MESSAGE value="美团笔试题" />
     <MESSAGE value="CompletableFuture的runAsync() supplyAsync()的演示" />
     <MESSAGE value="CompletableFuture的whenComplete用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="CompletableFuture的whenComplete用法" />
+    <MESSAGE value="chain链式调用" />
+    <MESSAGE value="CompletableFuture的get()与join区别" />
+    <option name="LAST_COMMIT_MESSAGE" value="CompletableFuture的get()与join区别" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
