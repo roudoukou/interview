@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class CompletableFutureFastDemo {
     public static void main(String[] args) {
+
         CompletableFuture<String> playA = CompletableFuture.supplyAsync(() -> {
             System.out.println("A come in");
             try {
@@ -34,5 +35,9 @@ public class CompletableFutureFastDemo {
         });
 
         System.out.println(Thread.currentThread().getName() + "\t" + result.join());
+        // A come in
+        // B come in
+        // main	playA is winner
+
     }
 }
