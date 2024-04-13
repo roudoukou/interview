@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="3.CompletableFuture常用方法: 对计算结果进行消费">
-      <change afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/cf/CompletableFutureWithThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="3.CompletableFuture常用方法: 对计算结果进行消费" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +19,7 @@
         <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Kubernetes Pod" />
       </list>
     </option>
   </component>
@@ -153,7 +151,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompletableFutureWithThreadPoolDemo">
+  <component name="RunManager" selected="Application.CompletableFutureFastDemo">
     <configuration name="CompletableFutureAPI2Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.cf.CompletableFutureAPI2Demo" />
       <module name="sgg-juc" />
@@ -193,8 +191,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompletableFutureMallDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.cf.CompletableFutureMallDemo" />
+    <configuration name="CompletableFutureFastDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.cf.CompletableFutureFastDemo" />
       <module name="sgg-juc" />
       <extension name="coverage">
         <pattern>
@@ -258,7 +256,7 @@
       <item itemvalue="Application.CompletableFutureAPI2Demo" />
       <item itemvalue="Application.CompletableFutureAPI3Demo" />
       <item itemvalue="Application.CompletableFutureAPIDemo" />
-      <item itemvalue="Application.CompletableFutureMallDemo" />
+      <item itemvalue="Application.CompletableFutureFastDemo" />
       <item itemvalue="Application.CompletableFutureWithThreadPoolDemo" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
@@ -268,11 +266,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompletableFutureFastDemo" />
         <item itemvalue="Application.CompletableFutureWithThreadPoolDemo" />
         <item itemvalue="Application.CompletableFutureAPI3Demo" />
         <item itemvalue="Application.CompletableFutureAPI2Demo" />
         <item itemvalue="Application.CompletableFutureAPIDemo" />
-        <item itemvalue="Application.CompletableFutureMallDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -333,15 +331,7 @@
       <workItem from="1712205535553" duration="3815000" />
       <workItem from="1712370850454" duration="4953000" />
       <workItem from="1712375888665" duration="1043000" />
-      <workItem from="1712938893305" duration="14634000" />
-    </task>
-    <task id="LOCAL-00154" summary="3.future结合线程池提示性能">
-      <option name="closed" value="true" />
-      <created>1708006670584</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1708006670584</updated>
+      <workItem from="1712938893305" duration="15496000" />
     </task>
     <task id="LOCAL-00155" summary="4.Future缺点">
       <option name="closed" value="true" />
@@ -727,7 +717,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712993504913</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="3.CompletableFuture常用方法: 对计算结果进行消费">
+      <option name="closed" value="true" />
+      <created>1712993901146</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1712993901146</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
