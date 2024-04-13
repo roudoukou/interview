@@ -39,7 +39,7 @@ public class CompletableFutureAPIDemo {
         // }
         // System.out.println(completableFuture.getNow("黄磊不帅"));
 
-        // 是否被打断,
+        // 是否被打断
         // 已经算出结果了, 没有打断   => false abc
         // 还没有结果, 打断了 , 直接要结果 => true completeValue
         TimeUnit.SECONDS.sleep(1);
