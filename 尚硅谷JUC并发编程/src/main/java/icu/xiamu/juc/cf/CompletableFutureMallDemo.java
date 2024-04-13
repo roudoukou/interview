@@ -5,12 +5,27 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
+
 /**
  * @author 肉豆蔻吖
  * @date 2024/4/13
  */
 public class CompletableFutureMallDemo {
     public static void main(String[] args) {
+        // chain链式调用
+        // chain();
+
+        CompletableFuture<String> completableFuture = CompletableFuture.supplyAsync(() -> {
+            int i =  1/0;
+            return "hello 1234";
+        });
+        // System.out.println(completableFuture.get());
+        System.out.println(completableFuture.join());
+    }
+
+    private static void chain() {
         Student student = new Student();
 
         student.setId(1);
