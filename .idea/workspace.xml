@@ -7,10 +7,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="3.CompletableFuture常用方法: 对计算速度进行选用">
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="4.CompletableFuture常用方法: 对计算速度进行选用">
       <change afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/cf/CompletableFutureCombineDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/cf/CompletableFutureFastDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/cf/CompletableFutureFastDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,15 +335,7 @@
       <workItem from="1712205535553" duration="3815000" />
       <workItem from="1712370850454" duration="4953000" />
       <workItem from="1712375888665" duration="1043000" />
-      <workItem from="1712938893305" duration="16337000" />
-    </task>
-    <task id="LOCAL-00156" summary="4.Future缺点">
-      <option name="closed" value="true" />
-      <created>1708052440652</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1708052440653</updated>
+      <workItem from="1712938893305" duration="16642000" />
     </task>
     <task id="LOCAL-00157" summary="leetcode">
       <option name="closed" value="true" />
@@ -731,7 +721,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713000764415</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="4.CompletableFuture常用方法: 对计算速度进行选用">
+      <option name="closed" value="true" />
+      <created>1713001701676</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1713001701677</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -763,7 +761,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="4.sql" />
     <MESSAGE value="5.sql" />
     <MESSAGE value="6.sql" />
     <MESSAGE value="7.sql" />
@@ -788,7 +785,8 @@
     <MESSAGE value="2.CompletableFuture常用方法: 对计算结果进行处理" />
     <MESSAGE value="3.CompletableFuture常用方法: 对计算结果进行消费" />
     <MESSAGE value="3.CompletableFuture常用方法: 对计算速度进行选用" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.CompletableFuture常用方法: 对计算速度进行选用" />
+    <MESSAGE value="4.CompletableFuture常用方法: 对计算速度进行选用" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.CompletableFuture常用方法: 对计算速度进行选用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
