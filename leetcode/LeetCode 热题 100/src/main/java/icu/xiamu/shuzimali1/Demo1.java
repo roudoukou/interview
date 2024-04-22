@@ -5,6 +5,12 @@ import java.util.Scanner;
 /**
  * @author 肉豆蔻吖
  * @date 2024/4/22
+ *
+ * https://blog.csdn.net/qq_41115379/article/details/121222768
+ *
+ * https://blog.csdn.net/weixin_53939785/article/details/122189738
+ *
+ * https://blog.csdn.net/qq_58210976/article/details/128633191
  */
 public class Demo1 {
     public static long sum = 0;
