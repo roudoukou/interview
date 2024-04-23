@@ -1,19 +1,21 @@
-spring:
-  application:
-    name: springboot-prometheus
+
+##SpringBoot2.x整合Prometheus+Grafana
+##源码：https://github.com/Rodert/SpringBoot-javapub
 management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    prometheus:
-      enabled: true
-    health:
-      show-details: always
   metrics:
     export:
       prometheus:
         enabled: true
+        step: 1m
+        descriptions: true
+  web:
+    server:
+      auto-time-requests: true
+  endpoints:
+    prometheus:
+      id: springmetrics
+    web:
+      exposure:
+        include: health,info,env,prometheus,metrics,httptrace,threaddump,heapdump,springmetrics
 server:
-  port: 9333
+  port: 8080
