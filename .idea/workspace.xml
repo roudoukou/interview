@@ -7,12 +7,35 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="5.CompletableFuture常用方法: 对计算结果进行合并">
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/shuzimali/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/shuzimali/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/shuzimali/Demo3.java" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="Spring整合Prometheus">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/197.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/570.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/577.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/620.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/old/1068.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/old/1148.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/old/1378.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/old/1581.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/old/1683.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/old/1757.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/old/584.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/old/595.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/locks/Lock8Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1068.sql" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1068.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1148.sql" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1148.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1378.sql" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1378.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1527.sql" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/old/1527.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1581.sql" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1581.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1667.sql" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/old/1667.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1683.sql" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1683.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1757.sql" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/1757.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/196.sql" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/old/196.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/584.sql" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/584.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/595.sql" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/src/main/java/icu/xiamu/595.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +134,9 @@
     &quot;Application.icu.xiamu.class101.Solution.executor&quot;: &quot;Run&quot;,
     &quot;Application.icu.xiamu.class102.Solution.executor&quot;: &quot;Run&quot;,
     &quot;Application.icu.xiamu.meituan.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.shuzimali1.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.shuzimali1.Demo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.shuzimali1.Demo3.executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -118,6 +144,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SpringPrometheusApplication.executor&quot;: &quot;Debug&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
@@ -136,6 +163,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;8e60ab13c2287d5ee84d4cef600ac5b8&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="ReactorSettings">
@@ -150,6 +182,7 @@
       <recent name="E:\Code\面试题\leetcode\LeetCode 热题 100" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\面试题\leetcode\高频 SQL 50 题（基础版）\src\main\java\icu\xiamu\old" />
       <recent name="E:\Code\面试题\spring-demo\src\main\java\icu\xiamu\springdemo" />
       <recent name="E:\Code\面试题\spring-demo\src\main\java\icu\xiamu" />
       <recent name="E:\Code\面试题\第一季" />
@@ -164,20 +197,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo2">
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.shuzimali.Demo1" />
-      <module name="top-100-liked" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="icu.xiamu.shuzimali.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.SpringPrometheusApplication">
     <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.shuzimali.Demo2" />
       <module name="top-100-liked" />
@@ -204,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lock8Demo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.locks.Lock8Demo" />
-      <module name="sgg-juc" />
+    <configuration name="icu.xiamu.shuzimali1.Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.shuzimali1.Demo1" />
+      <module name="top-100-liked" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.juc.locks.*" />
+          <option name="PATTERN" value="icu.xiamu.shuzimali1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +237,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lock8Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.locks.Lock8Demo" />
-      <module name="sgg-juc" />
+    <configuration name="icu.xiamu.shuzimali1.Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.shuzimali1.Demo2" />
+      <module name="top-100-liked" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.juc.locks.*" />
+          <option name="PATTERN" value="icu.xiamu.shuzimali1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="icu.xiamu.shuzimali1.Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.shuzimali1.Demo3" />
+      <module name="top-100-liked" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="icu.xiamu.shuzimali1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,11 +299,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo1" />
+      <item itemvalue="Application.icu.xiamu.shuzimali1.Demo1" />
+      <item itemvalue="Application.icu.xiamu.shuzimali1.Demo2" />
+      <item itemvalue="Application.icu.xiamu.shuzimali1.Demo3" />
       <item itemvalue="Application.Demo2" />
       <item itemvalue="Application.Demo3" />
-      <item itemvalue="Application.Lock8Demo" />
-      <item itemvalue="Application.Lock8Demo (3)" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
@@ -279,11 +312,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.icu.xiamu.shuzimali1.Demo2" />
+        <item itemvalue="Application.icu.xiamu.shuzimali1.Demo3" />
+        <item itemvalue="Application.icu.xiamu.shuzimali1.Demo1" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo3" />
-        <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.Lock8Demo (3)" />
-        <item itemvalue="Application.Lock8Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -346,30 +379,8 @@
       <workItem from="1712375888665" duration="1043000" />
       <workItem from="1712938893305" duration="22378000" />
       <workItem from="1713186056242" duration="6470000" />
-    </task>
-    <task id="LOCAL-00159" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1708056163396</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1708056163396</updated>
-    </task>
-    <task id="LOCAL-00160" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1708058324969</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1708058324969</updated>
-    </task>
-    <task id="LOCAL-00161" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1708058944883</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1708058944884</updated>
+      <workItem from="1713614792330" duration="183000" />
+      <workItem from="1713713528681" duration="29169000" />
     </task>
     <task id="LOCAL-00162" summary="leetcode">
       <option name="closed" value="true" />
@@ -739,7 +750,31 @@
       <option name="project" value="LOCAL" />
       <updated>1713001777447</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="数字马力第二次笔试">
+      <option name="closed" value="true" />
+      <created>1713794735190</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1713794735191</updated>
+    </task>
+    <task id="LOCAL-00209" summary="数字马力第二次笔试, 题目链接">
+      <option name="closed" value="true" />
+      <created>1713794806052</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1713794806052</updated>
+    </task>
+    <task id="LOCAL-00210" summary="Spring整合Prometheus">
+      <option name="closed" value="true" />
+      <created>1713856349808</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1713856349808</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -771,9 +806,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="6.sql" />
-    <MESSAGE value="7.sql" />
-    <MESSAGE value="8.sql" />
     <MESSAGE value="9.sql" />
     <MESSAGE value="10.sql" />
     <MESSAGE value="lambda demo" />
@@ -796,7 +828,10 @@
     <MESSAGE value="3.CompletableFuture常用方法: 对计算速度进行选用" />
     <MESSAGE value="4.CompletableFuture常用方法: 对计算速度进行选用" />
     <MESSAGE value="5.CompletableFuture常用方法: 对计算结果进行合并" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.CompletableFuture常用方法: 对计算结果进行合并" />
+    <MESSAGE value="数字马力第二次笔试" />
+    <MESSAGE value="数字马力第二次笔试, 题目链接" />
+    <MESSAGE value="Spring整合Prometheus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring整合Prometheus" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
