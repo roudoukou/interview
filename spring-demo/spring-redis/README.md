@@ -1,4 +1,6 @@
 
+## 几种常见的应用场景
+
 统计访问次数
 incr OFFICIAL_INDEX_VISIT_COUNT
 
@@ -18,3 +20,6 @@ getbit user:view:2024-01-17 123456
 全局ID
 incrby userid 10000
 
+## 使用redis和AOP切面进行限流
+
+参考连接: https://www.cnblogs.com/blbl-blog/p/17944006

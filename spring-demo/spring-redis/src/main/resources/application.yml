@@ -1,0 +1,11 @@
+spring:
+  redis:
+    host: 192.168.1.100
+    port: 6379
+    password: leadnews
+    database: 0
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.100:3306/guigu-auth?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: 123456
