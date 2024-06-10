@@ -7,11 +7,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="1.mq work way">
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="2.mq fanout">
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/routing/Consumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/routing/Consumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/routing/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/topic/Consumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/topic/Consumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/topic/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/util/Consumer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/work/Consumer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/util/Consumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/work/Consumer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/util/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/work/Producer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +102,8 @@
     "Application.CompletableFutureWithThreadPoolDemo.executor": "Run",
     "Application.ConnectionUtil.executor": "Run",
     "Application.Consumer.executor": "Run",
-    "Application.Consumer1.executor": "Run",
-    "Application.Consumer2.executor": "Run",
+    "Application.Consumer1.executor": "Debug",
+    "Application.Consumer2.executor": "Debug",
     "Application.Demo1.executor": "Run",
     "Application.Demo2.executor": "Run",
     "Application.Demo3.executor": "Run",
@@ -118,6 +121,10 @@
     "Application.Solution.executor": "Run",
     "Application.Test11.executor": "Run",
     "Application.ThreadLocal.executor": "Run",
+    "Application.com.atguigu.rabbitmq.fanout.Consumer1.executor": "Run",
+    "Application.com.atguigu.rabbitmq.fanout.Consumer2.executor": "Run",
+    "Application.com.atguigu.rabbitmq.fanout.Producer.executor": "Run",
+    "Application.com.atguigu.rabbitmq.topic.Producer.executor": "Debug",
     "Application.com.atguigu.rabbitmq.util.Producer.executor": "Run",
     "Application.icu.xiamu.class101.Solution.executor": "Run",
     "Application.icu.xiamu.class102.Solution.executor": "Run",
@@ -195,13 +202,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.atguigu.rabbitmq.fanout.Producer">
+  <component name="RunManager" selected="Application.com.atguigu.rabbitmq.topic.Producer">
     <configuration name="Consumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.work.Consumer2" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.routing.Consumer2" />
       <module name="module02-work-way" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.rabbitmq.work.*" />
+          <option name="PATTERN" value="com.atguigu.rabbitmq.routing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,11 +217,11 @@
       </method>
     </configuration>
     <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.work.Producer" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.routing.Producer" />
       <module name="module02-work-way" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.rabbitmq.work.*" />
+          <option name="PATTERN" value="com.atguigu.rabbitmq.routing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +229,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atguigu.rabbitmq.fanout.Consumer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.fanout.Consumer1" />
+    <configuration name="com.atguigu.rabbitmq.topic.Consumer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.topic.Consumer1" />
       <module name="module02-work-way" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.rabbitmq.fanout.*" />
+          <option name="PATTERN" value="com.atguigu.rabbitmq.topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +242,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atguigu.rabbitmq.fanout.Consumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.fanout.Consumer2" />
+    <configuration name="com.atguigu.rabbitmq.topic.Consumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.topic.Consumer2" />
       <module name="module02-work-way" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.rabbitmq.fanout.*" />
+          <option name="PATTERN" value="com.atguigu.rabbitmq.topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atguigu.rabbitmq.fanout.Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.fanout.Producer" />
+    <configuration name="com.atguigu.rabbitmq.topic.Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.topic.Producer" />
       <module name="module02-work-way" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.rabbitmq.fanout.*" />
+          <option name="PATTERN" value="com.atguigu.rabbitmq.topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,10 +305,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.Consumer2" />
-      <item itemvalue="Application.com.atguigu.rabbitmq.util.Producer" />
-      <item itemvalue="Application.com.atguigu.rabbitmq.fanout.Consumer1" />
-      <item itemvalue="Application.com.atguigu.rabbitmq.fanout.Consumer2" />
-      <item itemvalue="Application.com.atguigu.rabbitmq.fanout.Producer" />
+      <item itemvalue="Application.Producer" />
+      <item itemvalue="Application.com.atguigu.rabbitmq.topic.Consumer1" />
+      <item itemvalue="Application.com.atguigu.rabbitmq.topic.Consumer2" />
+      <item itemvalue="Application.com.atguigu.rabbitmq.topic.Producer" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
@@ -310,10 +317,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.atguigu.rabbitmq.fanout.Producer" />
-        <item itemvalue="Application.com.atguigu.rabbitmq.fanout.Consumer2" />
-        <item itemvalue="Application.com.atguigu.rabbitmq.fanout.Consumer1" />
-        <item itemvalue="Application.com.atguigu.rabbitmq.util.Producer" />
+        <item itemvalue="Application.com.atguigu.rabbitmq.topic.Producer" />
+        <item itemvalue="Application.com.atguigu.rabbitmq.topic.Consumer2" />
+        <item itemvalue="Application.com.atguigu.rabbitmq.topic.Consumer1" />
+        <item itemvalue="Application.Producer" />
         <item itemvalue="Application.Consumer2" />
       </list>
     </recent_temporary>
@@ -389,15 +396,7 @@
       <workItem from="1715095745423" duration="1160000" />
       <workItem from="1715398404084" duration="55000" />
       <workItem from="1715491494435" duration="2497000" />
-      <workItem from="1718003324941" duration="2933000" />
-    </task>
-    <task id="LOCAL-00169" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1708100972114</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1708100972114</updated>
+      <workItem from="1718003324941" duration="4628000" />
     </task>
     <task id="LOCAL-00170" summary="leetcode">
       <option name="closed" value="true" />
@@ -783,7 +782,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718005375443</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="2.mq fanout">
+      <option name="closed" value="true" />
+      <created>1718006458889</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1718006458889</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,7 +822,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="LeetCode" />
     <MESSAGE value="redis" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="美团笔试题" />
@@ -840,7 +846,8 @@
     <MESSAGE value="_" />
     <MESSAGE value="1.mq hello world" />
     <MESSAGE value="1.mq work way" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.mq work way" />
+    <MESSAGE value="2.mq fanout" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.mq fanout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
