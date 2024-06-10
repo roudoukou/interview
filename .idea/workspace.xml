@@ -7,29 +7,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="spring-jenkins">
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/RedisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/controller/RedisRateLimiterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/exception/GuliException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/exception/RedisLimiterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/LimitType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/MessageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/RateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/RateLimiterAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/ServletUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/SpringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="代理模式">
+      <change afterPath="$PROJECT_DIR$/java-tools/markdown-tools/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-tools/markdown-tools/src/main/java/icu/xiamu/MarkdownParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-tools/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/src/main/java/icu/xiamu/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/locks/Lock8Demo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/locks/Lock_SyncDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/RedissonScheduler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-redis/几种应用场景.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-redis/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,9 +111,12 @@
     "Application.Lock8Demo (3).executor": "Run",
     "Application.Lock8Demo.executor": "Run",
     "Application.Lock_SyncDemo.executor": "Run",
+    "Application.Main.executor": "Debug",
+    "Application.MarkdownParser.executor": "Run",
     "Application.RedisApplication.executor": "Debug",
     "Application.RedissonScheduler.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.Test11.executor": "Run",
     "Application.ThreadLocal.executor": "Run",
     "Application.icu.xiamu.class101.Solution.executor": "Run",
     "Application.icu.xiamu.class102.Solution.executor": "Run",
@@ -152,14 +143,14 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/JT808",
+    "last_opened_file_path": "E:/Code/Elasticsearch/ES",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.18652344",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
@@ -200,23 +191,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RedisApplication">
-    <configuration name="Lock_SyncDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.locks.Lock_SyncDemo" />
-      <module name="sgg-juc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="icu.xiamu.juc.locks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.RedisApplication" />
-      <module name="spring-redis" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Main" />
+      <module name="rabbimt-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="icu.xiamu.*" />
@@ -227,8 +205,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisApplication | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/RedisApplication.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
+    <configuration name="MarkdownParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.MarkdownParser" />
+      <module name="markdown-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="icu.xiamu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Test11" />
+      <module name="markdown-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="icu.xiamu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="RedisApplication | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/RedisApplication.http" index="2" requestIdentifier="#2" runType="Run single request">
       <method v="2" />
@@ -283,9 +284,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RedisApplication" />
-      <item itemvalue="Application.Lock_SyncDemo" />
-      <item itemvalue="HTTP Request.RedisApplication | #1" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MarkdownParser" />
+      <item itemvalue="Application.Test11" />
       <item itemvalue="HTTP Request.RedisApplication | #2" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
@@ -296,11 +297,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MarkdownParser" />
+        <item itemvalue="Application.Test11" />
         <item itemvalue="Spring Boot.RedisApplication" />
         <item itemvalue="HTTP Request.RedisApplication | #2" />
-        <item itemvalue="Application.RedisApplication" />
-        <item itemvalue="HTTP Request.RedisApplication | #1" />
-        <item itemvalue="Application.Lock_SyncDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -369,23 +370,13 @@
       <workItem from="1714218719462" duration="8867000" />
       <workItem from="1714463586579" duration="2829000" />
       <workItem from="1714466478819" duration="1601000" />
-      <workItem from="1714468097218" duration="20128000" />
-    </task>
-    <task id="LOCAL-00164" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1708061732695</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1708061732695</updated>
-    </task>
-    <task id="LOCAL-00165" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1708096325157</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1708096325157</updated>
+      <workItem from="1714468097218" duration="21010000" />
+      <workItem from="1714669792565" duration="4539000" />
+      <workItem from="1714979237676" duration="1239000" />
+      <workItem from="1715095745423" duration="1160000" />
+      <workItem from="1715398404084" duration="55000" />
+      <workItem from="1715491494435" duration="2497000" />
+      <workItem from="1718003324941" duration="261000" />
     </task>
     <task id="LOCAL-00166" summary="leetcode">
       <option name="closed" value="true" />
@@ -763,7 +754,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714370019906</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="使用redis限流操作">
+      <option name="closed" value="true" />
+      <created>1714495695134</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1714495695134</updated>
+    </task>
+    <task id="LOCAL-00214" summary="代理模式">
+      <option name="closed" value="true" />
+      <created>1715504347522</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1715504347523</updated>
+    </task>
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,8 +802,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="lambda demo" />
-    <MESSAGE value="Date" />
     <MESSAGE value="lambda表达式" />
     <MESSAGE value="java读取properties文件" />
     <MESSAGE value="java读取json文件" />
@@ -820,7 +825,9 @@
     <MESSAGE value="Spring整合Prometheus" />
     <MESSAGE value="sql笔试题" />
     <MESSAGE value="spring-jenkins" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-jenkins" />
+    <MESSAGE value="使用redis限流操作" />
+    <MESSAGE value="代理模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="代理模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1024,16 +1031,6 @@
           <url>file://$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/meituan/Demo2.java</url>
           <line>37</line>
           <option name="timeStamp" value="348" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/RateLimiterAspect.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="365" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/RedisUtils.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="366" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
