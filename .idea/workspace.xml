@@ -7,17 +7,19 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="代理模式">
-      <change afterPath="$PROJECT_DIR$/java-tools/markdown-tools/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-tools/markdown-tools/src/main/java/icu/xiamu/MarkdownParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-tools/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbimt-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbimt-demo/src/main/java/icu/xiamu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/locks/Lock8Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/locks/Lock_SyncDemo.java" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="_">
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module01-hello-world/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module01-hello-world/src/main/java/icu/xiamu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module01-hello-world/src/main/java/icu/xiamu/mq/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module01-hello-world/src/main/java/icu/xiamu/mq/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/util/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/com/atguigu/rabbitmq/util/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/src/main/java/icu/xiamu/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbimt-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +104,8 @@
     "Application.CompletableFutureMallDemo.executor": "Run",
     "Application.CompletableFutureUseDemo.executor": "Run",
     "Application.CompletableFutureWithThreadPoolDemo.executor": "Run",
+    "Application.ConnectionUtil.executor": "Run",
+    "Application.Consumer.executor": "Run",
     "Application.Demo1.executor": "Run",
     "Application.Demo2.executor": "Run",
     "Application.Demo3.executor": "Run",
@@ -113,11 +117,13 @@
     "Application.Lock_SyncDemo.executor": "Run",
     "Application.Main.executor": "Debug",
     "Application.MarkdownParser.executor": "Run",
+    "Application.Producer.executor": "Debug",
     "Application.RedisApplication.executor": "Debug",
     "Application.RedissonScheduler.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Test11.executor": "Run",
     "Application.ThreadLocal.executor": "Run",
+    "Application.com.atguigu.rabbitmq.util.Producer.executor": "Run",
     "Application.icu.xiamu.class101.Solution.executor": "Run",
     "Application.icu.xiamu.class102.Solution.executor": "Run",
     "Application.icu.xiamu.meituan.Demo1.executor": "Run",
@@ -191,13 +197,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Main" />
-      <module name="rabbimt-demo" />
+  <component name="RunManager" selected="Application.com.atguigu.rabbitmq.util.Producer">
+    <configuration name="ConnectionUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.util.ConnectionUtil" />
+      <module name="module02-work-way" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.*" />
+          <option name="PATTERN" value="com.atguigu.rabbitmq.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarkdownParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.MarkdownParser" />
-      <module name="markdown-tools" />
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.mq.Consumer" />
+      <module name="module01-hello-world" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.*" />
+          <option name="PATTERN" value="icu.xiamu.mq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Test11" />
-      <module name="markdown-tools" />
+    <configuration name="Consumer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.util.Consumer1" />
+      <module name="module02-work-way" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.*" />
+          <option name="PATTERN" value="com.atguigu.rabbitmq.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,8 +237,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisApplication | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/RedisApplication.http" index="2" requestIdentifier="#2" runType="Run single request">
-      <method v="2" />
+    <configuration name="Consumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.util.Consumer2" />
+      <module name="module02-work-way" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.rabbitmq.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.atguigu.rabbitmq.util.Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.util.Producer" />
+      <module name="module02-work-way" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.rabbitmq.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BootRedis01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="boot_redis01" />
@@ -255,20 +284,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="spring-redis" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="icu.xiamu.RedisApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="icu.xiamu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="icu.xiamu.springdemo.SpringDemoApplication" />
@@ -284,24 +299,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MarkdownParser" />
-      <item itemvalue="Application.Test11" />
-      <item itemvalue="HTTP Request.RedisApplication | #2" />
+      <item itemvalue="Application.ConnectionUtil" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.Consumer1" />
+      <item itemvalue="Application.Consumer2" />
+      <item itemvalue="Application.com.atguigu.rabbitmq.util.Producer" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
       <item itemvalue="Spring Boot.BootRedis02Application" />
       <item itemvalue="Spring Boot.MainApplication" />
-      <item itemvalue="Spring Boot.RedisApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MarkdownParser" />
-        <item itemvalue="Application.Test11" />
-        <item itemvalue="Spring Boot.RedisApplication" />
-        <item itemvalue="HTTP Request.RedisApplication | #2" />
+        <item itemvalue="Application.com.atguigu.rabbitmq.util.Producer" />
+        <item itemvalue="Application.Consumer2" />
+        <item itemvalue="Application.Consumer1" />
+        <item itemvalue="Application.ConnectionUtil" />
+        <item itemvalue="Application.Consumer" />
       </list>
     </recent_temporary>
   </component>
@@ -376,15 +391,7 @@
       <workItem from="1715095745423" duration="1160000" />
       <workItem from="1715398404084" duration="55000" />
       <workItem from="1715491494435" duration="2497000" />
-      <workItem from="1718003324941" duration="261000" />
-    </task>
-    <task id="LOCAL-00166" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1708096802636</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1708096802636</updated>
+      <workItem from="1718003324941" duration="1924000" />
     </task>
     <task id="LOCAL-00167" summary="leetcode">
       <option name="closed" value="true" />
@@ -770,7 +777,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715504347523</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="_">
+      <option name="closed" value="true" />
+      <created>1718003646002</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1718003646003</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -802,7 +817,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="lambda表达式" />
     <MESSAGE value="java读取properties文件" />
     <MESSAGE value="java读取json文件" />
     <MESSAGE value="LeetCode" />
@@ -827,7 +841,8 @@
     <MESSAGE value="spring-jenkins" />
     <MESSAGE value="使用redis限流操作" />
     <MESSAGE value="代理模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="代理模式" />
+    <MESSAGE value="_" />
+    <option name="LAST_COMMIT_MESSAGE" value="_" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
