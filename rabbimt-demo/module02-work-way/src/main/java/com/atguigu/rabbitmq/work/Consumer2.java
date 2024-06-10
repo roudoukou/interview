@@ -1,5 +1,6 @@
-package com.atguigu.rabbitmq.util;
+package com.atguigu.rabbitmq.work;
 
+import com.atguigu.rabbitmq.util.ConnectionUtil;
 import com.rabbitmq.client.*;
 
 import java.io.IOException;
@@ -10,7 +11,7 @@ public class Consumer2 {
   
     public static void main(String[] args) throws Exception {  
   
-        Connection connection = ConnectionUtil.getConnection();  
+        Connection connection = ConnectionUtil.getConnection();
   
         Channel channel = connection.createChannel();  
   

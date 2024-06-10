@@ -1,4 +1,4 @@
-package com.atguigu.rabbitmq.util;
+package com.atguigu.rabbitmq.work;
   
 import com.atguigu.rabbitmq.util.ConnectionUtil;  
 import com.rabbitmq.client.*;  
