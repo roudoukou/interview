@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/java-tools/pom.xml" />
         <option value="$PROJECT_DIR$/rabbimt-demo/pom.xml" />
         <option value="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

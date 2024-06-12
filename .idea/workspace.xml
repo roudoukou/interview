@@ -7,16 +7,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="4.mq topic">
-      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/src/main/java/icu/xiamu/mq/RabbitMQConsumerMainType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/src/main/java/icu/xiamu/mq/listener/MyMessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="5.mq 整合springboot">
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/src/main/java/icu/xiamu/mq/RabbitMQProducerMainType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/src/test/java/icu/xiamu/mq/RabbitMQTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/module02-work-way/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbimt-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/src/main/java/icu/xiamu/mq/listener/MyMessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/src/main/java/icu/xiamu/mq/listener/MyMessageListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +138,7 @@
     "Application.icu.xiamu.shuzimali1.Demo3.executor": "Run",
     "HTTP Request.RedisApplication | #1.executor": "Run",
     "HTTP Request.RedisApplication | #2.executor": "Run",
+    "JUnit.RabbitMQTest.testSendMessage.executor": "Run",
     "Maven.spring-redis [clean].executor": "Run",
     "Maven.spring-redis [compile].executor": "Run",
     "Maven.spring-redis [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
@@ -149,7 +150,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.RabbitMQConsumerMainType.executor": "Debug",
+    "Spring Boot.RabbitMQConsumerMainType.executor": "Run",
     "Spring Boot.RedisApplication.executor": "Debug",
     "Spring Boot.SpringPrometheusApplication.executor": "Debug",
     "WebServerToolWindowFactoryState": "false",
@@ -194,6 +195,9 @@
       <recent name="E:\Code\面试题\spring-demo\src\main\java\icu\xiamu" />
       <recent name="E:\Code\面试题\第一季" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="icu.xiamu.mq" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.rabbitmq.util" />
     </key>
@@ -207,26 +211,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RabbitMQConsumerMainType">
+  <component name="RunManager" selected="JUnit.RabbitMQTest.testSendMessage">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.Main" />
       <module name="module03-springboot-consumer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="icu.xiamu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.atguigu.rabbitmq.topic.Consumer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.topic.Consumer1" />
-      <module name="module02-work-way" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.rabbitmq.topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,6 +247,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMQTest.testSendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="module04-springboot-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="icu.xiamu.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="icu.xiamu.mq" />
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.mq.RabbitMQTest" />
+      <option name="METHOD_NAME" value="testSendMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,9 +317,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.com.atguigu.rabbitmq.topic.Consumer1" />
       <item itemvalue="Application.com.atguigu.rabbitmq.topic.Consumer2" />
       <item itemvalue="Application.com.atguigu.rabbitmq.topic.Producer" />
+      <item itemvalue="JUnit.RabbitMQTest.testSendMessage" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
@@ -322,11 +329,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RabbitMQTest.testSendMessage" />
         <item itemvalue="Spring Boot.RabbitMQConsumerMainType" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.atguigu.rabbitmq.topic.Producer" />
         <item itemvalue="Application.com.atguigu.rabbitmq.topic.Consumer2" />
-        <item itemvalue="Application.com.atguigu.rabbitmq.topic.Consumer1" />
       </list>
     </recent_temporary>
   </component>
@@ -401,15 +408,7 @@
       <workItem from="1715095745423" duration="1160000" />
       <workItem from="1715398404084" duration="55000" />
       <workItem from="1715491494435" duration="2497000" />
-      <workItem from="1718003324941" duration="6288000" />
-    </task>
-    <task id="LOCAL-00172" summary="项目调整">
-      <option name="closed" value="true" />
-      <created>1708327177971</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1708327177971</updated>
+      <workItem from="1718003324941" duration="9204000" />
     </task>
     <task id="LOCAL-00173" summary="整合prometheus">
       <option name="closed" value="true" />
@@ -795,7 +794,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718029044074</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary="4.mq 整合springboot">
+      <option name="closed" value="true" />
+      <created>1718030509005</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1718030509005</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,9 +834,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="CompletableFuture的whenComplete用法" />
-    <MESSAGE value="chain链式调用" />
-    <MESSAGE value="CompletableFuture的get()与join区别" />
     <MESSAGE value="CompletableFuture的实战演示,电商案例" />
     <MESSAGE value="1.CompletableFuture常用方法: 获取结果和触发计算" />
     <MESSAGE value="2.CompletableFuture常用方法: 对计算结果进行处理" />
@@ -852,7 +856,10 @@
     <MESSAGE value="3&#10;3.mq routing" />
     <MESSAGE value="3.mq routing" />
     <MESSAGE value="4.mq topic" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.mq topic" />
+    <MESSAGE value="5.mq 整合springboot" />
+    <MESSAGE value="5&#10;5.mq 整合springboot" />
+    <MESSAGE value="5.mq 整合springboot" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.mq 整合springboot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

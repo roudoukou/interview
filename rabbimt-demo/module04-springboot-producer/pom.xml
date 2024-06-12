@@ -3,6 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+<!--
+    <parent>
+        <groupId>icu.xiamu</groupId>
+        <artifactId>rabbimt-demo</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+-->
+    <artifactId>module04-springboot-producer</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -15,7 +23,6 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.1.5</version>
     </parent>
-    <artifactId>module03-springboot-consumer</artifactId>
 
     <dependencies>
         <dependency>
@@ -24,12 +31,9 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
     </dependencies>
+
 
 </project>
