@@ -14,7 +14,7 @@ public class UserServiceImpl implements UserService {
         this.userRepository = userRepository;
     }
 
-
+    @Cacheable(cacheNames = "getUserName")
     @Override
     public String getUserName(String name) {
         User user = userRepository.findByName(name);
