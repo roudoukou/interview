@@ -7,25 +7,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="spring-jenkins">
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/SpringCacheApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/test/java/icu/xiamu/springcache/SpringCacheApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9548ca4e-cdb8-44c9-aca6-716d903ae7be.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9548ca4e-cdb8-44c9-aca6-716d903ae7be.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="3、添加sql脚本">
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/config/CacheConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-cache/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +122,7 @@
     "Application.icu.xiamu.shuzimali1.Demo3.executor": "Run",
     "HTTP Request.RedisApplication | #1.executor": "Run",
     "HTTP Request.RedisApplication | #2.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
     "Maven.spring-redis [clean].executor": "Run",
     "Maven.spring-redis [compile].executor": "Run",
     "Maven.spring-redis [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
@@ -145,6 +136,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.RedisApplication.executor": "Debug",
     "Spring Boot.SpringCacheApplication.executor": "Debug",
+    "Spring Boot.SpringDemoApplication.executor": "Debug",
     "Spring Boot.SpringPrometheusApplication.executor": "Debug",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
@@ -157,7 +149,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.18652344",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
@@ -198,7 +190,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringDemoApplication">
+  <component name="RunManager" selected="HTTP Request.generated-requests | #1">
     <configuration name="Lock_SyncDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.locks.Lock_SyncDemo" />
       <module name="sgg-juc" />
@@ -229,6 +221,9 @@
       <method v="2" />
     </configuration>
     <configuration name="RedisApplication | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/RedisApplication.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="BootRedis01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -290,6 +285,7 @@
     <list>
       <item itemvalue="Application.RedisApplication" />
       <item itemvalue="Application.Lock_SyncDemo" />
+      <item itemvalue="HTTP Request.generated-requests | #1" />
       <item itemvalue="HTTP Request.RedisApplication | #1" />
       <item itemvalue="HTTP Request.RedisApplication | #2" />
       <item itemvalue="Spring Boot.SpringCacheApplication" />
@@ -302,6 +298,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.RedisApplication | #2" />
         <item itemvalue="Application.RedisApplication" />
         <item itemvalue="HTTP Request.RedisApplication | #1" />
@@ -375,31 +372,7 @@
       <workItem from="1714463586579" duration="2829000" />
       <workItem from="1714466478819" duration="1601000" />
       <workItem from="1714468097218" duration="20128000" />
-      <workItem from="1719985804715" duration="1920000" />
-    </task>
-    <task id="LOCAL-00164" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1708061732695</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1708061732695</updated>
-    </task>
-    <task id="LOCAL-00165" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1708096325157</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1708096325157</updated>
-    </task>
-    <task id="LOCAL-00166" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1708096802636</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1708096802636</updated>
+      <workItem from="1719985804715" duration="5475000" />
     </task>
     <task id="LOCAL-00167" summary="leetcode">
       <option name="closed" value="true" />
@@ -769,7 +742,31 @@
       <option name="project" value="LOCAL" />
       <updated>1714370019906</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="1、spring-cache工程初始化">
+      <option name="closed" value="true" />
+      <created>1719990147413</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1719990147413</updated>
+    </task>
+    <task id="LOCAL-00214" summary="2、添加缓存注解">
+      <option name="closed" value="true" />
+      <created>1719990174340</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1719990174340</updated>
+    </task>
+    <task id="LOCAL-00215" summary="3、添加sql脚本">
+      <option name="closed" value="true" />
+      <created>1719990264780</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1719990264780</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -801,9 +798,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="lambda demo" />
-    <MESSAGE value="Date" />
-    <MESSAGE value="lambda表达式" />
     <MESSAGE value="java读取properties文件" />
     <MESSAGE value="java读取json文件" />
     <MESSAGE value="LeetCode" />
@@ -826,7 +820,10 @@
     <MESSAGE value="Spring整合Prometheus" />
     <MESSAGE value="sql笔试题" />
     <MESSAGE value="spring-jenkins" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-jenkins" />
+    <MESSAGE value="1、spring-cache工程初始化" />
+    <MESSAGE value="2、添加缓存注解" />
+    <MESSAGE value="3、添加sql脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="3、添加sql脚本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
