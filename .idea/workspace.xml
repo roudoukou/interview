@@ -8,28 +8,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="spring-jenkins">
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/RedisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/controller/RedisRateLimiterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/exception/GuliException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/exception/RedisLimiterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/LimitType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/MessageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/RateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/RateLimiterAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/ServletUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/SpringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/locks/Lock8Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/java/icu/xiamu/juc/locks/Lock_SyncDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/SpringCacheApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/test/java/icu/xiamu/springcache/SpringCacheApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9548ca4e-cdb8-44c9-aca6-716d903ae7be.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9548ca4e-cdb8-44c9-aca6-716d903ae7be.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/RedissonScheduler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-redis/几种应用场景.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-redis/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar://D:/java/jdk1.8.0_141/src.zip!/java/util/Calendar.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../java/jdk1.8.0_141/src.zip!/java/util/Calendar.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
@@ -85,7 +81,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\Maven\maven-repo" />
+        <option name="customMavenHome" value="D:\module\apache-maven-3.9.6" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -147,12 +144,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.RedisApplication.executor": "Debug",
+    "Spring Boot.SpringCacheApplication.executor": "Debug",
     "Spring Boot.SpringPrometheusApplication.executor": "Debug",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/JT808",
+    "last_opened_file_path": "D:/workspace/interview/spring-demo/spring-cache/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -163,7 +161,7 @@
     "project.structure.proportion": "0.18652344",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "8e60ab13c2287d5ee84d4cef600ac5b8",
     "vue.rearranger.settings.migration": "true"
   },
@@ -178,11 +176,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\interview\spring-demo\spring-cache\src\main\resources" />
+      <recent name="D:\workspace\interview\spring-demo\spring-cache\src\main\java\icu\xiamu\springcache" />
       <recent name="E:\Code\面试题\spring-demo\spring-prometheus\src\main\resources" />
       <recent name="E:\Code\面试题\leetcode\剑指Offer\src\main\java\icu\xiamu\lcr" />
       <recent name="E:\Code\面试题\leetcode\剑指Offer" />
-      <recent name="E:\Code\面试题\leetcode\LeetCode 热题 100\src\main\java\icu\xiamu" />
-      <recent name="E:\Code\面试题\leetcode\LeetCode 热题 100" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Code\面试题\leetcode\高频 SQL 50 题（基础版）\src\main\java\icu\xiamu\old" />
@@ -200,7 +198,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RedisApplication">
+  <component name="RunManager" selected="Spring Boot.SpringDemoApplication">
     <configuration name="Lock_SyncDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.locks.Lock_SyncDemo" />
       <module name="sgg-juc" />
@@ -254,7 +252,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="spring-redis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="icu.xiamu.RedisApplication" />
@@ -264,6 +262,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="icu.xiamu.springcache.SpringCacheApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -287,6 +292,7 @@
       <item itemvalue="Application.Lock_SyncDemo" />
       <item itemvalue="HTTP Request.RedisApplication | #1" />
       <item itemvalue="HTTP Request.RedisApplication | #2" />
+      <item itemvalue="Spring Boot.SpringCacheApplication" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
@@ -296,7 +302,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RedisApplication" />
         <item itemvalue="HTTP Request.RedisApplication | #2" />
         <item itemvalue="Application.RedisApplication" />
         <item itemvalue="HTTP Request.RedisApplication | #1" />
@@ -307,8 +312,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -370,6 +375,7 @@
       <workItem from="1714463586579" duration="2829000" />
       <workItem from="1714466478819" duration="1601000" />
       <workItem from="1714468097218" duration="20128000" />
+      <workItem from="1719985804715" duration="1920000" />
     </task>
     <task id="LOCAL-00164" summary="leetcode">
       <option name="closed" value="true" />
@@ -831,47 +837,47 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class</url>
           <line>45</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
           <line>274</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
           <line>491</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class</url>
           <line>691</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
           <line>118</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
           <line>184</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
           <line>335</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.3.27/spring-beans-5.3.27.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-beans/5.3.27/spring-beans-5.3.27.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
           <line>199</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
           <line>186</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>

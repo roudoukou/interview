@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://D:/Maven/maven-repo/org/springframework/boot/spring-boot-starter-parent/2.3.3.RELEASE/src/main/resources" charset="UTF-8" />
-    <file url="file://D:/Maven/maven-repo/org/springframework/boot/spring-boot-starter-parent/2.7.8/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/boot/spring-boot-starter-parent/2.3.3.RELEASE/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/boot/spring-boot-starter-parent/2.7.8/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leetcode/LeetCode 75/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leetcode/LeetCode 75/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java" charset="UTF-8" />
@@ -25,11 +25,14 @@
     <file url="file://$PROJECT_DIR$/spring-demo/java-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo/java-read-file/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo/java-read-file/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo/spring-cache/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo/spring-prometheus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo/spring-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo/spring-redis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/代理模式/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/代理模式/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/大厂面试题第2季/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/大厂面试题第2季/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/大厂面试题第3季/boot_redis01/src/main/java" charset="UTF-8" />
@@ -40,6 +43,12 @@
     <file url="file://$PROJECT_DIR$/尚硅谷JUC并发编程/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/尚硅谷_50道Java面试题/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/尚硅谷_50道Java面试题/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/尚硅谷_高频面试题/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/尚硅谷_高频面试题/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/牛客_面试笔刷TOP101/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/面试题第1季/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/面试题第1季/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
