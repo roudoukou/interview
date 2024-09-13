@@ -7,14 +7,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="4、Spring Caffeine">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/class20/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/27474a83-fd1b-445f-a228-cfe8e0657cf0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/27474a83-fd1b-445f-a228-cfe8e0657cf0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9548ca4e-cdb8-44c9-aca6-716d903ae7be.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9548ca4e-cdb8-44c9-aca6-716d903ae7be.xml" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="力扣20题，有效的括号">
+      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/class191/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/class191/XiamuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +112,8 @@
     "Application.Solution.executor": "Run",
     "Application.Testttt.executor": "Run",
     "Application.ThreadLocal.executor": "Run",
+    "Application.XiamuTest.executor": "Run",
+    "Application.class191.Solution.executor": "Run",
     "Application.icu.xiamu.class101.Solution.executor": "Run",
     "Application.icu.xiamu.class102.Solution.executor": "Run",
     "Application.icu.xiamu.meituan.Demo1.executor": "Run",
@@ -191,7 +190,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.XiamuTest">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="class20.Solution" />
       <module name="leetcode" />
@@ -218,13 +217,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisApplication | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/RedisApplication.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
+    <configuration name="XiamuTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class191.XiamuTest" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class191.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="class191.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class191.Solution" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class191.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="RedisApplication | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/RedisApplication.http" index="2" requestIdentifier="#2" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="BootRedis01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -284,10 +303,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.XiamuTest" />
+      <item itemvalue="Application.class191.Solution" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Testttt" />
-      <item itemvalue="HTTP Request.generated-requests | #1" />
-      <item itemvalue="HTTP Request.RedisApplication | #1" />
       <item itemvalue="HTTP Request.RedisApplication | #2" />
       <item itemvalue="Spring Boot.SpringCacheApplication" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
@@ -299,11 +318,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.XiamuTest" />
+        <item itemvalue="Application.class191.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Testttt" />
         <item itemvalue="HTTP Request.RedisApplication | #2" />
-        <item itemvalue="HTTP Request.RedisApplication | #1" />
-        <item itemvalue="HTTP Request.generated-requests | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -378,15 +397,7 @@
       <workItem from="1720573808691" duration="6378000" />
       <workItem from="1721370751964" duration="121000" />
       <workItem from="1726198330509" duration="2278000" />
-      <workItem from="1726206263488" duration="1202000" />
-    </task>
-    <task id="LOCAL-00169" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1708100972114</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1708100972114</updated>
+      <workItem from="1726206263488" duration="2840000" />
     </task>
     <task id="LOCAL-00170" summary="leetcode">
       <option name="closed" value="true" />
@@ -772,7 +783,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719993972156</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="力扣20题，有效的括号">
+      <option name="closed" value="true" />
+      <created>1726207567234</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1726207567234</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -804,7 +823,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="java读取json文件" />
     <MESSAGE value="LeetCode" />
     <MESSAGE value="redis" />
     <MESSAGE value="leetcode" />
@@ -829,7 +847,8 @@
     <MESSAGE value="2、添加缓存注解" />
     <MESSAGE value="3、添加sql脚本" />
     <MESSAGE value="4、Spring Caffeine" />
-    <option name="LAST_COMMIT_MESSAGE" value="4、Spring Caffeine" />
+    <MESSAGE value="力扣20题，有效的括号" />
+    <option name="LAST_COMMIT_MESSAGE" value="力扣20题，有效的括号" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1045,9 +1064,14 @@
           <option name="timeStamp" value="366" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/src/main/java/class20/Solution.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="369" />
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/class191/Solution.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/class191/Solution.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="376" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
