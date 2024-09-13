@@ -7,15 +7,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="3、添加sql脚本">
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/config/CacheConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="4、Spring Caffeine">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/class20/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/27474a83-fd1b-445f-a228-cfe8e0657cf0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/27474a83-fd1b-445f-a228-cfe8e0657cf0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9548ca4e-cdb8-44c9-aca6-716d903ae7be.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9548ca4e-cdb8-44c9-aca6-716d903ae7be.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-cache/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/java/icu/xiamu/springcache/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-cache/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/roudoukou/interview.git&quot;,
-    &quot;accountId&quot;: &quot;41f8e247-dbf9-4cf2-b489-4377b761f544&quot;
+    &quot;accountId&quot;: &quot;77ebfffc-f5a5-4aed-a08c-b6b629d9e974&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -113,6 +113,7 @@
     "Application.RedisApplication.executor": "Debug",
     "Application.RedissonScheduler.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.Testttt.executor": "Run",
     "Application.ThreadLocal.executor": "Run",
     "Application.icu.xiamu.class101.Solution.executor": "Run",
     "Application.icu.xiamu.class102.Solution.executor": "Run",
@@ -142,18 +143,18 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/workspace/interview/spring-demo/spring-cache/src/main/resources",
+    "last_opened_file_path": "D:/workspace/interview",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.18652344",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "8e60ab13c2287d5ee84d4cef600ac5b8",
     "vue.rearranger.settings.migration": "true"
   },
@@ -190,13 +191,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #1">
-    <configuration name="Lock_SyncDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.juc.locks.Lock_SyncDemo" />
-      <module name="sgg-juc" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class20.Solution" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.juc.locks.*" />
+          <option name="PATTERN" value="class20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.RedisApplication" />
-      <module name="spring-redis" />
+    <configuration name="Testttt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icu.xiamu.springcache.Testttt" />
+      <module name="spring-cache" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.*" />
+          <option name="PATTERN" value="icu.xiamu.springcache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,8 +284,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RedisApplication" />
-      <item itemvalue="Application.Lock_SyncDemo" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Testttt" />
       <item itemvalue="HTTP Request.generated-requests | #1" />
       <item itemvalue="HTTP Request.RedisApplication | #1" />
       <item itemvalue="HTTP Request.RedisApplication | #2" />
@@ -298,19 +299,19 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Testttt" />
         <item itemvalue="HTTP Request.RedisApplication | #2" />
-        <item itemvalue="Application.RedisApplication" />
         <item itemvalue="HTTP Request.RedisApplication | #1" />
-        <item itemvalue="Application.Lock_SyncDemo" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
@@ -372,23 +373,12 @@
       <workItem from="1714463586579" duration="2829000" />
       <workItem from="1714466478819" duration="1601000" />
       <workItem from="1714468097218" duration="20128000" />
-      <workItem from="1719985804715" duration="5475000" />
-    </task>
-    <task id="LOCAL-00167" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1708097005373</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1708097005373</updated>
-    </task>
-    <task id="LOCAL-00168" summary="leetcode">
-      <option name="closed" value="true" />
-      <created>1708099324379</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1708099324379</updated>
+      <workItem from="1719985804715" duration="6212000" />
+      <workItem from="1720056059690" duration="2460000" />
+      <workItem from="1720573808691" duration="6378000" />
+      <workItem from="1721370751964" duration="121000" />
+      <workItem from="1726198330509" duration="2278000" />
+      <workItem from="1726206263488" duration="1202000" />
     </task>
     <task id="LOCAL-00169" summary="leetcode">
       <option name="closed" value="true" />
@@ -766,7 +756,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719990264780</updated>
     </task>
-    <option name="localTasksCounter" value="216" />
+    <task id="LOCAL-00216" summary="4、Spring Caffeine">
+      <option name="closed" value="true" />
+      <created>1719993955490</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1719993955490</updated>
+    </task>
+    <task id="LOCAL-00217" summary="4、Spring Caffeine">
+      <option name="closed" value="true" />
+      <created>1719993972156</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1719993972156</updated>
+    </task>
+    <option name="localTasksCounter" value="218" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -798,7 +804,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="java读取properties文件" />
     <MESSAGE value="java读取json文件" />
     <MESSAGE value="LeetCode" />
     <MESSAGE value="redis" />
@@ -823,7 +828,8 @@
     <MESSAGE value="1、spring-cache工程初始化" />
     <MESSAGE value="2、添加缓存注解" />
     <MESSAGE value="3、添加sql脚本" />
-    <option name="LAST_COMMIT_MESSAGE" value="3、添加sql脚本" />
+    <MESSAGE value="4、Spring Caffeine" />
+    <option name="LAST_COMMIT_MESSAGE" value="4、Spring Caffeine" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1037,6 +1043,11 @@
           <url>file://$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/RedisUtils.java</url>
           <line>37</line>
           <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/class20/Solution.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="369" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
