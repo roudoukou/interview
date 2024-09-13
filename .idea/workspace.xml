@@ -7,10 +7,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="5.mq 整合springboot">
-      <change beforePath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbimt-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/pom.xml" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="力扣3110">
+      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/class7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,6 @@
         <option value="Kubernetes Pod" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -49,11 +49,11 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/roudoukou/interview.git&quot;,
-    &quot;accountId&quot;: &quot;41f8e247-dbf9-4cf2-b489-4377b761f544&quot;
+    &quot;accountId&quot;: &quot;77ebfffc-f5a5-4aed-a08c-b6b629d9e974&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar://D:/java/jdk1.8.0_141/src.zip!/java/util/Calendar.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../java/jdk1.8.0_141/src.zip!/java/util/Calendar.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
@@ -67,7 +67,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\Maven\maven-repo" />
+        <option name="customMavenHome" value="D:\module\apache-maven-3.9.6" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -85,115 +86,100 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CompletableFutureAPI2Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompletableFutureAPI3Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompletableFutureAPIDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompletableFutureBuildDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompletableFutureCombineDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompletableFutureFastDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompletableFutureMallDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompletableFutureUseDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompletableFutureWithThreadPoolDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConnectionUtil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Consumer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Consumer1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Consumer2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Demo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lock8Demo (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lock8Demo (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lock8Demo (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lock8Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lock_SyncDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MarkdownParser.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Producer.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RedisApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RedissonScheduler.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test11.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadLocal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.atguigu.rabbitmq.fanout.Consumer1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.atguigu.rabbitmq.fanout.Consumer2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.atguigu.rabbitmq.fanout.Producer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.atguigu.rabbitmq.topic.Consumer1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.com.atguigu.rabbitmq.topic.Consumer2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.com.atguigu.rabbitmq.topic.Producer.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.com.atguigu.rabbitmq.util.Producer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.icu.xiamu.class101.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.icu.xiamu.class102.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.icu.xiamu.meituan.Demo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.icu.xiamu.shuzimali1.Demo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.icu.xiamu.shuzimali1.Demo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.icu.xiamu.shuzimali1.Demo3.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.RedisApplication | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.RedisApplication | #2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RabbitMQTest.testSendMessage.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-redis [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-redis [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-redis [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-redis [package].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.RabbitMQConsumerMainType.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.RedisApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.SpringPrometheusApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Code/Elasticsearch/ES&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.18652344&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;8e60ab13c2287d5ee84d4cef600ac5b8&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CompletableFutureAPI2Demo.executor": "Run",
+    "Application.CompletableFutureAPI3Demo.executor": "Run",
+    "Application.CompletableFutureAPIDemo.executor": "Run",
+    "Application.CompletableFutureBuildDemo.executor": "Run",
+    "Application.CompletableFutureCombineDemo.executor": "Run",
+    "Application.CompletableFutureFastDemo.executor": "Run",
+    "Application.CompletableFutureMallDemo.executor": "Run",
+    "Application.CompletableFutureUseDemo.executor": "Run",
+    "Application.CompletableFutureWithThreadPoolDemo.executor": "Run",
+    "Application.Demo1.executor": "Run",
+    "Application.Demo2.executor": "Run",
+    "Application.Demo3.executor": "Run",
+    "Application.Demo4.executor": "Run",
+    "Application.Lock8Demo (1).executor": "Run",
+    "Application.Lock8Demo (2).executor": "Run",
+    "Application.Lock8Demo (3).executor": "Run",
+    "Application.Lock8Demo.executor": "Run",
+    "Application.Lock_SyncDemo.executor": "Run",
+    "Application.RedisApplication.executor": "Debug",
+    "Application.RedissonScheduler.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.Testttt.executor": "Run",
+    "Application.ThreadLocal.executor": "Run",
+    "Application.XiamuTest.executor": "Run",
+    "Application.class191.Solution.executor": "Run",
+    "Application.class3110.Solution.executor": "Run",
+    "Application.class7.Solution.executor": "Run",
+    "Application.icu.xiamu.class101.Solution.executor": "Run",
+    "Application.icu.xiamu.class102.Solution.executor": "Run",
+    "Application.icu.xiamu.meituan.Demo1.executor": "Run",
+    "Application.icu.xiamu.shuzimali1.Demo1.executor": "Run",
+    "Application.icu.xiamu.shuzimali1.Demo2.executor": "Run",
+    "Application.icu.xiamu.shuzimali1.Demo3.executor": "Run",
+    "HTTP Request.RedisApplication | #1.executor": "Run",
+    "HTTP Request.RedisApplication | #2.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "Maven.spring-redis [clean].executor": "Run",
+    "Maven.spring-redis [compile].executor": "Run",
+    "Maven.spring-redis [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.spring-redis [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.RedisApplication.executor": "Debug",
+    "Spring Boot.SpringCacheApplication.executor": "Debug",
+    "Spring Boot.SpringDemoApplication.executor": "Debug",
+    "Spring Boot.SpringPrometheusApplication.executor": "Debug",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/interview",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.18652344",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "8e60ab13c2287d5ee84d4cef600ac5b8",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\interview\spring-demo\spring-cache\src\main\resources" />
+      <recent name="D:\workspace\interview\spring-demo\spring-cache\src\main\java\icu\xiamu\springcache" />
       <recent name="E:\Code\面试题\spring-demo\spring-prometheus\src\main\resources" />
       <recent name="E:\Code\面试题\leetcode\剑指Offer\src\main\java\icu\xiamu\lcr" />
       <recent name="E:\Code\面试题\leetcode\剑指Offer" />
-      <recent name="E:\Code\面试题\leetcode\LeetCode 热题 100\src\main\java\icu\xiamu" />
-      <recent name="E:\Code\面试题\leetcode\LeetCode 热题 100" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Code\面试题\leetcode\高频 SQL 50 题（基础版）\src\main\java\icu\xiamu\old" />
       <recent name="E:\Code\面试题\spring-demo\src\main\java\icu\xiamu\springdemo" />
       <recent name="E:\Code\面试题\spring-demo\src\main\java\icu\xiamu" />
       <recent name="E:\Code\面试题\第一季" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="icu.xiamu.mq" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.atguigu.rabbitmq.util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -205,13 +191,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RabbitMQTest.testSendMessage">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.Main" />
-      <module name="module03-springboot-consumer" />
+  <component name="RunManager" selected="Application.class7.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class20.Solution" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.*" />
+          <option name="PATTERN" value="class20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atguigu.rabbitmq.topic.Consumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.topic.Consumer2" />
-      <module name="module02-work-way" />
+    <configuration name="XiamuTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class191.XiamuTest" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.rabbitmq.topic.*" />
+          <option name="PATTERN" value="class191.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atguigu.rabbitmq.topic.Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.rabbitmq.topic.Producer" />
-      <module name="module02-work-way" />
+    <configuration name="class191.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class191.Solution" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.rabbitmq.topic.*" />
+          <option name="PATTERN" value="class191.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,18 +231,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RabbitMQTest.testSendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="module04-springboot-producer" />
+    <configuration name="class3110.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class3110.Solution" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.mq.*" />
+          <option name="PATTERN" value="class3110.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="icu.xiamu.mq" />
-      <option name="MAIN_CLASS_NAME" value="icu.xiamu.mq.RabbitMQTest" />
-      <option name="METHOD_NAME" value="testSendMessage" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="class7.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class7.Solution" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -282,15 +278,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RabbitMQConsumerMainType" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="module03-springboot-consumer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="icu.xiamu.mq.RabbitMQConsumerMainType" />
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="icu.xiamu.RedisApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="icu.xiamu.mq.*" />
+          <option name="PATTERN" value="icu.xiamu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="icu.xiamu.springcache.SpringCacheApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,32 +314,34 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.com.atguigu.rabbitmq.topic.Consumer2" />
-      <item itemvalue="Application.com.atguigu.rabbitmq.topic.Producer" />
-      <item itemvalue="JUnit.RabbitMQTest.testSendMessage" />
+      <item itemvalue="Application.XiamuTest" />
+      <item itemvalue="Application.class191.Solution" />
+      <item itemvalue="Application.class3110.Solution" />
+      <item itemvalue="Application.class7.Solution" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Spring Boot.SpringCacheApplication" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BootRedis01Application" />
       <item itemvalue="Spring Boot.BootRedis02Application" />
       <item itemvalue="Spring Boot.MainApplication" />
-      <item itemvalue="Spring Boot.RabbitMQConsumerMainType" />
+      <item itemvalue="Spring Boot.RedisApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RabbitMQTest.testSendMessage" />
-        <item itemvalue="Spring Boot.RabbitMQConsumerMainType" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.atguigu.rabbitmq.topic.Producer" />
-        <item itemvalue="Application.com.atguigu.rabbitmq.topic.Consumer2" />
+        <item itemvalue="Application.class7.Solution" />
+        <item itemvalue="Application.class3110.Solution" />
+        <item itemvalue="Application.XiamuTest" />
+        <item itemvalue="Application.class191.Solution" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
@@ -396,13 +402,21 @@
       <workItem from="1714218719462" duration="8867000" />
       <workItem from="1714463586579" duration="2829000" />
       <workItem from="1714466478819" duration="1601000" />
-      <workItem from="1714468097218" duration="21010000" />
-      <workItem from="1714669792565" duration="4539000" />
-      <workItem from="1714979237676" duration="1239000" />
-      <workItem from="1715095745423" duration="1160000" />
-      <workItem from="1715398404084" duration="55000" />
-      <workItem from="1715491494435" duration="2497000" />
-      <workItem from="1718003324941" duration="9204000" />
+      <workItem from="1714468097218" duration="20128000" />
+      <workItem from="1719985804715" duration="6212000" />
+      <workItem from="1720056059690" duration="2460000" />
+      <workItem from="1720573808691" duration="6378000" />
+      <workItem from="1721370751964" duration="121000" />
+      <workItem from="1726198330509" duration="2278000" />
+      <workItem from="1726206263488" duration="4432000" />
+    </task>
+    <task id="LOCAL-00172" summary="项目调整">
+      <option name="closed" value="true" />
+      <created>1708327177971</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1708327177971</updated>
     </task>
     <task id="LOCAL-00173" summary="整合prometheus">
       <option name="closed" value="true" />
@@ -724,79 +738,71 @@
       <option name="project" value="LOCAL" />
       <updated>1714370019906</updated>
     </task>
-    <task id="LOCAL-00213" summary="使用redis限流操作">
+    <task id="LOCAL-00213" summary="1、spring-cache工程初始化">
       <option name="closed" value="true" />
-      <created>1714495695134</created>
+      <created>1719990147413</created>
       <option name="number" value="00213" />
       <option name="presentableId" value="LOCAL-00213" />
       <option name="project" value="LOCAL" />
-      <updated>1714495695134</updated>
+      <updated>1719990147413</updated>
     </task>
-    <task id="LOCAL-00214" summary="代理模式">
+    <task id="LOCAL-00214" summary="2、添加缓存注解">
       <option name="closed" value="true" />
-      <created>1715504347522</created>
+      <created>1719990174340</created>
       <option name="number" value="00214" />
       <option name="presentableId" value="LOCAL-00214" />
       <option name="project" value="LOCAL" />
-      <updated>1715504347523</updated>
+      <updated>1719990174340</updated>
     </task>
-    <task id="LOCAL-00215" summary="_">
+    <task id="LOCAL-00215" summary="3、添加sql脚本">
       <option name="closed" value="true" />
-      <created>1718003646002</created>
+      <created>1719990264780</created>
       <option name="number" value="00215" />
       <option name="presentableId" value="LOCAL-00215" />
       <option name="project" value="LOCAL" />
-      <updated>1718003646003</updated>
+      <updated>1719990264780</updated>
     </task>
-    <task id="LOCAL-00216" summary="1.mq hello world">
+    <task id="LOCAL-00216" summary="4、Spring Caffeine">
       <option name="closed" value="true" />
-      <created>1718005366479</created>
+      <created>1719993955490</created>
       <option name="number" value="00216" />
       <option name="presentableId" value="LOCAL-00216" />
       <option name="project" value="LOCAL" />
-      <updated>1718005366479</updated>
+      <updated>1719993955490</updated>
     </task>
-    <task id="LOCAL-00217" summary="1.mq work way">
+    <task id="LOCAL-00217" summary="4、Spring Caffeine">
       <option name="closed" value="true" />
-      <created>1718005375443</created>
+      <created>1719993972156</created>
       <option name="number" value="00217" />
       <option name="presentableId" value="LOCAL-00217" />
       <option name="project" value="LOCAL" />
-      <updated>1718005375443</updated>
+      <updated>1719993972156</updated>
     </task>
-    <task id="LOCAL-00218" summary="2.mq fanout">
+    <task id="LOCAL-00218" summary="力扣20题，有效的括号">
       <option name="closed" value="true" />
-      <created>1718006458889</created>
+      <created>1726207567234</created>
       <option name="number" value="00218" />
       <option name="presentableId" value="LOCAL-00218" />
       <option name="project" value="LOCAL" />
-      <updated>1718006458889</updated>
+      <updated>1726207567234</updated>
     </task>
-    <task id="LOCAL-00219" summary="2.mq routing">
+    <task id="LOCAL-00219" summary="力扣191，位1的个数">
       <option name="closed" value="true" />
-      <created>1718029008045</created>
+      <created>1726215754934</created>
       <option name="number" value="00219" />
       <option name="presentableId" value="LOCAL-00219" />
       <option name="project" value="LOCAL" />
-      <updated>1718029008045</updated>
+      <updated>1726215754934</updated>
     </task>
-    <task id="LOCAL-00220" summary="4.mq topic">
+    <task id="LOCAL-00220" summary="力扣3110">
       <option name="closed" value="true" />
-      <created>1718029044074</created>
+      <created>1726216049807</created>
       <option name="number" value="00220" />
       <option name="presentableId" value="LOCAL-00220" />
       <option name="project" value="LOCAL" />
-      <updated>1718029044074</updated>
+      <updated>1726216049807</updated>
     </task>
-    <task id="LOCAL-00221" summary="4.mq 整合springboot">
-      <option name="closed" value="true" />
-      <created>1718030509005</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1718030509005</updated>
-    </task>
-    <option name="localTasksCounter" value="222" />
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -828,6 +834,12 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="leetcode" />
+    <MESSAGE value="美团笔试题" />
+    <MESSAGE value="CompletableFuture的runAsync() supplyAsync()的演示" />
+    <MESSAGE value="CompletableFuture的whenComplete用法" />
+    <MESSAGE value="chain链式调用" />
+    <MESSAGE value="CompletableFuture的get()与join区别" />
     <MESSAGE value="CompletableFuture的实战演示,电商案例" />
     <MESSAGE value="1.CompletableFuture常用方法: 获取结果和触发计算" />
     <MESSAGE value="2.CompletableFuture常用方法: 对计算结果进行处理" />
@@ -840,20 +852,14 @@
     <MESSAGE value="Spring整合Prometheus" />
     <MESSAGE value="sql笔试题" />
     <MESSAGE value="spring-jenkins" />
-    <MESSAGE value="使用redis限流操作" />
-    <MESSAGE value="代理模式" />
-    <MESSAGE value="_" />
-    <MESSAGE value="1.mq hello world" />
-    <MESSAGE value="1.mq work way" />
-    <MESSAGE value="2.mq fanout" />
-    <MESSAGE value="3.mq routing" />
-    <MESSAGE value="3&#10;3.mq routing" />
-    <MESSAGE value="3.mq routing" />
-    <MESSAGE value="4.mq topic" />
-    <MESSAGE value="5.mq 整合springboot" />
-    <MESSAGE value="5&#10;5.mq 整合springboot" />
-    <MESSAGE value="5.mq 整合springboot" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.mq 整合springboot" />
+    <MESSAGE value="1、spring-cache工程初始化" />
+    <MESSAGE value="2、添加缓存注解" />
+    <MESSAGE value="3、添加sql脚本" />
+    <MESSAGE value="4、Spring Caffeine" />
+    <MESSAGE value="力扣20题，有效的括号" />
+    <MESSAGE value="力扣191，位1的个数" />
+    <MESSAGE value="力扣3110" />
+    <option name="LAST_COMMIT_MESSAGE" value="力扣3110" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -864,47 +870,47 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class</url>
           <line>45</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
           <line>274</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
           <line>491</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class</url>
           <line>691</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
           <line>118</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
           <line>184</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
           <line>335</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.3.27/spring-beans-5.3.27.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-beans/5.3.27/spring-beans-5.3.27.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
           <line>199</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <url>jar://$PROJECT_DIR$/../../Maven/maven-repo/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
           <line>186</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
@@ -1057,6 +1063,16 @@
           <url>file://$PROJECT_DIR$/leetcode/LeetCode 热题 100/src/main/java/icu/xiamu/meituan/Demo2.java</url>
           <line>37</line>
           <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/RateLimiterAspect.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-demo/spring-redis/src/main/java/icu/xiamu/limit/RedisUtils.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="366" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

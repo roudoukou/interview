@@ -12,6 +12,7 @@
         <module>spring-redis</module>
         <module>java-demo</module>
         <module>java-read-file</module>
+        <module>spring-cache</module>
     </modules>
 
     <properties>

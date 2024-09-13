@@ -28,10 +28,7 @@
         <option value="$PROJECT_DIR$/leetcode/面试经典 150 题/pom.xml" />
         <option value="$PROJECT_DIR$/leetcode/高频 SQL 50 题（基础版）/pom.xml" />
         <option value="$PROJECT_DIR$/尚硅谷JUC并发编程/pom.xml" />
-        <option value="$PROJECT_DIR$/java-tools/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbimt-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo/spring-cache/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -40,7 +37,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
