@@ -8,15 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="5.mq 整合springboot">
-      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/src/main/java/icu/xiamu/mq/RabbitMQProducerMainType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/src/test/java/icu/xiamu/mq/RabbitMQTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/src/main/java/icu/xiamu/mq/listener/MyMessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/module03-springboot-consumer/src/main/java/icu/xiamu/mq/listener/MyMessageListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/module04-springboot-producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbimt-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbimt-demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,93 +85,93 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CompletableFutureAPI2Demo.executor": "Run",
-    "Application.CompletableFutureAPI3Demo.executor": "Run",
-    "Application.CompletableFutureAPIDemo.executor": "Run",
-    "Application.CompletableFutureBuildDemo.executor": "Run",
-    "Application.CompletableFutureCombineDemo.executor": "Run",
-    "Application.CompletableFutureFastDemo.executor": "Run",
-    "Application.CompletableFutureMallDemo.executor": "Run",
-    "Application.CompletableFutureUseDemo.executor": "Run",
-    "Application.CompletableFutureWithThreadPoolDemo.executor": "Run",
-    "Application.ConnectionUtil.executor": "Run",
-    "Application.Consumer.executor": "Run",
-    "Application.Consumer1.executor": "Debug",
-    "Application.Consumer2.executor": "Debug",
-    "Application.Demo1.executor": "Run",
-    "Application.Demo2.executor": "Run",
-    "Application.Demo3.executor": "Run",
-    "Application.Demo4.executor": "Run",
-    "Application.Lock8Demo (1).executor": "Run",
-    "Application.Lock8Demo (2).executor": "Run",
-    "Application.Lock8Demo (3).executor": "Run",
-    "Application.Lock8Demo.executor": "Run",
-    "Application.Lock_SyncDemo.executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.MarkdownParser.executor": "Run",
-    "Application.Producer.executor": "Debug",
-    "Application.RedisApplication.executor": "Debug",
-    "Application.RedissonScheduler.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.Test11.executor": "Run",
-    "Application.ThreadLocal.executor": "Run",
-    "Application.com.atguigu.rabbitmq.fanout.Consumer1.executor": "Run",
-    "Application.com.atguigu.rabbitmq.fanout.Consumer2.executor": "Run",
-    "Application.com.atguigu.rabbitmq.fanout.Producer.executor": "Run",
-    "Application.com.atguigu.rabbitmq.topic.Consumer1.executor": "Debug",
-    "Application.com.atguigu.rabbitmq.topic.Consumer2.executor": "Debug",
-    "Application.com.atguigu.rabbitmq.topic.Producer.executor": "Debug",
-    "Application.com.atguigu.rabbitmq.util.Producer.executor": "Run",
-    "Application.icu.xiamu.class101.Solution.executor": "Run",
-    "Application.icu.xiamu.class102.Solution.executor": "Run",
-    "Application.icu.xiamu.meituan.Demo1.executor": "Run",
-    "Application.icu.xiamu.shuzimali1.Demo1.executor": "Run",
-    "Application.icu.xiamu.shuzimali1.Demo2.executor": "Run",
-    "Application.icu.xiamu.shuzimali1.Demo3.executor": "Run",
-    "HTTP Request.RedisApplication | #1.executor": "Run",
-    "HTTP Request.RedisApplication | #2.executor": "Run",
-    "JUnit.RabbitMQTest.testSendMessage.executor": "Run",
-    "Maven.spring-redis [clean].executor": "Run",
-    "Maven.spring-redis [compile].executor": "Run",
-    "Maven.spring-redis [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "Maven.spring-redis [package].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.RabbitMQConsumerMainType.executor": "Run",
-    "Spring Boot.RedisApplication.executor": "Debug",
-    "Spring Boot.SpringPrometheusApplication.executor": "Debug",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Code/Elasticsearch/ES",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.18652344",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "terminal",
-    "spring.configuration.checksum": "8e60ab13c2287d5ee84d4cef600ac5b8",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CompletableFutureAPI2Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureAPI3Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureAPIDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureBuildDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureCombineDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureFastDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureMallDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureUseDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureWithThreadPoolDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConnectionUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Consumer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Consumer1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Consumer2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lock8Demo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lock8Demo (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lock8Demo (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lock8Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lock_SyncDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MarkdownParser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Producer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RedisApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RedissonScheduler.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.atguigu.rabbitmq.fanout.Consumer1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.atguigu.rabbitmq.fanout.Consumer2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.atguigu.rabbitmq.fanout.Producer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.atguigu.rabbitmq.topic.Consumer1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.com.atguigu.rabbitmq.topic.Consumer2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.com.atguigu.rabbitmq.topic.Producer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.com.atguigu.rabbitmq.util.Producer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.class101.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.class102.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.meituan.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.shuzimali1.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.shuzimali1.Demo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.shuzimali1.Demo3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.RedisApplication | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.RedisApplication | #2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RabbitMQTest.testSendMessage.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-redis [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-redis [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-redis [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-redis [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.RabbitMQConsumerMainType.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RedisApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.SpringPrometheusApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Code/Elasticsearch/ES&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.18652344&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8e60ab13c2287d5ee84d4cef600ac5b8&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
