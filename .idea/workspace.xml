@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="力扣3110">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/class7/Solution.java" afterDir="false" />
+    <list default="true" id="db278398-04d7-4057-a468-08bd405842f0" name="Changes" comment="力扣7">
+      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/class3136/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/class8/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -86,84 +87,85 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CompletableFutureAPI2Demo.executor": "Run",
-    "Application.CompletableFutureAPI3Demo.executor": "Run",
-    "Application.CompletableFutureAPIDemo.executor": "Run",
-    "Application.CompletableFutureBuildDemo.executor": "Run",
-    "Application.CompletableFutureCombineDemo.executor": "Run",
-    "Application.CompletableFutureFastDemo.executor": "Run",
-    "Application.CompletableFutureMallDemo.executor": "Run",
-    "Application.CompletableFutureUseDemo.executor": "Run",
-    "Application.CompletableFutureWithThreadPoolDemo.executor": "Run",
-    "Application.Demo1.executor": "Run",
-    "Application.Demo2.executor": "Run",
-    "Application.Demo3.executor": "Run",
-    "Application.Demo4.executor": "Run",
-    "Application.Lock8Demo (1).executor": "Run",
-    "Application.Lock8Demo (2).executor": "Run",
-    "Application.Lock8Demo (3).executor": "Run",
-    "Application.Lock8Demo.executor": "Run",
-    "Application.Lock_SyncDemo.executor": "Run",
-    "Application.RedisApplication.executor": "Debug",
-    "Application.RedissonScheduler.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.Testttt.executor": "Run",
-    "Application.ThreadLocal.executor": "Run",
-    "Application.XiamuTest.executor": "Run",
-    "Application.class191.Solution.executor": "Run",
-    "Application.class3110.Solution.executor": "Run",
-    "Application.class7.Solution.executor": "Run",
-    "Application.icu.xiamu.class101.Solution.executor": "Run",
-    "Application.icu.xiamu.class102.Solution.executor": "Run",
-    "Application.icu.xiamu.meituan.Demo1.executor": "Run",
-    "Application.icu.xiamu.shuzimali1.Demo1.executor": "Run",
-    "Application.icu.xiamu.shuzimali1.Demo2.executor": "Run",
-    "Application.icu.xiamu.shuzimali1.Demo3.executor": "Run",
-    "HTTP Request.RedisApplication | #1.executor": "Run",
-    "HTTP Request.RedisApplication | #2.executor": "Run",
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "Maven.spring-redis [clean].executor": "Run",
-    "Maven.spring-redis [compile].executor": "Run",
-    "Maven.spring-redis [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "Maven.spring-redis [package].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.RedisApplication.executor": "Debug",
-    "Spring Boot.SpringCacheApplication.executor": "Debug",
-    "Spring Boot.SpringDemoApplication.executor": "Debug",
-    "Spring Boot.SpringPrometheusApplication.executor": "Debug",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/workspace/interview",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.18652344",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "8e60ab13c2287d5ee84d4cef600ac5b8",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CompletableFutureAPI2Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureAPI3Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureAPIDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureBuildDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureCombineDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureFastDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureMallDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureUseDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureWithThreadPoolDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lock8Demo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lock8Demo (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lock8Demo (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lock8Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lock_SyncDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RedisApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RedissonScheduler.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testttt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.XiamuTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.class191.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.class3110.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.class7.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.class8.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.class101.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.class102.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.meituan.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.shuzimali1.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.shuzimali1.Demo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.icu.xiamu.shuzimali1.Demo3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.RedisApplication | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.RedisApplication | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-redis [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-redis [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-redis [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-redis [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.RedisApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.SpringCacheApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.SpringDemoApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.SpringPrometheusApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace/interview&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Code/面试题/leetcode/algorithmzuo/src/main/java/icu/xiamu/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.18652344&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8e60ab13c2287d5ee84d4cef600ac5b8&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -191,13 +193,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.class7.Solution">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class20.Solution" />
+      <option name="MAIN_CLASS_NAME" value="class3136.Solution" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class20.*" />
+          <option name="PATTERN" value="class3136.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,19 +209,6 @@
     </configuration>
     <configuration name="XiamuTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="class191.XiamuTest" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="class191.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="class191.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class191.Solution" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -250,6 +239,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="class7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="class8.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class8.Solution" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,11 +316,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.XiamuTest" />
-      <item itemvalue="Application.class191.Solution" />
       <item itemvalue="Application.class3110.Solution" />
       <item itemvalue="Application.class7.Solution" />
-      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.class8.Solution" />
       <item itemvalue="Spring Boot.SpringCacheApplication" />
       <item itemvalue="Spring Boot.SpringPrometheusApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
@@ -329,11 +331,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.class8.Solution" />
         <item itemvalue="Application.class7.Solution" />
         <item itemvalue="Application.class3110.Solution" />
         <item itemvalue="Application.XiamuTest" />
-        <item itemvalue="Application.class191.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -408,15 +410,8 @@
       <workItem from="1720573808691" duration="6378000" />
       <workItem from="1721370751964" duration="121000" />
       <workItem from="1726198330509" duration="2278000" />
-      <workItem from="1726206263488" duration="4432000" />
-    </task>
-    <task id="LOCAL-00172" summary="项目调整">
-      <option name="closed" value="true" />
-      <created>1708327177971</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1708327177971</updated>
+      <workItem from="1726206263488" duration="8221000" />
+      <workItem from="1726277757546" duration="1317000" />
     </task>
     <task id="LOCAL-00173" summary="整合prometheus">
       <option name="closed" value="true" />
@@ -802,7 +797,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726216049807</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary="力扣7">
+      <option name="closed" value="true" />
+      <created>1726216726642</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1726216726642</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -834,7 +837,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="leetcode" />
     <MESSAGE value="美团笔试题" />
     <MESSAGE value="CompletableFuture的runAsync() supplyAsync()的演示" />
     <MESSAGE value="CompletableFuture的whenComplete用法" />
@@ -859,7 +861,8 @@
     <MESSAGE value="力扣20题，有效的括号" />
     <MESSAGE value="力扣191，位1的个数" />
     <MESSAGE value="力扣3110" />
-    <option name="LAST_COMMIT_MESSAGE" value="力扣3110" />
+    <MESSAGE value="力扣7" />
+    <option name="LAST_COMMIT_MESSAGE" value="力扣7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
