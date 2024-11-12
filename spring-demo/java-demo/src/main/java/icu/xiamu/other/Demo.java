@@ -1,9 +1,7 @@
-package icu.xiamu;
+package icu.xiamu.other;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import java.util.*;
-import java.util.concurrent.LinkedTransferQueue;
 import java.util.stream.Collectors;
 
 interface MyInterface {

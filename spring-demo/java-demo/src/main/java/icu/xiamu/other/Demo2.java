@@ -1,8 +1,7 @@
-package icu.xiamu;
+package icu.xiamu.other;
 
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Scanner;
 
 /**
  * @author 肉豆蔻吖
