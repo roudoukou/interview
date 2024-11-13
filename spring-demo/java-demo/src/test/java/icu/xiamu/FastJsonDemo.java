@@ -1,13 +1,12 @@
 package icu.xiamu;
 
-import com.alibaba.fastjson2.JSON;
-import com.alibaba.fastjson2.JSONArray;
-import com.alibaba.fastjson2.JSONObject;
+import com.alibaba.fastjson2.*;
 import icu.xiamu.entity.Pig;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.Arrays;
+import java.util.Base64;
 import java.util.List;
 
 /**
@@ -124,4 +123,79 @@ public class FastJsonDemo {
         List<Pig> users = array.toJavaList(Pig.class);
         System.out.println(users);
     }
+
+    @Test
+    void test9() {
+        class User {
+            public int id;
+            public String name;
+        }
+
+        User user = new User();
+        user.id = 2;
+        user.name = "FastJson2";
+
+        String text = JSON.toJSONString(user);
+        byte[] bytes = JSON.toJSONBytes(user);
+
+        System.out.println(text);
+        System.out.println(new String(bytes));
+    }
+
+    @Test
+    void test10() {
+        class User {
+            public int id;
+            public String name;
+        }
+
+        User user = new User();
+        user.id = 2;
+        user.name = "FastJson2";
+
+        // {"id":2,"name":"FastJson2"}
+        byte[] bytes1 = JSONB.toBytes(user);
+        // [2,"FastJson2"]
+        byte[] bytes2 = JSONB.toBytes(user, JSONWriter.Feature.BeanToArray);
+
+        JSONObject jsonObject = JSONB.parseObject(bytes1);
+        System.out.println(jsonObject);
+        JSONArray jsonArray = JSONB.parseArray(bytes2);
+        System.out.println(jsonArray);
+
+        User user1 = JSONB.parseObject(bytes1, User.class);
+        // 注意不是byte2
+        User user2 = JSONB.parseObject(bytes1, User.class, JSONReader.Feature.SupportArrayToBean);
+        System.out.println(user1.id + "," + user1.name);
+        System.out.println(user2.id + "," + user2.name);
+    }
+
+    @Test
+    void test11() {
+        String text = "{\n" +
+                "    \"id\": 111\n" +
+                "}";
+        JSONPath path = JSONPath.of("$.id");
+        JSONReader reader = JSONReader.of(text);
+        Object result = path.extract(reader);
+        System.out.println(result);
+
+        // byte[] bytes = ...;
+        // JSONPath path = JSONPath.of("$.id"); // 缓存起来重复使用能提升性能
+        //
+        // JSONReader parser = JSONReader.of(bytes);
+        // Object result = path.extract(parser);
+
+        // byte[] bytes = ...;
+        // JSONPath path = JSONPath.of("$.id"); // 缓存起来重复使用能提升性能
+        //
+        // JSONReader parser = JSONReader.ofJSONB(bytes); // 注意这里使用ofJSONB方法
+        // Object result = path.extract(parser);
+    }
+
+
+
+
+
+
 }
