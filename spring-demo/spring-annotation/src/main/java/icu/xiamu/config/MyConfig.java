@@ -1,10 +1,9 @@
 package icu.xiamu.config;
 
+import icu.xiamu.controller.BookController;
 import icu.xiamu.entity.Person;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.ComponentScans;
-import org.springframework.context.annotation.Configuration;
+import icu.xiamu.filter.MyTypeFilter;
+import org.springframework.context.annotation.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;
 
@@ -15,12 +14,27 @@ import org.springframework.stereotype.Service;
 // @ComponentScan(value = "icu.xiamu", excludeFilters = {@ComponentScan.Filter(Controller.class)})
 // @ComponentScan(value = "icu.xiamu", useDefaultFilters = false, includeFilters = {@ComponentScan.Filter(Controller.class)})
 // @ComponentScan(value = "icu.xiamu", useDefaultFilters = false, includeFilters = {@ComponentScan.Filter(Controller.class), @ComponentScan.Filter(Service.class)})
-@ComponentScans(
-        {
-                @ComponentScan(value = "icu.xiamu", useDefaultFilters = false, includeFilters = {@ComponentScan.Filter(Controller.class)}),
-                @ComponentScan(value = "icu.xiamu", useDefaultFilters = false, includeFilters = {@ComponentScan.Filter(Service.class)})
-        }
-)
+// @ComponentScans(
+//         {
+//                 @ComponentScan(value = "icu.xiamu", useDefaultFilters = false, includeFilters = {@ComponentScan.Filter(Controller.class)}),
+//                 @ComponentScan(value = "icu.xiamu", useDefaultFilters = false, includeFilters = {@ComponentScan.Filter(classes = Service.class, type = FilterType.ANNOTATION)})
+//         }
+// )
+
+// @ComponentScan(value = "icu.xiamu", useDefaultFilters = false, includeFilters = {@ComponentScan.Filter(classes = Controller.class, type = FilterType.ANNOTATION)})
+// @ComponentScan(value = "icu.xiamu", useDefaultFilters = false, includeFilters = {@ComponentScan.Filter(classes = BookController.class, type = FilterType.ASSIGNABLE_TYPE)})
+// @ComponentScan(value = "icu.xiamu", useDefaultFilters = false, includeFilters = {@ComponentScan.Filter(type = FilterType.ASPECTJ, pattern = "icu.xiamu.controller.*")})
+// @ComponentScan(value = "icu.xiamu", useDefaultFilters = false, includeFilters = {@ComponentScan.Filter(type = FilterType.REGEX, pattern = "icu.xiamu.controller.*")})
+
+
+
+
+
+
+
+
+
+@ComponentScan(value = "icu.xiamu", useDefaultFilters = false, includeFilters = {@ComponentScan.Filter(type = FilterType.CUSTOM, classes = MyTypeFilter.class)})
 @Configuration
 public class MyConfig {
 
