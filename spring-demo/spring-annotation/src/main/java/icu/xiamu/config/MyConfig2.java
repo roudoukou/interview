@@ -12,8 +12,9 @@ import org.springframework.context.annotation.*;
 @Configuration
 public class MyConfig2 {
 
-    // @Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
-    @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+    @Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
+    // @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+    @Lazy
     @Bean("person")
     public Person person() {
         System.out.println("person对象创建中......");
