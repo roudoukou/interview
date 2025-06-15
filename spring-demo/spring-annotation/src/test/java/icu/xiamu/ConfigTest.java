@@ -2,10 +2,15 @@ package icu.xiamu;
 
 import icu.xiamu.config.MyConfig;
 import icu.xiamu.config.MyConfig2;
+import icu.xiamu.config.MyConfig3;
+import icu.xiamu.entity.Person;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.core.env.ConfigurableEnvironment;
+
+import java.util.Map;
 
 /**
  * @author roudoukou
@@ -51,7 +56,29 @@ public class ConfigTest {
     void test03() {
         ApplicationContext context = new AnnotationConfigApplicationContext(MyConfig2.class);
         context.getBean("person");
+    }
 
+    @Test
+    void test04() {
+        ApplicationContext context = new AnnotationConfigApplicationContext(MyConfig3.class);
+        String[] beanDefinitionNames = context.getBeanDefinitionNames();
+        for (String beanDefinitionName : beanDefinitionNames) {
+            System.out.println(beanDefinitionName);
+        }
+        System.out.println("===");
+        String[] beanNamesForType = context.getBeanNamesForType(Person.class);
+        for (String s : beanNamesForType) {
+            System.out.println(s);
+        }
+        System.out.println("===");
+        Map<String, Person> beansOfType = context.getBeansOfType(Person.class);
+        System.out.println(beansOfType);
+    }
+
+    @Test
+    void test05() {
+        System.out.println(System.getProperty("os.name"));
+        System.out.println(System.getProperty("abc"));
     }
 
 }

@@ -22,6 +22,8 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+
+    systemProperties["os.name"]="linux"
 }
 
 
