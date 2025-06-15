@@ -24,7 +24,6 @@ public class LinuxCondition implements Condition {
         MergedAnnotations annotations = metadata.getAnnotations();
 
         String osName = environment.getProperty("os.name");
-        System.out.println(osName);
         assert osName != null;
         if (osName.contains("linux")) {
             return true;
