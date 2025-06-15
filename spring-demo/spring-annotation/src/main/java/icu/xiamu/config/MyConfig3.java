@@ -2,7 +2,9 @@ package icu.xiamu.config;
 
 import icu.xiamu.condition.LinuxCondition;
 import icu.xiamu.condition.WindowsCondition;
+import icu.xiamu.entity.Color;
 import icu.xiamu.entity.Person;
+import icu.xiamu.entity.Red;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.*;
 
@@ -10,6 +12,7 @@ import org.springframework.context.annotation.*;
  * @author roudoukou
  * @date 2025/6/13
  */
+@Import({Color.class, Red.class})
 @Configuration
 public class MyConfig3 {
 
