@@ -1,6 +1,7 @@
 package icu.xiamu.config;
 
 import icu.xiamu.condition.LinuxCondition;
+import icu.xiamu.condition.MyImportBeanDefinitionRegistrar;
 import icu.xiamu.condition.MyImportSelector;
 import icu.xiamu.condition.WindowsCondition;
 import icu.xiamu.entity.Color;
@@ -13,7 +14,7 @@ import org.springframework.context.annotation.*;
  * @author roudoukou
  * @date 2025/6/13
  */
-@Import({Color.class, Red.class, MyImportSelector.class})
+@Import({Color.class, Red.class, MyImportSelector.class, MyImportBeanDefinitionRegistrar.class})
 @Configuration
 public class MyConfig3 {
 
