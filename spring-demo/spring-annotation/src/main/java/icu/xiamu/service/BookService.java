@@ -4,6 +4,9 @@ import icu.xiamu.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+import javax.inject.Inject;
+
 /**
  * @author roudoukou
  * @date 2025/6/13
@@ -12,7 +15,10 @@ import org.springframework.stereotype.Service;
 public class BookService {
 
     // @Qualifier("bookRepository")
-    @Autowired
+    // @Autowired
+    // @Resource
+    // @Resource(name = "bookRepository2")
+    @Inject
     private BookRepository bookRepository;
 
     @Override
