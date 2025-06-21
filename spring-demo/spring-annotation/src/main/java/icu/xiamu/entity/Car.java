@@ -8,14 +8,14 @@ import java.util.function.Function;
  */
 public class Car {
     public Car() {
-        System.out.println("方法创建");
+        System.out.println("Car 方法创建");
     }
 
     public void init() {
-        System.out.println("方法初始化");
+        System.out.println("Car 方法初始化");
     }
 
     public void destroy() {
-        System.out.println("方法销毁");
+        System.out.println("Car 方法销毁");
     }
 }

@@ -142,4 +142,17 @@ public class ConfigTest {
         context.close();
     }
 
+    /**
+     * 1）、指定初始化和销毁方法；
+     * 		通过@Bean指定init-method和destroy-method；
+     * 2）、通过让Bean实现InitializingBean（定义初始化逻辑），
+     * 				DisposableBean（定义销毁逻辑）;
+     */
+    @Test
+    void test09() {
+        // Bean 实现 InitializingBean 和 DisposableBean 接口，实现初始化和销毁
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MyConfigOfLifeCycle.class);
+        context.close();
+    }
+
 }
