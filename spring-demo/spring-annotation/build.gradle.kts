@@ -24,12 +24,19 @@ dependencies {
 
     // https://mvnrepository.com/artifact/javax.inject/javax.inject
     implementation("javax.inject:javax.inject:1")
+
+    // https://mvnrepository.com/artifact/com.mchange/c3p0
+    implementation("com.mchange:c3p0:0.11.1")
+
+    // https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
+    implementation("com.mysql:mysql-connector-j:9.3.0")
 }
 
 tasks.test {
     useJUnitPlatform()
 
     systemProperties["os.name"]="linux"
+    systemProperties["spring.profiles.active"]="test"
 }
 
 
