@@ -3,10 +3,12 @@ package icu.xiamu;
 import icu.xiamu.config.MyConfig;
 import icu.xiamu.config.MyConfig2;
 import icu.xiamu.config.MyConfig3;
+import icu.xiamu.config.MyConfigOfLifeCycle;
 import icu.xiamu.entity.Person;
 import icu.xiamu.entity.factory.ColorFactoryBean;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.ConfigurableEnvironment;
@@ -117,6 +119,27 @@ public class ConfigTest {
         // 获取 FactoryBean 本身这个对象，不获取 Color 对象
         Object bean1 = context.getBean("&colorFactoryBean");
         System.out.println(bean1);
+    }
+
+    /**
+     * Bean 生命周期测试
+     * bean的生命周期：
+     * 		bean创建---初始化----销毁的过程
+     * 容器管理bean的生命周期；
+     * 我们可以自定义初始化和销毁方法；容器在bean进行到当前生命周期的时候来调用我们自定义的初始化和销毁方法
+     *
+     * 构造（对象创建）
+     * 		单实例：在容器启动的时候创建对象
+     * 		多实例：在每次获取的时候创建对象\
+     */
+    @Test
+    void test08() {
+        ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(MyConfigOfLifeCycle.class);
+        Object bean = context.getBean("car");
+        System.out.println(bean);
+
+        // ConfigurableApplicationContext 才有 close 方法
+        context.close();
     }
 
 }
