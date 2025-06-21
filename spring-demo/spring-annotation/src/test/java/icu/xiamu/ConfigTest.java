@@ -9,8 +9,10 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.ConfigurableEnvironment;
+import org.springframework.core.env.Environment;
 
 import java.util.Arrays;
+import java.util.EventListener;
 import java.util.Map;
 
 /**
@@ -207,6 +209,10 @@ public class ConfigTest {
         ApplicationContext context = new AnnotationConfigApplicationContext(MyConfigOfPropertyValue.class);
         Object bean = context.getBean("person");
         System.out.println(bean);
+
+        Environment environment = context.getEnvironment();
+        String nickname = environment.getProperty("person.nickname");
+        System.out.println(nickname);
     }
 
 
