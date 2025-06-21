@@ -7,6 +7,7 @@ import icu.xiamu.condition.WindowsCondition;
 import icu.xiamu.entity.Color;
 import icu.xiamu.entity.Person;
 import icu.xiamu.entity.Red;
+import icu.xiamu.entity.factory.ColorFactoryBean;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.*;
 
@@ -28,5 +29,10 @@ public class MyConfig3 {
     @Bean("linus")
     public Person person02() {
         return new Person("linus", 20);
+    }
+
+    @Bean
+    public ColorFactoryBean colorFactoryBean() {
+        return new ColorFactoryBean();
     }
 }

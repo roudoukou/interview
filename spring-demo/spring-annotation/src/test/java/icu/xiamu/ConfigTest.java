@@ -4,12 +4,14 @@ import icu.xiamu.config.MyConfig;
 import icu.xiamu.config.MyConfig2;
 import icu.xiamu.config.MyConfig3;
 import icu.xiamu.entity.Person;
+import icu.xiamu.entity.factory.ColorFactoryBean;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.ConfigurableEnvironment;
 
+import java.util.Arrays;
 import java.util.Map;
 
 /**
@@ -102,6 +104,19 @@ public class ConfigTest {
         for (String beanDefinitionName : beanDefinitionNames) {
             System.out.println(beanDefinitionName);
         }
+    }
+
+    @Test
+    void test07() {
+        ApplicationContext context = new AnnotationConfigApplicationContext(MyConfig3.class);
+        System.out.println(Arrays.toString(context.getBeanDefinitionNames()));
+        // 获取 Color 对象
+        Object bean = context.getBean("colorFactoryBean");
+        System.out.println(bean);
+
+        // 获取 FactoryBean 本身这个对象，不获取 Color 对象
+        Object bean1 = context.getBean("&colorFactoryBean");
+        System.out.println(bean1);
     }
 
 }
