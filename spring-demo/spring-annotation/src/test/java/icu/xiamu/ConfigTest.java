@@ -3,7 +3,10 @@ package icu.xiamu;
 import icu.xiamu.config.*;
 import icu.xiamu.entity.Person;
 import icu.xiamu.entity.factory.ColorFactoryBean;
+import icu.xiamu.repository.BookRepository;
+import icu.xiamu.service.BookService;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.support.ScopeNotActiveException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -213,6 +216,37 @@ public class ConfigTest {
         Environment environment = context.getEnvironment();
         String nickname = environment.getProperty("person.nickname");
         System.out.println(nickname);
+    }
+
+    /**
+     * @Autowired 注解的使用
+    /**
+     * 自动装配;
+     * 		Spring利用依赖注入（DI），完成对IOC容器中中各个组件的依赖关系赋值；
+     *
+     * 1）、@Autowired：自动注入：
+     * 		1）、默认优先按照类型去容器中找对应的组件:applicationContext.getBean(BookDao.class);找到就赋值
+     * 		2）、如果找到多个相同类型的组件，再将属性的名称作为组件的id去容器中查找
+     * 							applicationContext.getBean("bookDao")
+     * 		3）、@Qualifier("bookDao")：使用@Qualifier指定需要装配的组件的id，而不是使用属性名
+     * 		4）、自动装配默认一定要将属性赋值好，没有就会报错；
+     * 			可以使用@Autowired(required=false);
+     * 		5）、@Primary：让Spring进行自动装配的时候，默认使用首选的bean；
+     * 				也可以继续使用@Qualifier指定需要装配的bean的名字
+     * 		BookService{
+     * 			@Autowired
+     * 			BookDao  bookDao;
+     * 		}
+     *
+     */
+    @Test
+    void test11() {
+        ApplicationContext context = new AnnotationConfigApplicationContext(MyConfigOfAutowired.class);
+        BookService bean = context.getBean(BookService.class);
+        System.out.println(bean);
+
+        // BookRepository bean1 = context.getBean(BookRepository.class);
+        // System.out.println(bean1);
     }
 
 
