@@ -8,6 +8,8 @@
         <!--<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
         <context:include-filter expression="org.springframework.stereotype.Controller" type="annotation"/>
     </context:component-scan>
+
+    <context:property-placeholder location="classpath:person.properties" />
     <bean id="person" class="icu.xiamu.entity.Person"> <!-- init-method="" destroy-method="" -->
         <property name="name" value="huanglei" />
         <property name="age" value="18" />

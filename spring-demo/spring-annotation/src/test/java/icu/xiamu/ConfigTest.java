@@ -1,9 +1,6 @@
 package icu.xiamu;
 
-import icu.xiamu.config.MyConfig;
-import icu.xiamu.config.MyConfig2;
-import icu.xiamu.config.MyConfig3;
-import icu.xiamu.config.MyConfigOfLifeCycle;
+import icu.xiamu.config.*;
 import icu.xiamu.entity.Person;
 import icu.xiamu.entity.factory.ColorFactoryBean;
 import org.junit.jupiter.api.Test;
@@ -196,6 +193,20 @@ public class ConfigTest {
         // Bean 实现 InitializingBean 和 DisposableBean 接口，实现初始化和销毁
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MyConfigOfLifeCycle.class);
         context.close();
+    }
+
+    /**
+     * 属性赋值 @Value 注解的使用
+     //使用@Value赋值；
+     //1、基本数值
+     //2、可以写SpEL； #{}
+     //3、可以写${}；取出配置文件【properties】中的值（在运行环境变量里面的值）
+     */
+    @Test
+    void test10() {
+        ApplicationContext context = new AnnotationConfigApplicationContext(MyConfigOfPropertyValue.class);
+        Object bean = context.getBean("person");
+        System.out.println(bean);
     }
 
 
