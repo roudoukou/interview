@@ -1,6 +1,9 @@
 package icu.xiamu.config;
 
+import icu.xiamu.entity.Car;
+import icu.xiamu.entity.Color;
 import icu.xiamu.repository.BookRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.*;
 
 /**
@@ -12,6 +15,7 @@ import org.springframework.context.annotation.*;
         @ComponentScan("icu.xiamu.controller"),
         @ComponentScan("icu.xiamu.service"),
         @ComponentScan("icu.xiamu.repository"),
+        @ComponentScan("icu.xiamu.config")
 })
 @Configuration
 public class MyConfigOfAutowired {
@@ -22,5 +26,12 @@ public class MyConfigOfAutowired {
         BookRepository bookRepository = new BookRepository();
         bookRepository.setLabel(2);
         return bookRepository;
+    }
+
+    @Bean
+    public Color color(/*@Autowired*/ /*可加可不加*/ Car car) {
+        Color color = new Color();
+        color.setCar(car);
+        return color;
     }
 }

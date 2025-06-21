@@ -1,6 +1,8 @@
 package icu.xiamu;
 
 import icu.xiamu.config.*;
+import icu.xiamu.entity.Car;
+import icu.xiamu.entity.Color;
 import icu.xiamu.entity.Person;
 import icu.xiamu.entity.factory.ColorFactoryBean;
 import icu.xiamu.repository.BookRepository;
@@ -14,6 +16,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.Environment;
 
+import java.text.spi.CollatorProvider;
 import java.util.Arrays;
 import java.util.EventListener;
 import java.util.Map;
@@ -244,6 +247,11 @@ public class ConfigTest {
      * 		@Inject:
      * 			需要导入javax.inject的包，和Autowired的功能一样。没有required=false的功能；
      *  @Autowired:Spring定义的； @Resource、@Inject都是java规范
+     * 3）、 @Autowired:构造器，参数，方法，属性；都是从容器中获取参数组件的值
+     * 		1）、[标注在方法位置]：@Bean+方法参数；参数从容器中获取;默认不写@Autowired效果是一样的；都能自动装配
+     * 		2）、[标在构造器上]：如果组件只有一个有参构造器，这个有参构造器的@Autowired可以省略，参数位置的组件还是可以自动从容器中获取
+     * 		3）、放在参数位置：
+     *
      *
      * AutowiredAnnotationBeanPostProcessor:解析完成自动装配功能；
      */
@@ -255,6 +263,15 @@ public class ConfigTest {
 
         // BookRepository bean1 = context.getBean(BookRepository.class);
         // System.out.println(bean1);
+
+        Object boss = context.getBean("boss");
+        System.out.println("boss: " + boss);
+
+        Car car = context.getBean(Car.class);
+        System.out.println(car);
+
+        Color color = (Color) context.getBean("color");
+        System.out.println(color);
     }
 
 
