@@ -36,6 +36,9 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.springframework/spring-aop
     implementation("org.springframework:spring-aop:6.2.8")
+
+    // https://mvnrepository.com/artifact/cn.hutool/hutool-all
+    implementation("cn.hutool:hutool-all:5.8.38")
 }
 
 tasks.test {
