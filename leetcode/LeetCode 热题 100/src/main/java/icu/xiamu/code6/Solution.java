@@ -2,6 +2,7 @@ package icu.xiamu.code6;
 
 import com.sun.java.accessibility.util.TopLevelWindowListener;
 
+import javax.print.attribute.standard.NumberOfInterveningJobs;
 import java.io.InputStream;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -11,7 +12,66 @@ class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         // return process1(nums);
         // return process2(nums);
-        return process3(nums);
+        // return process3(nums);
+        return process4(nums);
+    }
+
+    /**
+     * 双指针
+     *
+     * @param nums 数组
+     * @return 答案
+     */
+    private List<List<Integer>> process4(int[] nums) {
+        if (nums.length < 3) {
+            return new ArrayList<>();
+        }
+
+        Arrays.sort(nums);
+
+        List<List<Integer>> result = new ArrayList<>();
+        // 使用一个 for 循环，固定第一个元素 nums[i]。i 的范围是从 0 到 nums.length - 2 (因为需要至少两个后续元素)。
+        for (int i = 0; i < nums.length - 2; i++) {
+
+            // 跳过重复的 nums[i]
+            if (i > 0 && nums[i] == nums[i - 1]) {
+                continue;
+            }
+
+            // 优化：如果当前 nums[i] 已经大于 0，则后续不可能找到和为 0 的组合
+            if (nums[i] > 0) {
+                break;
+            }
+
+            int left = i + 1;
+            int right = nums.length - 1;
+
+            while (left < right) {
+
+                int sum = nums[i] + nums[left] + nums[right];
+                if (sum == 0) {
+                    result.add(Arrays.asList(nums[i], nums[left], nums[right]));
+
+                    // 跳过重复的 nums[left] 和 nums[right]
+                    while (left < right && nums[left+1] == nums[left]) {
+                        left++;
+                    }
+                    while (left < right && nums[right-1] == nums[right]) {
+                        right--;
+                    }
+
+                    // 移动指针继续寻找
+                    left++;
+                    right--;
+                } else if (sum > 0) {
+                    right--;
+                } else {
+                    left++;
+                }
+            }
+        }
+
+        return result;
     }
 
     /**
@@ -138,10 +198,10 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Solution().threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
-        System.out.println(new Solution().threeSum(new int[]{0, 1, 1}));
-        System.out.println(new Solution().threeSum(new int[]{0, 0, 0}));
+        // System.out.println(new Solution().threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
+        // System.out.println(new Solution().threeSum(new int[]{0, 1, 1}));
+        // System.out.println(new Solution().threeSum(new int[]{0, 0, 0}));
         System.out.println(new Solution().threeSum(new int[]{2, -3, 0, -2, -5, -5, -4, 1, 2, -2, 2, 0, 2, -4, 5, 5, -10}));
-        System.out.println(new Solution().threeSum(new int[]{0, 0, 0, 0, 0, 0}));
+        // System.out.println(new Solution().threeSum(new int[]{0, 0, 0, 0}));
     }
 }
