@@ -1,6 +1,5 @@
 package icu.xiamu.other;
 
-import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import java.util.*;
 import java.util.stream.Collectors;
 
