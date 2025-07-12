@@ -1,5 +1,7 @@
 plugins {
     id("java")
+    id("org.springframework.boot") version "3.3.1" // Spring Boot 插件
+    id("io.spring.dependency-management") version "1.1.6"
 }
 
 group = "icu.xiamu"
@@ -14,8 +16,16 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
     // https://mvnrepository.com/artifact/dev.langchain4j/langchain4j-open-ai
     implementation("dev.langchain4j:langchain4j-open-ai:1.1.0")
-// https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
-    implementation("ch.qos.logback:logback-classic:1.5.18")
+    // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
+    // implementation("ch.qos.logback:logback-classic:1.5.18")
+    implementation("org.springframework.boot:spring-boot-starter-logging")
+    implementation("dev.langchain4j:langchain4j-open-ai-spring-boot-starter:1.0.1-beta6")
+    // Spring Boot Starter
+    implementation("org.springframework.boot:spring-boot-starter")
+    // 单元测试
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
+    // 单元测试
+    implementation("org.springframework.boot:spring-boot-starter-web")
 }
 
 tasks.test {
