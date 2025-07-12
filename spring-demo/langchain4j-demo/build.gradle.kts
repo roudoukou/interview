@@ -31,6 +31,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("dev.langchain4j:langchain4j-reactor:1.0.1-beta6")
     implementation("org.springframework.boot:spring-boot-starter-data-redis")
+    implementation("dev.langchain4j:langchain4j-easy-rag:1.0.1-beta6")
 }
 
 tasks.test {
