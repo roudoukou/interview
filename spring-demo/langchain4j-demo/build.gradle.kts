@@ -32,6 +32,9 @@ dependencies {
     implementation("dev.langchain4j:langchain4j-reactor:1.0.1-beta6")
     implementation("org.springframework.boot:spring-boot-starter-data-redis")
     implementation("dev.langchain4j:langchain4j-easy-rag:1.0.1-beta6")
+    implementation("dev.langchain4j:langchain4j-document-parser-apache-pdfbox:1.1.0-beta7")
+    implementation("org.apache.pdfbox:pdfbox:2.0.27")
+    implementation("org.apache.pdfbox:fontbox:2.0.27")
 }
 
 tasks.test {
