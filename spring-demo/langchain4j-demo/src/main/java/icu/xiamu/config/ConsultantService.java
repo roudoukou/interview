@@ -1,5 +1,6 @@
 package icu.xiamu.config;
 
+import dev.langchain4j.service.MemoryId;
 import dev.langchain4j.service.SystemMessage;
 import dev.langchain4j.service.UserMessage;
 import dev.langchain4j.service.V;
@@ -11,7 +12,9 @@ import reactor.core.publisher.Flux;
         wiringMode = AiServiceWiringMode.EXPLICIT,
         chatModel = "openAiChatModel",
         streamingChatModel = "openAiStreamingChatModel",
-        chatMemory = "chatMemory"
+        chatMemory = "chatMemory",
+        chatMemoryProvider = "chatMemoryProvider"
+        //配置会话记忆对象提供者
 )
 // @AiService
 public interface ConsultantService {
@@ -23,5 +26,6 @@ public interface ConsultantService {
     @SystemMessage(fromResource = "system.txt")
     // @UserMessage("你是东哥的助手小月月，温柔貌美又多金。{{it}}")
     // @UserMessage("你是东哥的助手小月月，温柔貌美又多金。{{msg}}")
-    public Flux<String> chat(/*@V("msg")*/ String message);
+    // public Flux<String> chat(/*@V("msg")*/ String message);
+    public Flux<String> chat(@MemoryId String memoryId, @UserMessage String message);
 }

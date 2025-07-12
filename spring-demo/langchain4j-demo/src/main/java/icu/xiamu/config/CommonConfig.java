@@ -1,6 +1,7 @@
 package icu.xiamu.config;
 
 import dev.langchain4j.memory.ChatMemory;
+import dev.langchain4j.memory.chat.ChatMemoryProvider;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import dev.langchain4j.model.openai.OpenAiChatModel;
 import dev.langchain4j.service.AiServices;
@@ -27,5 +28,19 @@ public class CommonConfig {
                 .maxMessages(20)
                 //最大保存的会话记录数量
                 .build();
+    }
+
+    @Bean
+    public ChatMemoryProvider chatMemoryProvider() {
+        ChatMemoryProvider chatMemoryProvider = new ChatMemoryProvider() {
+            @Override
+            public ChatMemory get(Object memoryId) {
+                return MessageWindowChatMemory.builder()
+                        .id(memoryId)//id值
+                        .maxMessages(20)//最大会话记录数量
+                        .build();
+            }
+        };
+        return chatMemoryProvider;
     }
 }
