@@ -19,13 +19,15 @@ dependencies {
     // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
     // implementation("ch.qos.logback:logback-classic:1.5.18")
     implementation("org.springframework.boot:spring-boot-starter-logging")
-    implementation("dev.langchain4j:langchain4j-open-ai-spring-boot-starter:1.0.1-beta7")
+    implementation("dev.langchain4j:langchain4j-open-ai-spring-boot-starter:1.1.0-beta7")
     // Spring Boot Starter
     implementation("org.springframework.boot:spring-boot-starter")
     // 单元测试
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     // 单元测试
     implementation("org.springframework.boot:spring-boot-starter-web")
+    // https://mvnrepository.com/artifact/dev.langchain4j/langchain4j-spring-boot-starter
+    implementation("dev.langchain4j:langchain4j-spring-boot-starter:1.0.1-beta6")
 }
 
 tasks.test {
