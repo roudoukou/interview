@@ -2,9 +2,11 @@ package icu.xiamu.config;
 
 import dev.langchain4j.data.document.Document;
 
+import dev.langchain4j.data.document.DocumentSplitter;
 import dev.langchain4j.data.document.loader.ClassPathDocumentLoader;
 import dev.langchain4j.data.document.loader.FileSystemDocumentLoader;
 import dev.langchain4j.data.document.parser.apache.pdfbox.ApachePdfBoxDocumentParser;
+import dev.langchain4j.data.document.splitter.DocumentSplitters;
 import dev.langchain4j.memory.ChatMemory;
 import dev.langchain4j.memory.chat.ChatMemoryProvider;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
@@ -70,9 +72,12 @@ public class CommonConfig {
         //2.构建向量数据库操作对象  操作的是内存版本的向量数据库
         List<Document> documents = FileSystemDocumentLoader.loadDocuments("D:\\xiamu\\workspace\\interview\\spring-demo\\langchain4j-demo\\src\\main\\resources\\content", new ApachePdfBoxDocumentParser());
         InMemoryEmbeddingStore store = new InMemoryEmbeddingStore();
+        //构建文档分割器对象
+        DocumentSplitter ds = DocumentSplitters.recursive(500,100);
         //3.构建一个EmbeddingStoreIngestor对象,完成文本数据切割,向量化, 存储
         EmbeddingStoreIngestor ingestor = EmbeddingStoreIngestor.builder()
                 .embeddingStore(store)
+                .documentSplitter(ds)
                 .build();
         ingestor.ingest(documents);
         return store;
