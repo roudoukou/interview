@@ -37,6 +37,14 @@ dependencies {
     implementation("org.apache.pdfbox:fontbox:2.0.27")
     implementation("dev.langchain4j:langchain4j-community-redis-spring-boot-starter:1.0.1-beta6")
 
+    compileOnly("org.projectlombok:lombok")
+    annotationProcessor("org.projectlombok:lombok") // 如果你使用IDE的注解处理器，这个通常是必须的
+    testAnnotationProcessor("org.projectlombok:lombok") // 单元测试也需要
+
+    implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3")
+
+    implementation("com.mysql:mysql-connector-j")
+
 }
 
 tasks.test {

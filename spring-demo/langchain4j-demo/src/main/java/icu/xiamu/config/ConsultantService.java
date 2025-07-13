@@ -17,6 +17,7 @@ import reactor.core.publisher.Flux;
         //配置会话记忆对象提供者
         contentRetriever = "contentRetriever"
         //配置向量数据库检索对象
+        ,tools = "reservationTool"
 )
 // @AiService
 public interface ConsultantService {
