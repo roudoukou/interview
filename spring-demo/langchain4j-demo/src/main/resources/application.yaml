@@ -18,6 +18,11 @@ langchain4j:
       model-name: text-embedding-v3
       log-requests: true
       log-responses: true
+      max-segments-per-batch: 10
+  community:
+    redis:
+      host: 192.168.1.100
+      port: 6380
 logging:
   level:
     dev.langchain4j: debug #日志级别
@@ -26,4 +31,4 @@ spring:
   data:
     redis:
       host: 192.168.1.100
-      port: 6379
+      port: 6380

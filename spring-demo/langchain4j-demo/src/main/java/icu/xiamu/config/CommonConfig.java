@@ -1,5 +1,6 @@
 package icu.xiamu.config;
 
+import dev.langchain4j.community.store.embedding.redis.RedisEmbeddingStore;
 import dev.langchain4j.data.document.Document;
 
 import dev.langchain4j.data.document.DocumentSplitter;
@@ -35,6 +36,11 @@ public class CommonConfig {
 
     @Autowired
     private EmbeddingModel embeddingModel;
+
+    @Autowired
+    private RedisEmbeddingStore redisEmbeddingStore;
+
+
     // @Bean
     // public ConsultantService consultantService() {
     //     ConsultantService cs = AiServices.builder(ConsultantService.class)
@@ -67,7 +73,7 @@ public class CommonConfig {
         return chatMemoryProvider;
     }
 
-    @Bean
+    // @Bean
     public EmbeddingStore store(){
         //1.加载文档进内存
         // List<Document> documents = ClassPathDocumentLoader.loadDocuments("content");
@@ -80,7 +86,8 @@ public class CommonConfig {
         DocumentSplitter ds = DocumentSplitters.recursive(500,100);
         //3.构建一个EmbeddingStoreIngestor对象,完成文本数据切割,向量化, 存储
         EmbeddingStoreIngestor ingestor = EmbeddingStoreIngestor.builder()
-                .embeddingStore(store)
+                // .embeddingStore(store)
+                .embeddingStore(redisEmbeddingStore)
                 .documentSplitter(ds)
                 .embeddingModel(embeddingModel)
                 .build();
@@ -89,9 +96,10 @@ public class CommonConfig {
     }
 
     @Bean
-    public ContentRetriever contentRetriever(EmbeddingStore store){
+    public ContentRetriever contentRetriever(/*EmbeddingStore store*/){
         return EmbeddingStoreContentRetriever.builder()
-                .embeddingStore(store)//设置向量数据库操作对象
+                // .embeddingStore(store)//设置向量数据库操作对象
+                .embeddingStore(redisEmbeddingStore)
                 .minScore(0.5)//设置最小分数
                 .maxResults(3)//设置最大片段数量
                 .embeddingModel(embeddingModel)

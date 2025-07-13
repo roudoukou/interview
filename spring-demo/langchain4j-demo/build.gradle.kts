@@ -35,6 +35,8 @@ dependencies {
     implementation("dev.langchain4j:langchain4j-document-parser-apache-pdfbox:1.1.0-beta7")
     implementation("org.apache.pdfbox:pdfbox:2.0.27")
     implementation("org.apache.pdfbox:fontbox:2.0.27")
+    implementation("dev.langchain4j:langchain4j-community-redis-spring-boot-starter:1.0.1-beta6")
+
 }
 
 tasks.test {
