@@ -1,19 +1,17 @@
 package icu.xiamu;
 
-import dev.langchain4j.model.openai.OpenAiChatModel;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
 
 /**
  * @author roudoukou
  * @date 2025/7/12
  */
 @SpringBootApplication
-public class App {
+public class LangChain4JApp {
     public static void main(String[] args) {
 
-        SpringApplication.run(App.class, args);
+        SpringApplication.run(LangChain4JApp.class, args);
         // OpenAiChatModel model = OpenAiChatModel.builder()
         //         .baseUrl("https://dashscope.aliyuncs.com/compatible-mode/v1")
         //         //url参考百炼平台API文档
